@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light" data-fs="2" data-motion="on">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pariksha Guru — UP सहायक अध्यापक 2026 Exam Prep</title>
+<meta name="description" content="Interactive 90-day exam prep for UP Higher Primary School Assistant Teacher (Class 6–8) 2026 — GK, Reasoning, Social Studies, Science-Math & Language with adaptive quizzes.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700;800&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --paper:#FAF7EF; --card:#FFFFFF; --ink:#1C2340; --ink2:#555C7C; --line:#E7E1D1;
+  --ind:#2F47B3; --ind-deep:#22357F; --ind-soft:#E7ECFB;
+  --gold:#FFB020; --gold-soft:#FFF1D2; --gold-deep:#B87A00;
+  --green:#1F9D62; --green-soft:#E2F6EB; --red:#E4572E; --red-soft:#FDE8E1;
+  --purp:#7A4FD3; --purp-soft:#F0E8FC; --teal:#0E9B9B; --teal-soft:#DFF6F6;
+  --sh:0 10px 30px -12px rgba(34,45,90,.18);
+  --sh-lg:0 24px 50px -20px rgba(34,45,90,.28);
+  --disp:'Baloo 2','Noto Sans Devanagari',cursive;
+  --body:'Manrope','Noto Sans Devanagari',sans-serif;
+  --hand:'Kalam','Noto Sans Devanagari',cursive;
+  --r:16px;
+}
+html[data-fs="1"]{font-size:14px} html[data-fs="2"]{font-size:16px} html[data-fs="3"]{font-size:18px}
+html[data-theme="dark"]{
+  --paper:#101427; --card:#1A1F3A; --ink:#EDEBFF; --ink2:#A9AFD6; --line:#2C3358;
+  --ind:#7B8DF0; --ind-deep:#9DA9F7; --ind-soft:#232B54; --gold-soft:#3A2F14;
+  --green-soft:#123B2A; --red-soft:#43201A; --purp-soft:#2C2150; --teal-soft:#103a3a;
+  --sh:0 10px 30px -12px rgba(0,0,0,.55); --sh-lg:0 24px 50px -20px rgba(0,0,0,.65);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html[data-motion="off"] *{animation:none!important;transition:none!important}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(600px 380px at 88% -6%, rgba(255,176,32,.14), transparent 65%),
+             radial-gradient(700px 460px at -8% 22%, rgba(47,71,179,.10), transparent 60%),
+             repeating-linear-gradient(0deg, transparent 0 34px, rgba(47,71,179,.045) 34px 35px);}
+::selection{background:var(--gold);color:#231a00}
+a{color:var(--ind);text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+body[data-lang="en"] .hi{display:none} body[data-lang="hi"] .en{display:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
+
+/* ============ HEADER ============ */
+header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 82%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:14px;padding:10px 22px;max-width:1240px;margin:0 auto;flex-wrap:wrap;row-gap:8px}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo .lc{width:44px;height:44px;border-radius:50%;background:var(--gold);display:grid;place-items:center;font-family:var(--disp);font-weight:800;font-size:1.35rem;color:#231a00;box-shadow:0 4px 0 var(--gold-deep)}
+.logo b{font-family:var(--disp);font-size:1.2rem;font-weight:800;line-height:1.05;display:block}
+.logo small{display:block;font-size:.68rem;color:var(--ink2);letter-spacing:.06em}
+nav.main{display:flex;gap:2px;margin-left:8px;flex-wrap:wrap}
+nav.main a{display:block;padding:9px 13px;border:0;background:none;font-weight:700;font-size:.92rem;color:var(--ink);border-radius:10px;position:relative}
+nav.main a::after{content:"";position:absolute;left:13px;right:13px;bottom:4px;height:3px;border-radius:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:.25s}
+nav.main a:hover::after,nav.main a.on::after{transform:scaleX(1)}
+.hd-r{margin-left:auto;display:flex;align-items:center;gap:8px}
+.seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;padding:5px 11px;border-radius:999px;font-weight:700;font-size:.8rem;color:var(--ink2)}
+.seg button.on{background:var(--ind);color:#fff}
+.icobtn{width:38px;height:38px;border-radius:11px;border:1px solid var(--line);background:var(--card);font-size:1.05rem;display:grid;place-items:center;transition:.2s}
+.icobtn:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+.burger{display:none;width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--card);cursor:pointer;place-items:center;padding:9px 0;margin-left:auto}
+.burger span{display:block;width:20px;height:2.5px;border-radius:99px;background:var(--ink);margin:2.5px auto;transition:.28s}
+
+/* bottom nav mobile */
+#bnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:55;background:var(--card);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+#bnav .row{display:flex}
+#bnav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;font-size:.64rem;font-weight:700;color:var(--ink2);border-radius:12px}
+#bnav a.on{color:var(--ind)}
+
+/* ============ GENERIC ============ */
+.kick{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-deep);background:var(--gold-soft);padding:6px 14px;border-radius:999px;margin-bottom:14px}
+html[data-theme="dark"] .kick{color:var(--gold)}
+h1.title{font-family:var(--disp);font-weight:800;font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.08;letter-spacing:-.01em}
+h2.sec{font-family:var(--disp);font-weight:800;font-size:clamp(1.6rem,3.2vw,2.3rem);line-height:1.15}
+.sub{color:var(--ink2);max-width:64ch;margin-top:8px}
+.btn{display:inline-flex;align-items:center;gap:9px;border:0;padding:13px 24px;border-radius:13px;font-family:var(--disp);font-weight:700;font-size:1rem;transition:.2s;text-decoration:none;color:#fff;background:var(--ind);box-shadow:0 4px 0 var(--ind-deep)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 0 var(--ind-deep),var(--sh)}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--ind-deep)}
+.btn.gold{background:var(--gold);color:#231a00;box-shadow:0 4px 0 var(--gold-deep)}
+.btn.gold:hover{box-shadow:0 6px 0 var(--gold-deep),var(--sh)}
+.btn.ghost{background:var(--card);color:var(--ink);box-shadow:0 4px 0 var(--line);border:1px solid var(--line)}
+.btn.green{background:var(--green);box-shadow:0 4px 0 #147145}
+.btn.purp{background:var(--purp);box-shadow:0 4px 0 #5b3aa6}
+.btn.teal{background:var(--teal);box-shadow:0 4px 0 #0a6f6f}
+.btn.sm{padding:8px 15px;font-size:.88rem;border-radius:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:var(--sh);transition:transform .25s,box-shadow .25s}
+.card.hov:hover{transform:translateY(-5px);box-shadow:var(--sh-lg)}
+.tag{display:inline-block;font-size:.72rem;font-weight:800;padding:3px 10px;border-radius:99px;letter-spacing:.03em}
+.t-blue{background:var(--ind-soft);color:var(--ind)} .t-yel{background:var(--gold-soft);color:var(--gold-deep)}
+.t-grn{background:var(--green-soft);color:var(--green)} .t-red{background:var(--red-soft);color:var(--red)}
+.t-pur{background:var(--purp-soft);color:var(--purp)} .t-teal{background:var(--teal-soft);color:var(--teal)}
+html[data-theme="dark"] .t-yel{color:var(--gold)}
+.bar{height:10px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar>i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--ind),var(--purp));transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.view{display:block;padding:34px 0 70px;animation:vin .4s cubic-bezier(.2,.8,.2,1)}
+@keyframes vin{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:5px 13px;font-weight:700;font-size:.82rem}
+.note{display:flex;gap:14px;align-items:flex-start;background:var(--gold-soft);border:1px dashed var(--gold);border-radius:14px;padding:14px 16px}
+.tips{background:var(--gold-soft);border:1px dashed var(--gold);border-radius:14px;padding:16px 18px}
+.tips h4{font-family:var(--disp);color:var(--gold-deep)}
+html[data-theme="dark"] .tips h4{color:var(--gold)}
+
+/* ============ HOME ============ */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;padding:34px 0 22px}
+.h-kick{display:inline-flex;gap:8px;align-items:center;font-weight:800;font-size:.8rem;background:var(--ind-soft);color:var(--ind);border-radius:99px;padding:7px 15px;margin-bottom:16px}
+.h-kick .dotp{width:8px;height:8px;border-radius:99px;background:var(--green);animation:bl 1.4s infinite}
+@keyframes bl{50%{opacity:.2}}
+.h-sub{margin:18px 0 24px;color:var(--ink2);font-size:1.05rem;max-width:52ch}
+.h-cta{display:flex;gap:14px;flex-wrap:wrap}
+.statline{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 8px}
+.statline .chip b{color:var(--ind)}
+.eboard{background:linear-gradient(160deg,#173B34,#0F2B26);border:10px solid #8A5A2B;border-radius:10px;color:#F2EEDF;font-family:var(--hand);box-shadow:var(--sh-lg);padding:24px 24px 32px;position:relative;transform:rotate(-1.2deg)}
+.eboard::after{content:"";position:absolute;left:12%;right:12%;bottom:-10px;height:10px;border-radius:0 0 8px 8px;background:#6f4820}
+.eboard .bh{font-size:1.1rem;opacity:.85;letter-spacing:.06em}
+.eboard .big{font-size:clamp(1.6rem,3.2vw,2.2rem);font-weight:700;margin:6px 0 4px}
+
+/* exam info strip */
+.examgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
+.examgrid .c{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center;box-shadow:var(--sh)}
+.examgrid .c b{font-family:var(--disp);font-size:1.5rem;display:block}
+.examgrid .c small{color:var(--ink2);font-weight:600}
+
+/* subject doors */
+.doors{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:24px}
+.door{border-radius:20px;padding:24px;position:relative;overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:var(--sh);transition:.3s}
+.door:hover{transform:translateY(-6px);box-shadow:var(--sh-lg)}
+.door.locked{opacity:.55;pointer-events:none}
+.door .em{font-size:2rem}
+.door h3{font-family:var(--disp);font-size:1.3rem;font-weight:800;margin:8px 0 2px}
+.door p{font-size:.88rem;color:var(--ink2)}
+.door .strip{height:8px;border-radius:99px;margin-bottom:10px}
+
+/* ============ ROADMAP ============ */
+.rdgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:22px}
+.rday{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 12px;cursor:pointer;transition:.2s;text-align:center;position:relative}
+.rday:hover{transform:translateY(-3px);box-shadow:var(--sh)}
+.rday .dn{font-family:var(--disp);font-weight:800;font-size:.78rem;color:var(--gold-deep)}
+html[data-theme="dark"] .rday .dn{color:var(--gold)}
+.rday .df{font-size:.78rem;font-weight:700;line-height:1.25;display:block;margin-top:4px;color:var(--ink)}
+.rday .dt{font-size:.66rem;color:var(--ink2)}
+.rday.done{border-color:var(--green);background:var(--green-soft)}
+.rday.done::after{content:"✓";position:absolute;top:6px;right:8px;color:var(--green);font-weight:800}
+.rday.lock{opacity:.45}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:.8rem;color:var(--ink2);font-weight:600}
+
+/* ============ MODULE PLAYER ============ */
+.mp-top{display:flex;align-items:center;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.mp-top h1{font-family:var(--disp);font-size:clamp(1.4rem,3vw,2rem)}
+.stepbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.stepbar .st{font-size:.76rem;font-weight:800;border-radius:99px;padding:6px 13px;background:var(--card);border:1px solid var(--line);color:var(--ink2)}
+.stepbar .st.act{background:var(--ind);color:#fff;border-color:var(--ind)}
+.stepbar .st.done{background:var(--green-soft);color:var(--green);border-color:transparent}
+.mp-card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--sh-lg);padding:clamp(20px,4vw,36px);min-height:340px;animation:stepIn .4s cubic-bezier(.2,.8,.2,1)}
+@keyframes stepIn{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+.mp-nav{display:flex;justify-content:space-between;align-items:center;margin-top:18px;gap:12px}
+.point{display:flex;gap:12px;align-items:flex-start;margin:10px 0}
+.point .ic{flex-shrink:0;width:28px;height:28px;border-radius:8px;background:var(--ind-soft);color:var(--ind);display:grid;place-items:center;font-weight:800;font-size:.85rem}
+.point .tx{flex:1}
+.ddbox{background:var(--purp-soft);border-left:5px solid var(--purp);border-radius:12px;padding:16px 18px;margin:14px 0}
+.ddbox h4{font-family:var(--disp);color:var(--purp)}
+html[data-theme="dark"] .ddbox h4{color:#b7a0f0}
+.formula{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}
+.formula .fx{font-family:var(--disp);font-weight:800;background:var(--ind-soft);color:var(--ind);padding:9px 16px;border-radius:12px;font-size:1.05rem}
+
+/* ============ QUIZ ============ */
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.qnum{font-weight:800;font-size:.85rem;color:var(--ink2)}
+.timer{font-family:var(--disp);font-weight:800;font-size:1.3rem;color:var(--red)}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--sh)}
+.qtext{font-size:1.08rem;font-weight:600;line-height:1.65}
+.opt{display:block;width:100%;text-align:left;background:var(--card);border:2px solid var(--line);border-radius:13px;padding:13px 16px;font-weight:600;font-size:.96rem;margin:10px 0;transition:.16s;font-family:inherit;color:var(--ink)}
+.opt:hover:not(:disabled){border-color:var(--ind);transform:translateX(4px)}
+.opt:disabled{cursor:default}
+.opt.ok{border-color:var(--green);background:var(--green-soft)}
+.opt.no{border-color:var(--red);background:var(--red-soft);animation:shk .35s}
+@keyframes shk{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.rationale{background:var(--ind-soft);border-radius:14px;padding:16px 18px;margin-top:16px;animation:vin .3s}
+.rationale .rh{font-family:var(--disp);font-weight:800;margin-bottom:6px}
+.rationale .why{list-style:none;margin-top:10px;display:grid;gap:6px}
+.rationale .why li{padding-left:22px;position:relative;font-size:.88rem;color:var(--ink2)}
+.rationale .why li::before{content:"✗";position:absolute;left:0;color:var(--red);font-weight:800}
+.qnav{display:flex;justify-content:space-between;gap:12px;margin-top:18px}
+.cotstep{background:var(--purp-soft);border-radius:12px;padding:12px 16px;margin:8px 0;font-size:.92rem;animation:vin .3s;border-left:4px solid var(--purp)}
+.cotstep b{color:var(--purp)}
+.reviewbar{display:flex;align-items:center;gap:12px;background:var(--gold-soft);border:1px dashed var(--gold);border-radius:12px;padding:12px 14px;margin-top:14px;animation:vin .3s}
+.reviewbar .rl{font-weight:800;font-size:.9rem}
+.reviewbar b{font-family:var(--disp);font-size:1.35rem;color:var(--red);min-width:52px;text-align:center}
+.reviewbar .btn{margin-left:auto}
+
+/* ============ MOCK ============ */
+.mockbar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:14px 0}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:6px;margin:10px 0}
+.mgrid button{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--card);font-weight:800;font-size:.8rem;color:var(--ink)}
+.mgrid button.cur{outline:2px solid var(--ind)}
+.mgrid button.done-c{background:var(--green);color:#fff;border-color:var(--green)}
+.mgrid button.done-w{background:var(--red);color:#fff;border-color:var(--red)}
+.mgrid button.done-s{background:var(--gold);color:#231a00;border-color:var(--gold)}
+
+/* ============ PROGRESS ============ */
+.pgrid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:22px}
+.ring{width:120px;height:120px;border-radius:50%;display:grid;place-items:center;position:relative;margin:0 auto}
+.ring::before{content:"";position:absolute;inset:12px;border-radius:50%;background:var(--card)}
+.ring b{position:relative;font-family:var(--disp);font-size:1.3rem}
+.ring small{position:relative;font-size:.62rem;color:var(--ink2);text-align:center;font-weight:700}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:14px}
+.bdg{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 12px;text-align:center;transition:.25s}
+.bdg .em{font-size:1.9rem;display:block;filter:grayscale(1);opacity:.35}
+.bdg.got{border-color:var(--gold);background:var(--gold-soft)}
+.bdg.got .em{filter:none;opacity:1;animation:pop .5s}
+@keyframes pop{40%{transform:scale(1.35) rotate(-8deg)}}
+.bdg b{font-family:var(--disp);font-size:.88rem;display:block;margin-top:6px}
+.bdg small{color:var(--ink2);font-size:.72rem}
+.weaklist{display:grid;gap:10px;margin-top:14px}
+.weaklist .w{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.weaklist .w .bar{flex:1}
+
+/* toasts / fx */
+#toasts{position:fixed;right:18px;bottom:18px;z-index:120;display:flex;flex-direction:column;gap:10px}
+.toast{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:14px;padding:13px 18px;box-shadow:var(--sh-lg);font-weight:700;font-size:.92rem;animation:tin .4s;max-width:320px}
+.toast.g{border-left-color:var(--green)}.toast.r{border-left-color:var(--red)}.toast.p{border-left-color:var(--purp)}
+@keyframes tin{from{opacity:0;transform:translateX(60px)}to{opacity:1;transform:none}}
+.xpfloat{position:fixed;z-index:130;font-family:var(--disp);font-weight:800;color:var(--gold-deep);background:var(--gold);padding:4px 12px;border-radius:99px;pointer-events:none;animation:xf 1.2s forwards;font-size:.95rem}
+html[data-theme="dark"] .xpfloat{color:#231a00}
+@keyframes xf{to{transform:translateY(-70px);opacity:0}}
+.cf{position:fixed;width:9px;height:14px;z-index:129;pointer-events:none;animation:cff 1.1s ease-out forwards}
+@keyframes cff{to{transform:translate(var(--dx),var(--dy)) rotate(var(--rr));opacity:0}}
+
+footer{border-top:1px solid var(--line);padding:30px 0 90px;position:relative;z-index:1;background:color-mix(in srgb,var(--paper) 70%,transparent)}
+footer .cols{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+footer small{color:var(--ink2)}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:1000px){
+  .burger{display:grid}
+  nav.main{position:absolute;top:calc(100% - 1px);left:0;right:0;z-index:56;display:flex;flex-direction:column;align-items:stretch;gap:2px;margin:0;padding:8px 16px calc(12px + env(safe-area-inset-bottom));background:var(--paper);border-bottom:1px solid var(--line);box-shadow:var(--sh-lg);opacity:0;visibility:hidden;transform:translateY(-8px);transition:.22s;max-height:calc(100dvh - 80px);overflow-y:auto}
+  header.nav-open nav.main{opacity:1;visibility:visible;transform:none}
+  header.nav-open{z-index:60}
+  nav.main a{padding:11px 8px;font-size:1rem}
+  nav.main a.on::after{display:none}
+  .hero{grid-template-columns:1fr;padding-top:22px}
+  .examgrid{grid-template-columns:repeat(2,1fr)}
+  .doors{grid-template-columns:1fr}
+  .pgrid{grid-template-columns:1fr}
+  .rdgrid{grid-template-columns:repeat(3,1fr)}
+  #bnav{display:block}
+  footer{padding-bottom:120px}
+}
+@media(max-width:560px){
+  .rdgrid{grid-template-columns:repeat(2,1fr)}
+  .examgrid{grid-template-columns:1fr 1fr}
+  .h-cta .btn{width:100%;justify-content:center}
+  .wrap{padding:0 14px}
+  .view{padding:24px 0 56px}
+  .seg button{padding:4px 8px;font-size:.72rem}
+  .icobtn{width:34px;height:34px;font-size:.95rem}
+}
+@media(max-width:400px){
+  .logo b{font-size:.95rem}
+  .logo small{display:none}
+  .logo .lc{width:36px;height:36px;font-size:1rem}
+}
+</style>
+</head>
+<body data-lang="hi">
+<div id="toasts" aria-live="polite"></div>
+<div id="app"></div>
+<footer><div class="wrap cols">
+  <div><a class="logo" href="#/"><span class="lc">प</span><span><b>Pariksha Guru</b><small>UP सहायक अध्यापक 2026 · Exam Prep</small></span></a></div>
+  <div style="display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem">
+    <a href="#/roadmap">📅 90-Day Plan</a><a href="#/subjects">📚 Subjects</a><a href="#/mock">📝 Mock Test</a><a href="#/progress">📊 Progress</a><a href="first.html">← English Learning</a>
+  </div>
+  <small>GK · Reasoning · Social Studies · Science-Math · Language — bilingual, adaptive, offline.</small>
+</div></footer>
+
+<!-- LLM-generated content (appended by scripts/generate.mjs) -->
+<script src="content/generated/gk.js"></script>
+<script src="content/generated/reason.js"></script>
+<script src="content/generated/ss.js"></script>
+<script src="content/generated/sms.js"></script>
+<script src="content/generated/lang-hi.js"></script>
+<script src="content/generated/lang-en.js"></script>
+<script src="content/generated/lang-sa.js"></script>
+
+<script>
+"use strict";
+/* ================================================================
+   PARIKSHA GURU — UP Assistant Teacher 2026 exam prep
+=============================================================== */
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s==null?"":s).replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]));
+const bi=(en,hi)=>`<span class="en">${en}</span><span class="hi">${hi}</span>`;
+const rnd=n=>Math.floor(Math.random()*n);
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=rnd(i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
+function pick(arr,n){return shuffle(arr).slice(0,n)}
+
+/* ---------- STATE ---------- */
+const LSKEY="uptutor_v1";
+const DEF={xp:0,streak:1,last:new Date().toDateString(),done:[],weak:{},mistakes:[],badges:[],perDay:{},stats:{att:0,cor:0},rev:{}};
+let S;try{S=Object.assign({},DEF,JSON.parse(localStorage.getItem(LSKEY)||"{}"))}catch(e){S={...DEF}}
+S.weak=S.weak||{};S.mistakes=S.mistakes||[];S.perDay=S.perDay||{};S.stats=S.stats||{att:0,cor:0};S.rev=S.rev||{};
+function save(){try{localStorage.setItem(LSKEY,JSON.stringify(S))}catch(e){}}
+(function(){const t=new Date().toDateString(),y=new Date(Date.now()-864e5).toDateString();
+ if(S.last!==t){ if(S.last===y)S.streak++; else S.streak=1; S.last=t; save(); }})();
+const level=()=>Math.floor(S.xp/300)+1;
+const xpForNext=()=>300-(S.xp%300);
+
+/* ---------- FX ---------- */
+function toast(msg,cls=""){const d=document.createElement("div");d.className="toast "+cls;d.innerHTML=msg;$("#toasts").appendChild(d);
+ setTimeout(()=>{d.style.transition=".4s";d.style.opacity=0;d.style.transform="translateX(60px)";setTimeout(()=>d.remove(),400)},3400);}
+function fxp(x){const d=document.createElement("div");d.className="xpfloat";d.textContent=`+${x} XP`;
+ d.style.left=(innerWidth/2-30)+"px";d.style.top=(innerHeight/2-60)+"px";document.body.appendChild(d);setTimeout(()=>d.remove(),1200);}
+function confetti(x,y){const cols=["#FFB020","#2F47B3","#7A4FD3","#1F9D62","#E4572E","#0E9B9B"];
+ for(let i=0;i<16;i++){const p=document.createElement("span");p.className="cf";
+ p.style.left=x+"px";p.style.top=y+"px";p.style.background=cols[i%6];
+ p.style.setProperty("--dx",(Math.random()*180-90)+"px");p.style.setProperty("--dy",(Math.random()*-160-40)+"px");
+ p.style.setProperty("--rr",(Math.random()*540-270)+"deg");document.body.appendChild(p);setTimeout(()=>p.remove(),1150);}}
+function give(x,msg){S.xp=Math.max(0,S.xp+x);save();if(x>0)fxp(x);if(msg)toast(msg,x>=0?"g":"r");refreshHud();}
+function say(text,lang="hi-IN"){try{if(!("speechSynthesis"in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=.95;u.pitch=1.05;speechSynthesis.speak(u);}catch(e){}}
+
+/* ---------- BADGES ---------- */
+const BADGES=[
+ {id:"start",e:"🌱",t:"First Step",d:"Complete 1 module"},
+ {id:"reason",e:"🧩",t:"Reasoning Pro",d:"Finish all Reasoning modules"},
+ {id:"gk",e:"🌏",t:"GK Scholar",d:"Finish all GK modules"},
+ {id:"ss",e:"🏛️",t:"Social Studies Master",d:"Finish all SS modules"},
+ {id:"week",e:"📅",t:"7-Day Plan",d:"Complete 7 roadmap days"},
+ {id:"half",e:"🚀",t:"Halfway Hero",d:"Complete 45 roadmap days"},
+ {id:"full",e:"🏆",t:"Plan Finisher",d:"Complete all 90 days"},
+ {id:"quiz",e:"🎯",t:"Sharpshooter",d:"100% in any diagnostic"},
+ {id:"streak",e:"🔥",t:"3-Day Flame",d:"3-day streak"},
+ {id:"mock",e:"📝",t:"Mock Veteran",d:"Attempt 1 mock test"}
+];
+function award(id){if(S.badges.includes(id))return;const b=BADGES.find(b=>b.id===id);if(!b)return;
+ S.badges.push(id);save();confetti(innerWidth/2,innerHeight/3);toast(`🏅 Badge: <b>${b.e} ${b.t}</b>`,"p");}
+function checkBadges(){if(S.done.length>=1)award("start");
+ if(MODULES.filter(m=>m.subject==="reason").every(m=>S.done.includes(m.id)))award("reason");
+ if(MODULES.filter(m=>m.subject==="gk").every(m=>S.done.includes(m.id)))award("gk");
+ if(MODULES.filter(m=>m.subject==="ss").every(m=>S.done.includes(m.id)))award("ss");
+  const dc=Object.keys(S.perDay).length;if(dc>=7)award("week");if(dc>=45)award("half");if(dc>=90)award("full");
+ if(S.streak>=3)award("streak");
+}
+
+/* ---------- DATA (injected) ---------- */
+const SUBJECTS=[
+ {id:"gk",e:"🌏",name:"General Knowledge",hi:"सामान्य ज्ञान",tag:"SECTION I · MANDATORY",tagcls:"t-blue",c1:"#2F47B3",c2:"#7A4FD3",
+  desc:"Current affairs, Indian history, geography, polity, economy, environment & general science.",
+  desc_hi:"समसामयिक घटनाएँ, भारतीय इतिहास, भूगोल, राजनीति, अर्थव्यवस्था, पर्यावरण व सामान्य विज्ञान।"},
+ {id:"reason",e:"🧩",name:"Reasoning",hi:"तर्कशक्ति",tag:"SECTION I · MANDATORY",tagcls:"t-pur",c1:"#7A4FD3",c2:"#E4572E",
+  desc:"Analogies, Assertion-Reason, Binary Logic, Classification, Clocks & Calendars, Coded Inequalities, Coding-Decoding.",
+  desc_hi:"सादृश्यता, कथन-कारण, बाइनरी लॉजिक, वर्गीकरण, घड़ियाँ-कैलेंडर, कोड असमानताएँ, कोडिंग-डिकोडिंग।"},
+ {id:"ss",e:"🏛️",name:"Social Studies",hi:"सामाजिक अध्ययन",tag:"SECTION II · OPTION B",tagcls:"t-grn",c1:"#1F9D62",c2:"#0E9B9B",
+  desc:"History, geography, polity, economy and environment of India & Uttar Pradesh.",
+  desc_hi:"भारत व उत्तर प्रदेश का इतिहास, भूगोल, राजनीति, अर्थव्यवस्था व पर्यावरण।"},
+ {id:"lang-hi",e:"🗣️",name:"Language — Hindi",hi:"भाषा — हिन्दी",tag:"SECTION II · OPTION A",tagcls:"t-yel",c1:"#FFB020",c2:"#E8860B",
+  desc:"History of Hindi literature & language, grammar, unseen prose/poetry, prominent authors & poets.",
+  desc_hi:"हिन्दी साहित्य एवं भाषा का इतिहास, व्याकरण, अपठित गद्यांश/पद्यांश, प्रमुख लेखक व कवि।"},
+ {id:"lang-en",e:"🇬🇧",name:"Language — English",hi:"भाषा — अंग्रेज़ी",tag:"SECTION II · OPTION A",tagcls:"t-yel",c1:"#2F47B3",c2:"#FFB020",
+  desc:"History of English literature & language, grammar, unseen passage, prominent writers & poets.",
+  desc_hi:"अंग्रेज़ी साहित्य एवं भाषा का इतिहास, व्याकरण, unseen passage, प्रमुख लेखक व कवि।"},
+ {id:"lang-sa",e:"🕉️",name:"Language — Sanskrit",hi:"भाषा — संस्कृत",tag:"SECTION II · OPTION A",tagcls:"t-yel",c1:"#E4572E",c2:"#7A4FD3",
+  desc:"History of Sanskrit language & literature, grammar, unseen prose/poetry, prominent authors & poets.",
+  desc_hi:"संस्कृत भाषा एवं साहित्य का इतिहास, व्याकरण, अपठित गद्य/पद्य, प्रमुख लेखक व कवि।"},
+ {id:"sms",e:"🔬",name:"Science & Math",hi:"विज्ञान एवं गणित",tag:"SECTION II · OPTION C",tagcls:"t-teal",c1:"#0E9B9B",c2:"#2F47B3",
+  desc:"Mathematics (numbers, algebra, geometry, arithmetic, statistics, probability, mensuration, trigonometry) and Science for classes 6–8.",
+  desc_hi:"गणित (संख्याएँ, बीजगणित, ज्यामिति, अंकगणित, सांख्यिकी, प्रायिकता, क्षेत्रमिति, त्रिकोणमिति) व कक्षा 6–8 का विज्ञान।"}
+];
+function buildRoadmap(){
+  const R=[];
+  const learn=(day,focus,focus_hi,modules,goal="",goal_hi="")=>R.push({day,focus,focus_hi,goal,goal_hi,modules,type:"learn"});
+  const rev=(day,focus,focus_hi,modules)=>R.push({day,focus,focus_hi,goal:"",goal_hi:"",modules,type:"revise"});
+  const mock=(day,focus,focus_hi)=>R.push({day,focus,focus_hi,goal:"",goal_hi:"",modules:[],type:"mock"});
+
+  /* ---- Days 1–10 · Section I: GK + Reasoning ---- */
+  learn(1,"Reasoning: Analogy & Classification","तर्क: सादृश्यता व वर्गीकरण",["analog","classif"],"Build the base of relational thinking.","संबंध-चिंतन का आधार बनाएँ।");
+  learn(2,"Reasoning: Coding-Decoding & Coded Inequalities","तर्क: कोडिंग-डिकोडिंग व कोड असमानताएँ",["coding","cineq"],"Master code patterns and symbol logic.","कोड पैटर्न व प्रतीक तर्क में पकड़।");
+  learn(3,"Reasoning: Assertion-Reason & Binary Logic","तर्क: कथन-कारण व बाइनरी लॉजिक",["ar","binary"],"Evaluate claims and truth-lie puzzles.","दावों व सत्य-झूठ पहेलियों का मूल्यांकन।");
+  learn(4,"Reasoning: Clocks & Calendars","तर्क: घड़ियाँ व कैलेंडर",["clock"],"Angle and day-computation shortcuts.","कोण व दिन-गणना के शॉर्टकट।");
+  learn(5,"GK: Indian History & National Movement","GK: भारतीय इतिहास व राष्ट्रीय आन्दोलन",["hist"],"Key dates, movements and personalities.","मुख्य तिथियाँ, आन्दोलन व व्यक्तित्व।");
+  learn(6,"GK: Indian Geography","GK: भारत का भूगोल",["geo"],"Physical features, rivers, climate, resources.","भौतिक स्वरूप, नदियाँ, जलवायु, संसाधन।");
+  learn(7,"GK: Polity & Governance","GK: राजनीति व शासन",["polity"],"Constitution, Panchayati Raj, rights.","संविधान, पंचायती राज, अधिकार।");
+  learn(8,"GK: Economy & Social Development","GK: अर्थव्यवस्था व सामाजिक विकास",["econ"],"Sustainable development, poverty, inclusion.","सतत विकास, गरीबी, समावेशन।");
+  learn(9,"GK: Environment, Ecology & Climate","GK: पर्यावरण, पारिस्थितिकी व जलवायु",["env"],"Biodiversity and climate change basics.","जैव विविधता व जलवायु परिवर्तन।");
+  learn(10,"GK: General Science & Current Affairs","GK: सामान्य विज्ञान व समसामयिक",["sci"],"Daily-life science and recent events.","दैनिक विज्ञान व हाल की घटनाएँ।");
+
+  /* ---- Days 11–26 · Section II (B): Social Studies ---- */
+  learn(11,"SS: Sources & Ancient Cultures","SS: इतिहास के स्रोत व प्राचीन संस्कृतियाँ",["ss-sources"],"Sources, Stone/Chalcolithic/Vedic culture.","स्रोत, पाषाण/ताम्रपाषाण/वैदिक संस्कृति।");
+  learn(12,"SS: Early States & Mauryan Empire","SS: प्रारम्भिक राज्य व मौर्य साम्राज्य",["ss-early"],"6th c. BCE, Mahajanapadas, Mauryas.","छठी सदी ई.पू., महाजनपद, मौर्य।");
+  learn(13,"SS: Post-Mauryan to Rajputs","SS: मौर्योत्तर से राजपूत काल",["ss-post"],"Gupta, Pushyabhuti, South Indian kingdoms.","गुप्त, पुष्यभूति, दक्षिण भारत के राज्य।");
+  learn(14,"SS: Islam Arrival & Delhi Sultanate","SS: इस्लाम का आगमन व दिल्ली सल्तनत",["ss-sultan"],"Religious developments; Sultanate rise & fall.","धार्मिक विकास; सल्तनत का उत्थान-पतन।");
+  learn(15,"SS: Mughal Empire","SS: मुगल साम्राज्य",["ss-mughal"],"Culture, administration and decline.","संस्कृति, प्रशासन व पतन।");
+  learn(16,"SS: British Rule & Company Expansion","SS: अंग्रेज़ी राज्य व कम्पनी विस्तार",["ss-british"],"European arrival and colonial consolidation.","यूरोपीय आगमन व औपनिवेशिक विस्तार।");
+  learn(17,"SS: Nationalism & Freedom Movement","SS: राष्ट्रवाद व स्वाधीनता आन्दोलन",["ss-freedom"],"Renaissance, nationalism, independence, partition.","नवजागरण, राष्ट्रवाद, स्वतंत्रता, विभाजन।");
+  learn(18,"SS: Independent India & Society","SS: स्वतंत्र भारत व समाज",["ss-india"],"Challenges, rural-urban society, local self-govt.","चुनौतियाँ, ग्रामीण-नगरीय समाज, स्थानीय स्वशासन।");
+  learn(19,"SS: Constitution & Governance","SS: संविधान व शासन व्यवस्था",["ss-constitution"],"Constitution, central-state govt, democracy.","संविधान, केन्द्र-राज्य शासन, लोकतंत्र।");
+  learn(20,"SS: Security, Policy & Civic Safety","SS: सुरक्षा, नीति व नागरिक सुरक्षा",["ss-security"],"Foreign policy, civil defence, road safety, disability.","विदेश नीति, नागरिक सुरक्षा, यातायात, दिव्यांगता।");
+  learn(21,"SS: Earth & Landforms","SS: पृथ्वी व स्थलरूप",["ss-earth"],"Solar system, globe, motions, mapping, lithosphere.","सौरमण्डल, ग्लोब, गतियाँ, मानचित्रण, स्थलमण्डल।");
+  learn(22,"SS: India — Physical & Economic","SS: भारत — भौतिक व आर्थिक",["ss-indiageo"],"Physical features, soil, climate, resources, transport.","भौतिक स्वरूप, मृदा, जलवायु, संसाधन, यातायात।");
+  learn(23,"SS: Uttar Pradesh","SS: उत्तर प्रदेश",["ss-up"],"Location, divisions, climate, agriculture, industries.","स्थान, विभाग, जलवायु, कृषि, उद्योग।");
+  learn(24,"SS: Atmosphere, Hydrosphere & Industry","SS: वायुमण्डल, जलमण्डल व उद्योग",["ss-atmo"],"Natural regions, minerals, industries.","प्राकृतिक प्रदेश, खनिज, उद्योग।");
+  learn(25,"SS: Indian Economy & Challenges","SS: भारतीय अर्थव्यवस्था व चुनौतियाँ",["ss-economy"],"Sectors, planning, current challenges.","क्षेत्र, योजना, वर्तमान चुनौतियाँ।");
+  learn(26,"SS: Environment & Resources","SS: पर्यावरण व संसाधन",["ss-env"],"Ecology, pollution, waste, disasters, awards.","पारिस्थितिकी, प्रदूषण, अपशिष्ट, आपदाएँ, पुरस्कार।");
+
+  /* ---- Days 27–44 · Section II (C): Science & Math (LLM-generated) ---- */
+  const SM=[["Number Systems (Natural/Whole/Rational/Integers) & LCM-HCF","संख्या पद्धति (प्राकृतिक/पूर्ण/परिमेय/पूर्णांक) व LCM-HCF"],["Square Root, Cube Root & Identities","वर्गमूल, घनमूल व सर्वसमिकाएँ"],["Algebra — Variables, Expressions & Polynomials","बीजगणित — चर, व्यंजक व बहुपद"],["Linear, Quadratic & Simultaneous Equations","रेखीय, वर्ग व युगपत समीकरण"],["Geometry — Parallel Lines, Triangles, Quadrilaterals","ज्यामिति — समान्तर रेखाएँ, त्रिभुज, चतुर्भुज"],["Circles, Cyclic Quadrilaterals & Tangents","वृत्त, चक्रीय चतुर्भुज व स्पर्श रेखाएँ"],["Ratio, Proportion, Percentage, Profit-Loss","अनुपात, समानुपात, प्रतिशत, लाभ-हानि"],["Simple & Compound Interest","साधारण व चक्रवृद्धि ब्याज"],["Statistics — Mean, Median, Mode & Charts","सांख्यिकी — माध्य, माध्यिका, बहुलक व चार्ट"],["Probability & Graphs","प्रायिकता व ग्राफ़"],["Cartesian Plane & Mensuration","कार्तीय तल व क्षेत्रमिति"],["Exponents/Powers & Trigonometry","घातांक व त्रिकोणमिति"],["Science: Daily-life Science, Inventions & Technology","विज्ञान: दैनिक जीवन, आविष्कार व प्रौद्योगिकी"],["Science: Living World — Classification & Adaptation","विज्ञान: जीव जगत — वर्गीकरण व अनुकूलन"],["Science: Cell to Organ Systems; Microorganisms; Health & Disease","विज्ञान: कोशिका से अंगतंत्र; सूक्ष्मजीव; स्वास्थ्य व रोग"],["Science: Nutrition, Reproduction, Respiration & Excretion","विज्ञान: पोषण, जनन, श्वसन व उत्सर्जन"],["Science: Measurement, Electricity, Magnetism, Motion & Force","विज्ञान: मापन, विद्युत, चुम्बकत्व, गति व बल"],["Science: Energy, Sound, Light, Matter, Acids-Bases, Periodic Table & Blood","विज्ञान: ऊर्जा, ध्वनि, प्रकाश, पदार्थ, अम्ल-क्षार, आवर्त सारिणी व रक्त"]];
+  SM.forEach((t,i)=>{const d=27+i;learn(d,"Math & Science: "+t[0],"गणित व विज्ञान: "+t[1],[],"Generate this module: node scripts/generate.mjs --subject sms --topic \""+t[0]+"\"","इस module को बनाएँ: node scripts/generate.mjs --subject sms --topic \""+t[1]+"\"");});
+
+  /* ---- Days 45–62 · Section II (A): Language (LLM-generated) ---- */
+  const LG=[["lang-hi","Hindi — इतिहास, व्याकरण, अपठित, लेखक-कवि"],["lang-hi","Hindi — व्याकरण अभ्यास"],["lang-hi","Hindi — अपठित गद्यांश / पद्यांश"],["lang-hi","Hindi — प्रमुख लेखक-कवि व रचनाएँ"],["lang-hi","Hindi — Revision + Practice"],["lang-hi","Hindi — Sectional Test"],["lang-en","English — History of Literature & Language"],["lang-en","English — Grammar"],["lang-en","English — Unseen Passage"],["lang-en","English — Writers/Poets & Their Works"],["lang-en","English — Revision + Practice"],["lang-en","English — Sectional Test"],["lang-sa","Sanskrit — भाषा व साहित्य का इतिहास"],["lang-sa","Sanskrit — व्याकरण"],["lang-sa","Sanskrit — अपठित गद्य / पद्य"],["lang-sa","Sanskrit — प्रमुख कवि-लेखक व कृतियाँ"],["lang-sa","Sanskrit — Revision + Practice"],["lang-sa","Sanskrit — Sectional Test"]];
+  LG.forEach((t,i)=>{const d=45+i;learn(d,"Language: "+t[1],"भाषा: "+t[1],[],"Generate this module: node scripts/generate.mjs --subject "+t[0]+" --topic \""+t[1]+"\"","इस module को बनाएँ: node scripts/generate.mjs --subject "+t[0]+" --topic \""+t[1]+"\"");});
+
+  /* ---- Days 63–90 · Revision + Mocks ---- */
+  const reva=["analog","coding","ar","clock","hist","polity","geo","env"];
+  const revb=["ss-early","ss-mughal","ss-freedom","ss-constitution","ss-up","ss-env","ss-earth","ss-economy"];
+  for(let d=63;d<=90;d++){
+    if(d===70||d===77||d===84||d===90){mock(d,d===90?"Final Mock Test":"Full Mock Test",d===90?"अंतिम Mock Test":"पूर्ण Mock Test");}
+    else if(d%2===1){rev(d,"Revision: GK + Reasoning","पुनरावृत्ति: GK + तर्क",reva);}
+    else {rev(d,"Revision: Social Studies","पुनरावृत्ति: सामाजिक अध्ययन",revb);}
+  }
+
+  return R;
+}
+const ROADMAP=buildRoadmap();
+
+const MODULES=[
+{id:"analog",subject:"reason",day:1,level:1,title:"Analogy",hi:"सादृश्यता (Analogy)",
+ concepts:[{title:"Analogy — finding the hidden relation",title_hi:"सादृश्यता — छिपे संबंध को पहचानना",
+  intro:"An analogy question gives a related pair (A : B) and asks you to find the same relation for a second pair (C : ?). Your job is to decode HOW A relates to B.",
+  points:["शब्द संबंध (Word relation): समानार्थी (synonym), विलोम (antonym), भाग-पूर्ण (part-whole)","कार्य संबंध (Function): वस्तु-उपयोग जैसे Pen : Write","कार्यकर्ता-कार्यस्थल (Worker–Workplace): Doctor : Hospital","संख्या संबंध (Number): वर्ग, घन, गुणज — जैसे 3 : 27 (घन)","कारण-प्रभाव (Cause–Effect): वर्षा : बाढ़"],
+  example:"Doctor : Hospital :: Teacher : ?  → School (कार्यकर्ता का कार्यस्थल)",
+  trick:"पहले A→B का संबंध एक शब्द में लिखें, फिर वही संबंध C→? पर लगाएँ।",
+  deep:{title:"Advanced analogy traps",title_hi:"उन्नत सादृश्यता — जाल से बचें",body:"परीक्षा में संबंध कभी दोहरा होता है (जैसे River : Dam = दोनों पानी से जुड़े, पर एक रोकता है एक बहता है)। हमेशा सबसे सटीक, सबसे specific संबंध चुनें — पहले obvious विकल्प पर मत रुकें।",extra:"विकल्पों में से दो समान लगें तो direction देखें: A:B का क्रम उल्टा न करें (Worker:Tool ≠ Tool:Worker)।"},
+  check:{q:"Which relation does 'Pen : Write' show?",q_hi:"'Pen : Write' कौन-सा संबंध दर्शाता है?",o:["Part-whole","Worker-workplace","Object-function","Cause-effect"],o_hi:["भाग-पूर्ण","कार्यकर्ता-कार्यस्थल","वस्तु-कार्य","कारण-प्रभाव"],a:2,exp:"Pen is the object and writing is its function.",exp_hi:"Pen एक वस्तु है और लिखना उसका कार्य।"}}],
+ questions:[
+ {q:"Doctor : Hospital :: Teacher : ?",q_hi:"डॉक्टर : अस्पताल :: शिक्षक : ?",o:["Court","School","Factory","Market"],o_hi:["न्यायालय","विद्यालय","कारखाना","बाज़ार"],a:1,exp:"A doctor works in a hospital; a teacher works in a school — worker to workplace.",exp_hi:"जैसे डॉक्टर अस्पताल में काम करता है, वैसे शिक्षक विद्यालय में — कार्यकर्ता-कार्यस्थल संबंध।",why:["न्यायालय वकील/जज का स्थान है","कारखाना श्रमिक का स्थान है","बाज़ार व्यापारी का स्थान है"],topic:"Word Analogy",level:1,mode:"standard"},
+ {q:"Book : Pages :: Tree : ?",q_hi:"पुस्तक : पृष्ठ :: वृक्ष : ?",o:["Roots","Bark","Leaves","Branch"],o_hi:["जड़ें","छाल","पत्तियाँ","शाखा"],a:2,exp:"A book is made of pages; a tree is made up of leaves — part to whole.",exp_hi:"जैसे पुस्तक पृष्ठों से बनती है, वैसे वृक्ष पत्तियों से भरा होता है — भाग-पूर्ण संबंध।",why:["जड़ें पेड़ का केवल एक भाग हैं पर पुस्तक से 'बनी' नहीं होतीं","छाल बाहरी आवरण है","शाखा भी भाग है पर संपूर्णता नहीं दर्शाती"],topic:"Part-whole",level:1,mode:"standard"},
+ {q:"3 : 27 :: 4 : ?",q_hi:"3 : 27 :: 4 : ?",o:["16","64","12","81"],o_hi:["16","64","12","81"],a:1,exp:"27 = 3³ (cube of 3), so 4³ = 64.",exp_hi:"27 = 3 का घन, इसलिए 4 का घन = 64।",why:["16 = 4² (वर्ग, घन नहीं)","12 = 3×4 (गुणन)","81 = 3⁴ (घात गलत)"],topic:"Number Analogy",level:1,mode:"deepseek",steps:["पहचानें 3 और 27 का संबंध: 3³=27","तो नियम है 'घन (cube)'","अब 4 पर वही नियम लगाएँ: 4³","4³ = 4×4×4 = 64"]},
+ {q:"Pen : Write :: Knife : ?",q_hi:"कलम : लिखना :: चाकू : ?",o:["Cut","Cook","Wash","Sharp"],o_hi:["काटना","पकाना","धोना","तेज़"],a:0,exp:"A pen is used to write; a knife is used to cut — object to action.",exp_hi:"जैसे कलम लिखने के लिए, वैसे चाकू काटने के लिए — वस्तु-क्रिया संबंध।",why:["पकाना चाकू का कार्य नहीं","धोना संबंधित नहीं","तेज़ गुण है, क्रिया नहीं"],topic:"Object-function",level:1,mode:"standard"},
+ {q:"India : New Delhi :: Uttar Pradesh : ?",q_hi:"भारत : नई दिल्ली :: उत्तर प्रदेश : ?",o:["Agra","Varanasi","Lucknow","Kanpur"],o_hi:["आगरा","वाराणसी","लखनऊ","कानपुर"],a:2,exp:"New Delhi is the capital of India; Lucknow is the capital of Uttar Pradesh.",exp_hi:"नई दिल्ली भारत की राजधानी है; लखनऊ उत्तर प्रदेश की राजधानी है।",why:["आगरा ऐतिहासिक नगर है, राजधानी नहीं","वाराणसी धार्मिक नगर है","कानपुर औद्योगिक नगर है"],topic:"Capital Analogy",level:1,mode:"standard"}]},
+
+{id:"classif",subject:"reason",day:1,level:1,title:"Classification",hi:"वर्गीकरण (Classification)",
+ concepts:[{title:"Classification — odd one out",title_hi:"वर्गीकरण — बेमेल पहचानें",
+  intro:"You are given a group where most items share a common property; find the ONE item that does NOT belong.",
+  points:["सभी वस्तुओं का समान गुण (category) पहचानें","संख्या वर्गीकरण: अभाज्य/सम/विषम/वर्ग देखें","अक्षर वर्गीकरण: स्वर/व्यंजन/स्थान देखें","एक ही समूह में कई गुण मिल सकते हैं — सबसे मज़बूत गुण चुनें"],
+  example:"Rose, Lotus, Marigold, Mango → Mango (बाकी फूल हैं, Mango फल/वृक्ष)",
+  trick:"हर विकल्प के लिए सोचें 'यह किस family में है' — जो अकेला family हो, वही उत्तर।",
+  deep:{title:"Multi-property classification",title_hi:"बहु-गुण वर्गीकरण",body:"कभी दो विकल्प समान लगते हैं। तब दूसरा गुण लगाएँ: उदाहरण में Mango और Marigold दोनों 'M' से शुरू — पर वर्गीकरण वर्ण से नहीं, वनस्पति-प्रकार से करें।",extra:"संख्या में 2,3,5,7 अभाज्य हैं; 4,6,8 सम हैं — अकेला 9 (वर्ग+भाज्य) जैसे जाल से बचें।"},
+  check:{q:"Find the odd one: Rose, Lotus, Marigold, Mango",q_hi:"बेमेल चुनें: गुलाब, कमल, गेंदा, आम",o:["Rose","Lotus","Marigold","Mango"],o_hi:["गुलाब","कमल","गेंदा","आम"],a:3,exp:"Mango is a fruit tree; the other three are flowers.",exp_hi:"आम फलदार वृक्ष है; बाकी तीन फूल हैं।"}}],
+ questions:[
+ {q:"Find the odd one out: Rose, Lotus, Marigold, Mango",q_hi:"बेमेल चुनें: गुलाब, कमल, गेंदा, आम",o:["Rose","Lotus","Marigold","Mango"],o_hi:["गुलाब","कमल","गेंदा","आम"],a:3,exp:"Mango is a fruit tree; the others are all flowers.",exp_hi:"आम फलदार वृक्ष है; शेष सभी फूल हैं।",why:["गुलाब फूल है","कमल फूल है","गेंदा फूल है"],topic:"Odd one out",level:1,mode:"standard"},
+ {q:"Find the odd one out: 2, 3, 5, 4",q_hi:"बेमेल चुनें: 2, 3, 5, 4",o:["2","3","5","4"],o_hi:["2","3","5","4"],a:3,exp:"2, 3 and 5 are prime numbers; 4 is composite.",exp_hi:"2, 3, 5 अभाज्य संख्याएँ हैं; 4 भाज्य है।",why:["2 अभाज्य है","3 अभाज्य है","5 अभाज्य है"],topic:"Number classification",level:1,mode:"deepseek",steps:["पहचानें समूह का नियम","2,3,5 — तीनों के केवल दो गुणनखंड (1 और स्वयं)","यानी अभाज्य (prime) संख्याएँ","4 = 2×2, इसके गुणनखंड 1,2,4 — भाज्य, अतः बेमेल"]},
+ {q:"Find the odd one out: River, Lake, Ocean, Mountain",q_hi:"बेमेल चुनें: नदी, झील, महासागर, पर्वत",o:["River","Lake","Ocean","Mountain"],o_hi:["नदी","झील","महासागर","पर्वत"],a:3,exp:"River, lake and ocean are water bodies; mountain is a landform.",exp_hi:"नदी, झील, महासागर जल-स्रोत हैं; पर्वत स्थलरूप है।",why:["नदी जल-स्रोत है","झील जल-स्रोत है","महासागर जल-स्रोत है"],topic:"Category",level:1,mode:"standard"},
+ {q:"Find the odd one out: Iron, Copper, Aluminium, Oxygen",q_hi:"बेमेल चुनें: लोहा, ताँबा, एल्युमिनियम, ऑक्सीजन",o:["Iron","Copper","Aluminium","Oxygen"],o_hi:["लोहा","ताँबा","एल्युमिनियम","ऑक्सीजन"],a:3,exp:"Iron, copper and aluminium are metals; oxygen is a non-metal gas.",exp_hi:"लोहा, ताँबा, एल्युमिनियम धातुएँ हैं; ऑक्सीजन अधातु गैस है।",why:["लोहा धातु है","ताँबा धातु है","एल्युमिनियम धातु है"],topic:"Category",level:1,mode:"standard"}]},
+
+{id:"coding",subject:"reason",day:2,level:1,title:"Coding-Decoding",hi:"कोडिंग-डिकोडिंग (Coding-Decoding)",
+ concepts:[{title:"Coding-Decoding — letters & numbers",title_hi:"कोडिंग-डिकोडिंग — अक्षर व संख्या",
+  intro:"Words are converted into a code by a fixed rule. Decode the rule and apply it to the target word.",
+  points:["अक्षर की वर्णमाला स्थिति (position): A=1 … Z=26 याद रखें","आगे/पीछे शिफ्ट (shift): +1, +2, −1 आदि","अक्षरों का उल्टा क्रम (reverse)","संख्या-कोड: हर अक्षर का position जोड़कर लिखना"],
+  example:"CAT = 3 1 20 (C=3, A=1, T=20) → DOG = 4 15 7 = 4157",
+  trick:"पहले पता लगाएँ कि code में shift है या position — एक ही शब्द पर दोनों आज़माएँ।",
+  deep:{title:"Mixed and reverse codes",title_hi:"मिश्रित व उल्टे कोड",body:"कठिन प्रश्नों में shift के साथ reverse या position-जोड़ भी मिलता है। हमेशा दिए गए पूरे शब्द (कम से कम 2-3 अक्षर) से नियम निकालें, एक अक्षर से अनुमान न लगाएँ।",extra:"E को अक्सर '5' और O को '15' लिखा जाता है; V=22 जैसे बड़े numbers को दोहरे अंक के रूप में जोड़कर पढ़ें।"},
+  check:{q:"If A=1, B=2 … Z=26, what is the code for 'DOG'?",q_hi:"यदि A=1, B=2 … Z=26, तो 'DOG' का कोड क्या होगा?",o:["4715","4157","40157","4517"],o_hi:["4715","4157","40157","4517"],a:1,exp:"D=4, O=15, G=7 → 4157.",exp_hi:"D=4, O=15, G=7 → 4157।"}}],
+ questions:[
+ {q:"In a code, CAT is written as 3120. How is DOG written?",q_hi:"एक कोड में CAT को 3120 लिखा जाता है। DOG कैसे लिखा जाएगा?",o:["4157","4517","4715","41570"],o_hi:["4157","4517","4715","41570"],a:0,exp:"C=3, A=1, T=20 → 3120. So D=4, O=15, G=7 → 4157.",exp_hi:"C=3, A=1, T=20 → 3120। अतः D=4, O=15, G=7 → 4157।",why:["4517 में 15 को 1,5 अलग नहीं, 15 रखना चाहिए पर क्रम D,O,G है 4,15,7","4715 में G और O का क्रम उल्टा है","41570 में अंत में अतिरिक्त 0 है"],topic:"Letter-number code",level:1,mode:"standard"},
+ {q:"In a code, TEACHER is written as VGCEJGT. What is STUDENT?",q_hi:"एक कोड में TEACHER को VGCEJGT लिखा जाता है। STUDENT क्या होगा?",o:["UVWFGPV","UVWGPV","TVWFGPV","UVWFHPV"],o_hi:["UVWFGPV","UVWGPV","TVWFGPV","UVWFHPV"],a:0,exp:"Each letter is shifted +2 (T→V, E→G, A→C…). So S→U, T→V, U→W, D→F, E→G, N→P, T→V = UVWFGPV.",exp_hi:"हर अक्षर +2 बढ़ा है। अतः S→U, T→V, U→W, D→F, E→G, N→P, T→V = UVWFGPV।",why:["UVWGPV में N(+2)→P छूट गया","TVWFGPV में S का +2 (→U) नहीं हुआ","UVWFHPV में N के स्थान पर गलत अक्षर"],topic:"Letter shift",level:2,mode:"deepseek",steps:["दिए गए TEACHER→VGCEJGT से shift पहचानें","T(20)→V(22): +2; E(5)→G(7): +2","नियम: हर अक्षर +2","STUDENT पर लागू करें: S→U, T→V, U→W, D→F, E→G, N→P, T→V","परिणाम: UVWFGPV"]},
+ {q:"If DELHI is coded as EFMIJ, what is the rule?",q_hi:"यदि DELHI को EFMIJ कोड किया जाता है, तो नियम क्या है?",o:["Each letter +1","Each letter −1","Letters reversed","Each letter +2"],o_hi:["हर अक्षर +1","हर अक्षर −1","अक्षर उल्टे","हर अक्षर +2"],a:0,exp:"D→E, E→F, L→M, H→I, I→J — every letter moves +1 forward.",exp_hi:"D→E, E→F, L→M, H→I, I→J — हर अक्षर +1 आगे।",why:["−1 से अक्षर पीछे जाते","उल्टे क्रम में IHLE... बनता","+2 से E→G जैसा shift होता"],topic:"Letter shift",level:1,mode:"standard"},
+ {q:"If MOON is coded as NPPO, how is STAR coded?",q_hi:"यदि MOON को NPPO कोड किया जाता है, तो STAR कैसे कोड होगा?",o:["TUBS","TUBT","TZBS","TVBS"],o_hi:["TUBS","TUBT","TZBS","TVBS"],a:0,exp:"M→N, O→P, O→P, N→O — each letter +1. So S→T, T→U, A→B, R→S = TUBS.",exp_hi:"हर अक्षर +1 (M→N, O→P…)। अतः S→T, T→U, A→B, R→S = TUBS।",why:["TUBT में अंतिम T गलत है","TZBS में A का shift गलत है","TVBS में R का shift गलत है"],topic:"Letter shift",level:1,mode:"standard"}]},
+
+{id:"cineq",subject:"reason",day:2,level:2,title:"Coded Inequalities",hi:"कोड असमानताएँ (Coded Inequalities)",
+ concepts:[{title:"Coded Inequalities — decode the symbols",title_hi:"कोड असमानताएँ — प्रतीक समझें",
+  intro:"Symbols are assigned to mathematical relations (>, <, ≥, ≤, =). Decode them and check whether a conclusion follows.",
+  points:["सामान्य कोड: @ = >, # = ≥, $ = =, % = <, & = ≤ (हमेशा प्रश्न में दिया होता है)","बड़ा-छोटा क्रम: > = बड़ा, < = छोटा","≥ का अर्थ 'बड़ा या बराबर', ≤ का 'छोटा या बराबर'","निष्कर्ष (conclusion) तभी सत्य जब पूरी chain से निश्चित हो"],
+  example:"A @ B (A > B), B $ C (B = C) → A > C निश्चित रूप से सत्य",
+  trick:"पहले सभी symbols को असली चिह्न में बदल लें, फिर एक संख्या-रेखा जैसा क्रम बनाएँ।",
+  deep:{title:"'Definitely true' vs 'possible'",title_hi:"'निश्चित' vs 'संभव'",body:"परीक्षा में सबसे बड़ा जाल है: जो conclusion 'हो सकता है' वह 'निश्चित' नहीं। उत्तर वही चुनें जो दी गई असमानता से हर स्थिति में सिद्ध हो।",extra:"याद रखें: यदि chain में A > B = C ≥ D है, तो A > D तो सत्य है, पर B > D केवल 'हो सकता है' — क्योंकि B = C ≥ D में बराबरी भी संभव है।"},
+  check:{q:"If '@' means '>', then 'A @ B' means:",q_hi:"यदि '@' का अर्थ '>' है, तो 'A @ B' का अर्थ है:",o:["A is less than B","A is greater than B","A equals B","A ≤ B"],o_hi:["A, B से छोटा","A, B से बड़ा","A = B","A ≤ B"],a:1,exp:"'@' decodes to '>', so A is greater than B.",exp_hi:"'@' का डिकोड '>' है, अतः A, B से बड़ा है।"}}],
+ questions:[
+ {q:"If '@' = >, '#' = ≥, '$' = =. Given A @ B and B $ C, which is definitely true?",q_hi:"यदि '@' = >, '#' = ≥, '$' = =। दिया है A @ B और B $ C, तो निश्चित रूप से सत्य कौन-सा है?",o:["A > C","A < C","A = C","A ≤ C"],o_hi:["A > C","A < C","A = C","A ≤ C"],a:0,exp:"A > B and B = C, so A > C.",exp_hi:"A > B और B = C, अतः A > C।",why:["A < C गलत — A बड़ा है","A = C तभी होता यदि A = B","A ≤ C गलत दिशा"],topic:"Coded inequality",level:2,mode:"deepseek",steps:["'@' को '>' में बदलें: A > B","'$' को '=' में बदलें: B = C","तो A > B = C","यानी A > C निश्चित रूप से सत्य"]},
+ {q:"If '%' = < and '&' = ≤. Given X % Y and Y & Z, which is definitely true?",q_hi:"यदि '%' = < और '&' = ≤। दिया है X % Y और Y & Z, तो निश्चित रूप से सत्य कौन-सा है?",o:["X < Z","X > Z","X = Z","X ≥ Z"],o_hi:["X < Z","X > Z","X = Z","X ≥ Z"],a:0,exp:"X < Y and Y ≤ Z, so X < Z.",exp_hi:"X < Y और Y ≤ Z, अतः X < Z।",why:["X > Z विपरीत है","X = Z निश्चित नहीं","X ≥ Z गलत"],topic:"Coded inequality",level:2,mode:"standard"},
+ {q:"If '#' = ≥ and '$' = =. Given P # Q and Q $ R, which is definitely true?",q_hi:"यदि '#' = ≥ और '$' = =। दिया है P # Q और Q $ R, तो निश्चित रूप से सत्य कौन-सा है?",o:["P ≥ R","P > R","P < R","P = R"],o_hi:["P ≥ R","P > R","P < R","P = R"],a:0,exp:"P ≥ Q and Q = R, so P ≥ R.",exp_hi:"P ≥ Q और Q = R, अतः P ≥ R।",why:["P > R निश्चित नहीं (बराबर भी हो सकता)","P < R गलत","P = R निश्चित नहीं"],topic:"Coded inequality",level:2,mode:"standard"}]},
+
+{id:"ar",subject:"reason",day:3,level:2,title:"Assertion & Reason",hi:"कथन और कारण (Assertion & Reason)",
+ concepts:[{title:"Assertion (A) and Reason (R)",title_hi:"कथन (A) और कारण (R)",
+  intro:"Two statements are given: an Assertion (A) and a Reason (R). Decide if each is true, and whether R correctly explains A.",
+  points:["चरण 1: क्या A अपने आप सत्य है?","चरण 2: क्या R अपने आप सत्य है?","चरण 3: यदि दोनों सत्य, तो क्या R, A की सही व्याख्या करता है?","चार विकल्प: (a) दोनों सत्य, R सही व्याख्या (b) दोनों सत्य, R व्याख्या नहीं (c) A सत्य, R असत्य (d) A असत्य, R सत्य"],
+  example:"A: चंद्रमा का अपना प्रकाश नहीं होता। R: चंद्रमा सूर्य के प्रकाश को परावर्तित करता है। → (a) दोनों सत्य, R सही व्याख्या",
+  trick:"पहले हर कथन को स्वतंत्र रूप से सत्य/असत्य जाँचें — फिर 'क्योंकि' (because) लगाकर देखें कि R वाकई A का कारण बनता है या नहीं।",
+  deep:{title:"True but unrelated trap",title_hi:"सत्य पर असंबंधित जाल",body:"सबसे आम गलती: दोनों कथन सत्य हैं, लेकिन R, A का कारण नहीं। तब उत्तर (b) होता है, (a) नहीं। हमेशा 'क्योंकि' की कड़ी जाँचें।",extra:"विज्ञान/भूगोल के कथनों में तथ्यात्मक सत्यता पहले जाँचें; तर्कशक्ति में तार्किक संबंध।"},
+  check:{q:"If A is true and R is true but R does not explain A, the answer is:",q_hi:"यदि A सत्य, R सत्य पर R, A की व्याख्या नहीं करता, तो उत्तर है:",o:["(a)","(b)","(c)","(d)"],o_hi:["(a)","(b)","(c)","(d)"],a:1,exp:"Both true but unrelated → option (b).",exp_hi:"दोनों सत्य पर असंबंधित → विकल्प (b)।"}}],
+ questions:[
+ {q:"A: The Moon has no light of its own. R: The Moon reflects sunlight.",q_hi:"A: चंद्रमा का अपना प्रकाश नहीं होता। R: चंद्रमा सूर्य का प्रकाश परावर्तित करता है।",o:["Both true, R explains A","Both true, R does not explain A","A true, R false","A false, R true"],o_hi:["दोनों सत्य, R व्याख्या करता है","दोनों सत्य, R व्याख्या नहीं","A सत्य, R असत्य","A असत्य, R सत्य"],a:0,exp:"Both are true, and reflection of sunlight IS the reason the Moon shines without its own light.",exp_hi:"दोनों सत्य हैं, और सूर्य के प्रकाश का परावर्तन ही वह कारण है कि चंद्रमा बिना अपने प्रकाश के चमकता है।",why:["R वास्तव में A की व्याख्या करता है","दोनों सत्य हैं, कोई असत्य नहीं","A भी सत्य है"],topic:"Assertion-Reason",level:2,mode:"deepseek",steps:["जाँचें A: क्या चंद्रमा का अपना प्रकाश है? नहीं — सत्य","जाँचें R: क्या चंद्रमा सूर्य का प्रकाश परावर्तित करता है? हाँ — सत्य","क्या R, A का कारण है? चंद्रमा इसीलिए चमकता है क्योंकि वह सूर्य-प्रकाश परावर्तित करता है","अतः (a) दोनों सत्य, R सही व्याख्या"]},
+ {q:"A: Water boils at 100°C at sea level. R: Atmospheric pressure is lower at higher altitudes.",q_hi:"A: समुद्र तल पर जल 100°C पर उबलता है। R: अधिक ऊँचाई पर वायुमंडलीय दाब कम होता है।",o:["Both true, R explains A","Both true, R does not explain A","A true, R false","A false, R true"],o_hi:["दोनों सत्य, R व्याख्या करता है","दोनों सत्य, R व्याख्या नहीं","A सत्य, R असत्य","A असत्य, R सत्य"],a:1,exp:"Both are true, but R (about high altitude) does not explain why water boils at 100°C at sea level.",exp_hi:"दोनों सत्य हैं, पर R (ऊँचाई का दाब) यह व्याख्या नहीं करता कि समुद्र तल पर जल 100°C पर क्यों उबलता है।",why:["R, A का सीधा कारण नहीं है","A सत्य है, असत्य नहीं","R सत्य है, असत्य नहीं"],topic:"Assertion-Reason",level:3,mode:"standard"},
+ {q:"A: Plants need sunlight. R: Sunlight provides energy for photosynthesis.",q_hi:"A: पौधों को सूर्य-प्रकाश चाहिए। R: प्रकाश-संश्लेषण के लिए सूर्य-प्रकाश ऊर्जा देता है।",o:["Both true, R explains A","Both true, R does not explain A","A true, R false","A false, R true"],o_hi:["दोनों सत्य, R व्याख्या करता है","दोनों सत्य, R व्याख्या नहीं","A सत्य, R असत्य","A असत्य, R सत्य"],a:0,exp:"Both true, and photosynthesis is the reason plants need sunlight.",exp_hi:"दोनों सत्य, और प्रकाश-संश्लेषण ही वह कारण है जिससे पौधों को सूर्य-प्रकाश चाहिए।",why:["R, A की सही व्याख्या है","दोनों सत्य हैं","A सत्य है"],topic:"Assertion-Reason",level:2,mode:"standard"}]},
+
+{id:"binary",subject:"reason",day:3,level:3,title:"Binary Logic",hi:"बाइनरी लॉजिक (Binary Logic)",
+ concepts:[{title:"Binary Logic — truth-tellers & liars",title_hi:"बाइनरी लॉजिक — सत्यवादी व झूठे",
+  intro:"People either ALWAYS tell the truth, ALWAYS lie, or alternate. Deduce the truth from their statements.",
+  points:["सत्यवादी (Truth-teller): हर कथन सत्य","झूठा (Liar): हर कथन असत्य","अल्टरनेटर: क्रम से सत्य-झूठ बोलता है","कथनों को एक-दूसरे से जाँचें, मान लें कोई कौन है और सत्यता जाँचें"],
+  example:"दो दरवाज़े, एक सत्यवादी एक झूठा। पूछें: 'दूसरा कौन-सा दरवाज़ा सही बताएगा?' — दोनों गलत दरवाज़ा बताएँगे, इसलिए उसका उल्टा चुनें।",
+  trick:"प्रत्येक व्यक्ति को बारी-बारी से सत्यवादी मानकर देखें — जिस मान्यता पर सभी कथन टिक जाएँ, वही सही।",
+  deep:{title:"The classic two-guards riddle",title_hi:"दो-रक्षकों की पहेली",body:"एक रक्षक सदा सत्य, दूसरा सदा झूठ। एक प्रश्न में सही दरवाज़ा जानने के लिए पूछें: 'यदि मैं दूसरे रक्षक से पूछूँ कि कौन-सा दरवाज़ा सुरक्षित है, तो वह क्या बताएगा?' दोनों ही गलत दरवाज़ा बताएँगे — अतः उसका उल्टा चुनें।",extra:"यह 'नकार द्वारा सत्य' (double negation) का सिद्धांत है — झूठा सत्यवादी के उत्तर को उलट देता है।"},
+  check:{q:"A truth-teller always speaks:",q_hi:"सत्यवादी सदा बोलता है:",o:["Only lies","The truth","Sometimes truth","Silence"],o_hi:["केवल झूठ","सत्य","कभी सत्य","मौन"],a:1,exp:"A truth-teller always tells the truth.",exp_hi:"सत्यवादी सदा सत्य बोलता है।"}}],
+ questions:[
+ {q:"Two guards: one always truthful, one always lying. You ask the liar 'Which door is safe?' He will point to:",q_hi:"दो रक्षक: एक सदा सत्य, एक सदा झूठ। झूठे से पूछें 'कौन-सा दरवाज़ा सुरक्षित है?' वह बताएगा:",o:["The safe door","The unsafe door","Either door","Both doors"],o_hi:["सुरक्षित दरवाज़ा","असुरक्षित दरवाज़ा","कोई भी","दोनों"],a:1,exp:"A liar always lies, so he points to the unsafe door.",exp_hi:"झूठा सदा झूठ बोलता है, इसलिए वह असुरक्षित दरवाज़ा बताएगा।",why:["सुरक्षित दरवाज़ा तो सत्यवादी बताता","'कोई भी' निर्धारित नहीं","'दोनों' असंभव है"],topic:"Truth-lie puzzle",level:2,mode:"deepseek",steps:["झूठा हमेशा झूठ बोलता है","सुरक्षित दरवाज़ा सत्य होता","झूठा सत्य को उलट देगा","अतः वह असुरक्षित दरवाज़ा बताएगा"]},
+ {q:"A says: 'B is a liar.' B says: 'A is truthful.' If only one of them is lying, who is the liar?",q_hi:"A कहता है: 'B झूठा है।' B कहता है: 'A सत्यवादी है।' यदि केवल एक झूठा है, तो कौन?",o:["A","B","Both","Neither"],o_hi:["A","B","दोनों","कोई नहीं"],a:0,exp:"Assume B is truthful: then B's statement 'A is truthful' is true, making both truthful — contradiction with 'only one liar'. So B is lying and A is truthful.",exp_hi:"मानें B सत्यवादी है: तो B का कथन 'A सत्यवादी है' सत्य, यानी दोनों सत्य — यह 'केवल एक झूठा' से विरोधाभासी है। अतः B झूठा और A सत्यवादी।",why:["B झूठा है","'दोनों' शर्त के विरुद्ध","'कोई नहीं' शर्त के विरुद्ध"],topic:"Truth-lie puzzle",level:3,mode:"standard"},
+ {q:"In binary logic, an 'alternator' is someone who:",q_hi:"बाइनरी लॉजिक में 'अल्टरनेटर' वह है जो:",o:["Always lies","Always tells truth","Alternates truth and lie","Never speaks"],o_hi:["सदा झूठ","सदा सत्य","क्रम से सत्य-झूठ","कभी नहीं बोलता"],a:2,exp:"An alternator alternates between true and false statements.",exp_hi:"अल्टरनेटर क्रम से सत्य और झूठ बोलता है।",why:["सदा झूठ 'liar' होता है","सदा सत्य 'truth-teller' होता है","न बोलने वाला प्रश्न में नहीं होता"],topic:"Binary logic types",level:1,mode:"standard"}]},
+
+{id:"clock",subject:"reason",day:4,level:2,title:"Clocks & Calendars",hi:"घड़ियाँ एवं कैलेंडर (Clocks & Calendars)",
+ concepts:[{title:"Clocks & Calendars — angles & days",title_hi:"घड़ियाँ व कैलेंडर — कोण व दिन",
+  intro:"Solve angle-between-hands and day-of-week problems using fixed formulas.",
+  points:["घंटे की सुई: 1 मिनट में 0.5°, 1 घंटे में 30°","मिनट की सुई: 1 मिनट में 6°","कोण = |30H − 5.5M| (जहाँ H=घंटा, M=मिनट)","लीप वर्ष: 4 से विभाज्य (पर 100 से विभाज्य हो तो 400 से भी)","सामान्य वर्ष में 1 दिन, लीप वर्ष में 2 दिन आगे बढ़ते हैं"],
+  example:"3:00 बजे कोण = 30×3 = 90°; 6:00 पर = 180°",
+  trick:"कोण सूत्र |30H − 5.5M| याद रखें; 180° से बड़ा आए तो 360 से घटाकर छोटा कोण लें।",
+  deep:{title:"Day-of-week and leap rules",title_hi:"दिन-गणना व लीप नियम",body:"किसी तिथि का दिन निकालने के लिए odd-days विधि: 100 वर्ष = 5 odd days, 200 वर्ष = 3, 300 वर्ष = 1, 400 वर्ष = 0। शताब्दी लीप वर्ष तभी जब 400 से विभाज्य हो — इसलिए 1900 लीप नहीं, 2000 लीप था।",extra:"15 अगस्त 1947 शुक्रवार था; 26 जनवरी 1950 शुक्रवार था — ये परीक्षा के प्रिय तथ्य हैं।"},
+  check:{q:"Angle between the hands of a clock at 3:00 is:",q_hi:"3:00 बजे घड़ी की सुइयों के बीच का कोण है:",o:["30°","60°","90°","120°"],o_hi:["30°","60°","90°","120°"],a:2,exp:"At 3:00 the hour hand is at 3 (3×30° = 90°).",exp_hi:"3:00 बजे घंटे की सुई 3 पर (3×30° = 90°)।"}}],
+ questions:[
+ {q:"Angle between the clock hands at 6:00 is:",q_hi:"6:00 बजे घड़ी की सुइयों के बीच का कोण है:",o:["90°","180°","270°","360°"],o_hi:["90°","180°","270°","360°"],a:1,exp:"At 6:00 the hands are opposite — 6×30° = 180°.",exp_hi:"6:00 बजे सुइयाँ विपरीत — 6×30° = 180°।",why:["90° 3:00 पर होता","270° बड़ा कोण है (छोटा 90°)","360° पूर्ण घूर्णन है"],topic:"Clock angle",level:1,mode:"standard"},
+ {q:"Angle between the clock hands at 3:30 is:",q_hi:"3:30 बजे घड़ी की सुइयों के बीच का कोण है:",o:["75°","90°","105°","60°"],o_hi:["75°","90°","105°","60°"],a:0,exp:"|30×3 − 5.5×30| = |90 − 165| = 75°.",exp_hi:"|30×3 − 5.5×30| = |90 − 165| = 75°।",why:["90° केवल 3:00 पर","105° गलत गणना","60° 2:00 पर"],topic:"Clock angle",level:2,mode:"deepseek",steps:["सूत्र: |30H − 5.5M|","H=3, M=30 रखें","30×3 = 90; 5.5×30 = 165","|90 − 165| = 75°"]},
+ {q:"Which of these is a leap year?",q_hi:"इनमें से कौन-सा लीप वर्ष है?",o:["1900","2000","1800","2100"],o_hi:["1900","2000","1800","2100"],a:1,exp:"Century years must be divisible by 400. Only 2000 qualifies.",exp_hi:"शताब्दी वर्ष 400 से विभाज्य होना चाहिए। केवल 2000 ही योग्य है।",why:["1900, 400 से विभाज्य नहीं","1800, 400 से विभाज्य नहीं","2100, 400 से विभाज्य नहीं"],topic:"Leap year",level:1,mode:"standard"},
+ {q:"How many odd days are there in a normal (non-leap) year?",q_hi:"सामान्य वर्ष में कितने odd days होते हैं?",o:["0","1","2","7"],o_hi:["0","1","2","7"],a:1,exp:"365 days = 52 weeks + 1 day, so 1 odd day.",exp_hi:"365 दिन = 52 सप्ताह + 1 दिन, अतः 1 odd day।",why:["0 लीप नहीं, 400 वर्षों में होता","2 लीप वर्ष में होते","7 odd days = 0 odd days (सप्ताह पूर्ण)"],topic:"Calendar",level:1,mode:"standard"}]},
+{id:"hist",subject:"gk",day:5,level:1,title:"Indian History & National Movement",hi:"भारतीय इतिहास व राष्ट्रीय आन्दोलन",
+ concepts:[{title:"Freedom movement — key dates",title_hi:"स्वतंत्रता आन्दोलन — मुख्य तिथियाँ",
+  intro:"Master the landmark events, leaders and dates of the Indian National Movement.",
+  points:["भारतीय राष्ट्रीय कांग्रेस (INC): 1885, बंबई — पहले अध्यक्ष डब्ल्यू.सी. बनर्जी","जलियाँवाला बाग हत्याकांड: 13 अप्रैल 1919, अमृतसर","दांडी मार्च / नमक सत्याग्रह: 1930","भारत छोड़ो आन्दोलन: 8 अगस्त 1942","15 अगस्त 1947: स्वतंत्रता"],
+  example:"'करो या मरो' (Do or Die) — गांधीजी, भारत छोड़ो आन्दोलन (1942)",
+  trick:"1885 → 1905 (बंगाल विभाजन) → 1919 → 1930 → 1942 → 1947 — यह क्रम रट लें।",
+  deep:{title:"Movement vs leader mapping",title_hi:"आन्दोलन-नेता मानचित्रण",body:"अक्सर पूछा जाता है कौन-सा आन्दोलन किसने शुरू किया: असहयोग (1920, गांधीजी), सविनय अवज्ञा (1930, गांधीजी), भारत छोड़ो (1942, गांधीजी), स्वदेशी (1905, बंगाल विभाजन के विरुद्ध)।",extra:"INC के प्रथम मुस्लिम अध्यक्ष बदरुद्दीन तैयबजी (1887); प्रथम भारतीय महिला अध्यक्ष सरोजिनी नायडू (1925)।"},
+  check:{q:"The Indian National Congress was founded in which year?",q_hi:"भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई?",o:["1857","1885","1905","1942"],o_hi:["1857","1885","1905","1942"],a:1,exp:"INC was founded in 1885 in Bombay.",exp_hi:"INC की स्थापना 1885 में बंबई में हुई।"}}],
+ questions:[
+ {q:"The Jallianwala Bagh massacre took place in which year?",q_hi:"जलियाँवाला बाग हत्याकांड किस वर्ष हुआ?",o:["1919","1920","1930","1942"],o_hi:["1919","1920","1930","1942"],a:0,exp:"On 13 April 1919, General Dyer ordered firing on the crowd at Amritsar.",exp_hi:"13 अप्रैल 1919 को जनरल डायर ने अमृतसर में भीड़ पर गोली चलवाई।",why:["1920 में असहयोग आन्दोलन शुरू हुआ","1930 में दांडी मार्च हुआ","1942 में भारत छोड़ो आन्दोलन हुआ"],topic:"National Movement",level:1,mode:"standard"},
+ {q:"The Quit India Movement was launched in:",q_hi:"भारत छोड़ो आन्दोलन किस वर्ष शुरू हुआ?",o:["1930","1940","1942","1945"],o_hi:["1930","1940","1942","1945"],a:2,exp:"Gandhi launched the Quit India Movement on 8 August 1942 with 'Do or Die'.",exp_hi:"गांधीजी ने 8 अगस्त 1942 को 'करो या मरो' के साथ भारत छोड़ो आन्दोलन शुरू किया।",why:["1930 दांडी मार्च का वर्ष है","1940 व्यक्तिगत सत्याग्रह से जुड़ा है","1945 स्वतंत्रता से पहले का अंत है"],topic:"National Movement",level:1,mode:"standard"},
+ {q:"Who led the Dandi March (Salt Satyagraha) in 1930?",q_hi:"1930 में दांडी मार्च (नमक सत्याग्रह) का नेतृत्व किसने किया?",o:["Jawaharlal Nehru","Subhas Chandra Bose","Mahatma Gandhi","Sardar Patel"],o_hi:["जवाहरलाल नेहरू","सुभाष चंद्र बोस","महात्मा गांधी","सरदार पटेल"],a:2,exp:"Gandhi marched from Sabarmati to Dandi (12 March – 6 April 1930) to break the salt law.",exp_hi:"गांधीजी ने साबरमती से दांडी तक (12 मार्च – 6 अप्रैल 1930) नमक कानून तोड़ने के लिए मार्च किया।",why:["नेहरू ने बाद में नेतृत्व किया","बोस ने आज़ाद हिंद फ़ौज बनाई","पटेल 'लौह पुरुष' कहलाए"],topic:"National Movement",level:1,mode:"standard"},
+ {q:"Who wrote 'The Discovery of India'?",q_hi:"'द डिस्कवरी ऑफ इंडिया' किसने लिखी?",o:["Mahatma Gandhi","Jawaharlal Nehru","B. R. Ambedkar","Rabindranath Tagore"],o_hi:["महात्मा गांधी","जवाहरलाल नेहरू","बी. आर. अम्बेडकर","रवींद्रनाथ टैगोर"],a:1,exp:"Jawaharlal Nehru wrote 'The Discovery of India' (1946) during imprisonment.",exp_hi:"जवाहरलाल नेहरू ने कारावास के दौरान 'द डिस्कवरी ऑफ इंडिया' (1946) लिखी।",why:["गांधीजी ने 'हिंद स्वराज' लिखी","अम्बेडकर ने संविधान निर्माण में योगदान दिया","टैगोर ने गीतांजलि लिखी"],topic:"Literature",level:1,mode:"standard"}]},
+
+{id:"geo",subject:"gk",day:6,level:1,title:"Indian Geography",hi:"भारत का भूगोल",
+ concepts:[{title:"India — physical & political",title_hi:"भारत — भौतिक व राजनीतिक",
+  intro:"Key facts about India's location, landforms, rivers and boundaries.",
+  points:["भारत का क्षेत्रफल: विश्व में 7वाँ सबसे बड़ा देश","सबसे बड़ा राज्य (क्षेत्रफल): राजस्थान","सबसे लंबी नदी: गंगा","भारत का मानक मध्याह्न रेखा: 82.5° पूर्व (मिर्ज़ापुर, UP से होकर)","कर्क रेखा 8 राज्यों से होकर गुजरती है"],
+  example:"सबसे ऊँची चोटी (पूर्णतः भारत में): कंचनजंघा (8,586 मी)",
+  trick:"'गंगा-राजस्थान-82.5' — तीन जुड़वाँ तथ्य एक साथ याद रखें।",
+  deep:{title:"Tropic of Cancer & standard meridian",title_hi:"कर्क रेखा व मानक मध्याह्न",body:"कर्क रेखा 23.5° उत्तर अक्षांश पर है और 8 राज्यों से गुजरती है: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगढ़, झारखंड, पश्चिम बंगाल, त्रिपुरा, मिज़ोरम।",extra:"भारत की मानक समय रेखा 82.5° पूर्व — यह UP के मिर्ज़ापुर से गुजरती है, इसलिए पूरे भारत का समय एक ही (IST) है।"},
+  check:{q:"Which is the largest state of India by area?",q_hi:"क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन-सा है?",o:["Madhya Pradesh","Maharashtra","Rajasthan","Uttar Pradesh"],o_hi:["मध्य प्रदेश","महाराष्ट्र","राजस्थान","उत्तर प्रदेश"],a:2,exp:"Rajasthan is the largest state by area.",exp_hi:"राजस्थान क्षेत्रफल में सबसे बड़ा राज्य है।"}}],
+ questions:[
+ {q:"Which is the longest river of India?",q_hi:"भारत की सबसे लंबी नदी कौन-सी है?",o:["Yamuna","Godavari","Ganga","Brahmaputra"],o_hi:["यमुना","गोदावरी","गंगा","ब्रह्मपुत्र"],a:2,exp:"The Ganga is the longest river flowing within India (about 2,525 km).",exp_hi:"गंगा भारत में बहने वाली सबसे लंबी नदी है (लगभग 2,525 किमी)।",why:["यमुना गंगा की सहायक है","गोदावरी दक्षिण की सबसे लंबी है","ब्रह्मपुत्र का अधिकांश भाग भारत के बाहर है"],topic:"Rivers",level:1,mode:"standard"},
+ {q:"The standard meridian of India is:",q_hi:"भारत की मानक मध्याह्न रेखा है:",o:["82.5° East","0°","82.5° West","90° East"],o_hi:["82.5° पूर्व","0°","82.5° पश्चिम","90° पूर्व"],a:0,exp:"India's standard meridian is 82.5° East, passing through Mirzapur (UP).",exp_hi:"भारत की मानक मध्याह्न रेखा 82.5° पूर्व है, जो मिर्ज़ापुर (UP) से गुजरती है।",why:["0° ग्रीनविच रेखा है","82.5° पश्चिम गलत दिशा","90° पूर्व गलत"],topic:"Location",level:1,mode:"standard"},
+ {q:"The highest peak entirely within India is:",q_hi:"पूर्णतः भारत में स्थित सबसे ऊँची चोटी है:",o:["Mount Everest","K2","Kangchenjunga","Nanda Devi"],o_hi:["माउंट एवरेस्ट","के2","कंचनजंघा","नंदा देवी"],a:2,exp:"Kangchenjunga (8,586 m) is the highest peak located entirely in India.",exp_hi:"कंचनजंघा (8,586 मी) पूर्णतः भारत में स्थित सबसे ऊँची चोटी है।",why:["एवरेस्ट नेपाल में है","K2 भारत-नियंत्रित क्षेत्र से बाहर (PoK) है","नंदा देवी कम ऊँची है"],topic:"Mountains",level:2,mode:"standard"},
+ {q:"The Tropic of Cancer passes through how many Indian states?",q_hi:"कर्क रेखा भारत के कितने राज्यों से गुजरती है?",o:["6","8","10","12"],o_hi:["6","8","10","12"],a:1,exp:"The Tropic of Cancer passes through 8 Indian states.",exp_hi:"कर्क रेखा भारत के 8 राज्यों से गुजरती है।",why:["6 कम है","10 अधिक है","12 अधिक है"],topic:"Location",level:2,mode:"standard"}]},
+
+{id:"polity",subject:"gk",day:7,level:1,title:"Polity & Governance",hi:"राजनीति एवं शासन",
+ concepts:[{title:"Constitution & Panchayati Raj",title_hi:"संविधान व पंचायती राज",
+  intro:"Fundamentals of the Indian Constitution, political system and local governance.",
+  points:["राज्य का संवैधानिक प्रमुख: राष्ट्रपति","मौलिक अधिकार: भाग III (अनुच्छेद 12–35)","संविधान निर्माता (मुख्य वास्तुकार): डॉ. बी.आर. अम्बेडकर","73वाँ संशोधन (1992): त्रि-स्तरीय पंचायती राज","अनुच्छेद 40: ग्राम पंचायतों का संगठन (DPSP)"],
+  example:"पंचायती राज का त्रि-स्तर: ग्राम पंचायत → पंचायत समिति → ज़िला परिषद",
+  trick:"FR = Part III (3), DPSP = Part IV (4) — 'तीन-चार' जोड़ याद रखें।",
+  deep:{title:"73rd & 74th Amendments",title_hi:"73वाँ व 74वाँ संशोधन",body:"73वाँ संशोधन (1992) पंचायती राज और 74वाँ संशोधन (1992) नगरपालिकाओं से संबंधित है। दोनों ने स्थानीय स्वशासन को संवैधानिक दर्जा दिया।",extra:"राज्य का वास्तविक कार्यकारी प्रमुख मुख्यमंत्री होता है, जबकि राज्यपाल संवैधानिक प्रमुख।"},
+  check:{q:"Who is the constitutional head of the Indian state (Union)?",q_hi:"भारतीय संघ का संवैधानिक प्रमुख कौन है?",o:["Prime Minister","President","Chief Justice","Speaker"],o_hi:["प्रधानमंत्री","राष्ट्रपति","मुख्य न्यायाधीश","अध्यक्ष (स्पीकर)"],a:1,exp:"The President is the constitutional head of the state.",exp_hi:"राष्ट्रपति राज्य का संवैधानिक प्रमुख है।"}}],
+ questions:[
+ {q:"The Fundamental Rights are contained in which Part of the Constitution?",q_hi:"मौलिक अधिकार संविधान के किस भाग में हैं?",o:["Part II","Part III","Part IV","Part V"],o_hi:["भाग II","भाग III","भाग IV","भाग V"],a:1,exp:"Fundamental Rights are in Part III (Articles 12–35).",exp_hi:"मौलिक अधिकार भाग III (अनुच्छेद 12–35) में हैं।",why:["भाग II नागरिकता से संबंधित है","भाग IV नीति-निदेशक तत्वों से है","भाग V संघ (Union) से है"],topic:"Constitution",level:1,mode:"standard"},
+ {q:"Who is known as the chief architect of the Indian Constitution?",q_hi:"भारतीय संविधान के मुख्य वास्तुकार कौन कहलाते हैं?",o:["Jawaharlal Nehru","Dr. B. R. Ambedkar","Sardar Patel","Rajendra Prasad"],o_hi:["जवाहरलाल नेहरू","डॉ. बी. आर. अम्बेडकर","सरदार पटेल","राजेंद्र प्रसाद"],a:1,exp:"Dr. B. R. Ambedkar chaired the Drafting Committee.",exp_hi:"डॉ. बी. आर. अम्बेडकर ने प्रारूप समिति की अध्यक्षता की।",why:["नेहरू प्रथम प्रधानमंत्री बने","पटेल 'लौह पुरुष' कहलाए","राजेंद्र प्रसाद प्रथम राष्ट्रपति बने"],topic:"Constitution",level:1,mode:"standard"},
+ {q:"The 73rd Constitutional Amendment (1992) is related to:",q_hi:"73वाँ संवैधानिक संशोधन (1992) किससे संबंधित है?",o:["Municipalities","Panchayati Raj","GST","Anti-defection"],o_hi:["नगरपालिकाएँ","पंचायती राज","GST","दल-बदल विरोधी"],a:1,exp:"The 73rd Amendment gave constitutional status to Panchayati Raj.",exp_hi:"73वें संशोधन ने पंचायती राज को संवैधानिक दर्जा दिया।",why:["नगरपालिकाएँ 74वें संशोधन से","GST 101वें संशोधन से","दल-बदल 52वें संशोधन से"],topic:"Panchayati Raj",level:1,mode:"standard"},
+ {q:"Article 40 of the Constitution deals with:",q_hi:"संविधान का अनुच्छेद 40 किससे संबंधित है?",o:["Organisation of village panchayats","Right to education","Uniform civil code","Protection of minorities"],o_hi:["ग्राम पंचायतों का संगठन","शिक्षा का अधिकार","समान नागरिक संहिता","अल्पसंख्यकों की सुरक्षा"],a:0,exp:"Article 40 (DPSP) directs the state to organise village panchayats.",exp_hi:"अनुच्छेद 40 (DPSP) राज्य को ग्राम पंचायतों के संगठन का निर्देश देता है।",why:["शिक्षा का अधिकार अनुच्छेद 21A है","समान नागरिक संहिता अनुच्छेद 44 है","अल्पसंख्यक संरक्षण अनुच्छेद 29-30 है"],topic:"DPSP",level:2,mode:"standard"}]},
+
+{id:"econ",subject:"gk",day:8,level:1,title:"Economy & Social Development",hi:"अर्थव्यवस्था व सामाजिक विकास",
+ concepts:[{title:"Sustainable & inclusive development",title_hi:"सतत व समावेशी विकास",
+  intro:"Core concepts of economic and social development, poverty and inclusion.",
+  points:["सतत विकास: वर्तमान ज़रूरतें पूरी करना, भविष्य से समझौता किए बिना","GDP = सकल घरेलू उत्पाद (एक वर्ष में देश में उत्पादित वस्तु-सेवाओं का कुल मूल्य)","NITI आयोग ने 2015 में योजना आयोग का स्थान लिया","समावेशी विकास: विकास का लाभ सभी वर्गों तक पहुँचे","गरीबी मापने के लिए समितियाँ: तेंदुलकर समिति प्रमुख"],
+  example:"सतत विकास के 3 स्तंभ: आर्थिक, सामाजिक, पर्यावरणीय",
+  trick:"'GDP' = घरेलू (Domestic) उत्पादन — देश के अंदर का; 'GNP' में देशवासियों की विदेशी आय भी जुड़ती है।",
+  deep:{title:"Planning Commission to NITI Aayog",title_hi:"योजना आयोग से NITI आयोग",body:"योजना आयोग (1950) ने पंचवर्षीय योजनाएँ बनाईं। 1 जनवरी 2015 को इसे भंग कर NITI आयोग (National Institution for Transforming India) बना — यह नीति 'थिंक-टैंक' है, धन आवंटन नहीं करता।",extra:"संयुक्त राष्ट्र के सतत विकास लक्ष्य (SDGs) 17 हैं, जिन्हें 2015 में अपनाया गया।"},
+  check:{q:"NITI Aayog replaced which body in 2015?",q_hi:"NITI आयोग ने 2015 में किस संस्था का स्थान लिया?",o:["Finance Commission","Planning Commission","Election Commission","UPSC"],o_hi:["वित्त आयोग","योजना आयोग","चुनाव आयोग","UPSC"],a:1,exp:"NITI Aayog replaced the Planning Commission in 2015.",exp_hi:"NITI आयोग ने 2015 में योजना आयोग का स्थान लिया।"}}],
+ questions:[
+ {q:"GDP stands for:",q_hi:"GDP का पूर्ण रूप है:",o:["Gross Domestic Product","Gross Development Product","General Domestic Product","Gross Domestic Profit"],o_hi:["सकल घरेलू उत्पाद","सकल विकास उत्पाद","सामान्य घरेलू उत्पाद","सकल घरेलू लाभ"],a:0,exp:"GDP = Gross Domestic Product.",exp_hi:"GDP = सकल घरेलू उत्पाद (Gross Domestic Product)।",why:["'Development' गलत शब्द है","'General' गलत शब्द है","'Profit' गलत शब्द है"],topic:"Economy",level:1,mode:"standard"},
+ {q:"Sustainable development means development that:",q_hi:"सतत विकास का अर्थ है ऐसा विकास जो:",o:["Meets present needs without harming future generations","Grows fastest","Uses maximum resources","Benefits only the rich"],o_hi:["वर्तमान ज़रूरतें पूरी करे, भविष्य को नुकसान पहुँचाए बिना","सबसे तेज़ बढ़े","अधिकतम संसाधन खर्च करे","केवल अमीरों को लाभ दे"],a:0,exp:"Sustainable development meets today's needs without compromising future generations.",exp_hi:"सतत विकास आज की ज़रूरतें पूरी करता है, भविष्य की पीढ़ियों से समझौता किए बिना।",why:["सिर्फ़ तेज़ विकास सतत नहीं","अधिकतम संसाधन-उपयोग असतत है","केवल अमीरों को लाभ असमावेशी है"],topic:"Development",level:1,mode:"standard"},
+ {q:"Which committee is associated with poverty estimation in India?",q_hi:"भारत में गरीबी आकलन से कौन-सी समिति जुड़ी है?",o:["Tendulkar Committee","Kothari Committee","Mandal Committee","Sarkaria Committee"],o_hi:["तेंदुलकर समिति","कोठारी समिति","मंडल समिति","सरकारिया समिति"],a:0,exp:"The Tendulkar Committee (2009) set the methodology for poverty estimation.",exp_hi:"तेंदुलकर समिति (2009) ने गरीबी आकलन की पद्धति निर्धारित की।",why:["कोठारी समिति शिक्षा से जुड़ी है","मंडल समिति आरक्षण से जुड़ी है","सरकारिया समिति केन्द्र-राज्य संबंधों से जुड़ी है"],topic:"Poverty",level:2,mode:"standard"},
+ {q:"How many Sustainable Development Goals (SDGs) did the UN adopt in 2015?",q_hi:"संयुक्त राष्ट्र ने 2015 में कितने सतत विकास लक्ष्य (SDGs) अपनाए?",o:["8","12","17","21"],o_hi:["8","12","17","21"],a:2,exp:"The UN adopted 17 Sustainable Development Goals in 2015.",exp_hi:"संयुक्त राष्ट्र ने 2015 में 17 सतत विकास लक्ष्य अपनाए।",why:["8 पुराने MDGs की संख्या थी","12 कम है","21 अधिक है"],topic:"Development",level:2,mode:"standard"}]},
+
+{id:"env",subject:"gk",day:9,level:1,title:"Environment, Ecology & Climate",hi:"पर्यावरण, पारिस्थितिकी व जलवायु",
+ concepts:[{title:"Ecology, biodiversity & climate change",title_hi:"पारिस्थितिकी, जैव विविधता व जलवायु परिवर्तन",
+  intro:"Key environmental concepts, biodiversity and climate agreements.",
+  points:["जैव विविधता: किसी क्षेत्र में जीवों की विविधता","ग्रीनहाउस प्रभाव: CO2, मीथेन जैसी गैसें गर्मी रोकती हैं","ओजोन परत UV किरणों से बचाती है","भारत के जैव विविधता हॉटस्पॉट: पश्चिमी घाट, हिमालय, इंडो-बर्मा, सुंडालैंड","जलवायु परिवर्तन: मुख्य कारण ग्रीनहाउस गैस उत्सर्जन"],
+  example:"मॉन्ट्रियल प्रोटोकॉल (1987): ओजोन क्षरणकारी पदार्थों (CFC) पर रोक",
+  trick:"मॉन्ट्रियल = ओज़ोन; क्योटो = ग्रीनहाउस गैस — यह जोड़ याद रखें।",
+  deep:{title:"Climate agreements at a glance",title_hi:"जलवायु समझौते एक नज़र में",body:"क्योटो प्रोटोकॉल (1997) — विकसित देशों के लिए ग्रीनहाउस गैस कटौती के बाध्यकारी लक्ष्य। पेरिस समझौता (2015) — ग्लोबल वार्मिंग को 2°C से नीचे (1.5°C लक्ष्य) रखना।",extra:"चिपको आन्दोलन (1973) वृक्षों की सुरक्षा हेतु; सुंदरलाल बहुगुणा प्रमुख नेता।"},
+  check:{q:"The Montreal Protocol (1987) protects which layer?",q_hi:"मॉन्ट्रियल प्रोटोकॉल (1987) किस परत की रक्षा करता है?",o:["Troposphere","Ozone layer","Ionosphere","Exosphere"],o_hi:["क्षोभमण्डल","ओजोन परत","आयनमण्डल","बाह्यमण्डल"],a:1,exp:"The Montreal Protocol phases out ozone-depleting substances.",exp_hi:"मॉन्ट्रियल प्रोटोकॉल ओजोन-क्षरणकारी पदार्थों पर रोक लगाता है।"}}],
+ questions:[
+ {q:"Which gas is the largest contributor to the greenhouse effect?",q_hi:"ग्रीनहाउस प्रभाव में सबसे बड़ा योगदान किस गैस का है?",o:["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],o_hi:["ऑक्सीजन","कार्बन डाइऑक्साइड","नाइट्रोजन","हाइड्रोजन"],a:1,exp:"Carbon dioxide (CO2) is the largest contributor to the enhanced greenhouse effect.",exp_hi:"कार्बन डाइऑक्साइड (CO2) ग्रीनहाउस प्रभाव में सबसे बड़ा योगदानकर्ता है।",why:["ऑक्सीजन ग्रीनहाउस गैस नहीं","नाइट्रोजन ग्रीनहाउस गैस नहीं","हाइड्रोजन ग्रीनहाउस गैस नहीं"],topic:"Climate",level:1,mode:"standard"},
+ {q:"Which of these is a biodiversity hotspot in India?",q_hi:"इनमें से कौन-सा भारत का जैव विविधता हॉटस्पॉट है?",o:["Thar Desert","Western Ghats","Deccan Plateau","Gangetic Plain"],o_hi:["थार मरुस्थल","पश्चिमी घाट","दक्कन पठार","गंगा का मैदान"],a:1,exp:"The Western Ghats is one of India's four biodiversity hotspots.",exp_hi:"पश्चिमी घाट भारत के चार जैव विविधता हॉटस्पॉट में से एक है।",why:["थार मरुस्थल हॉटस्पॉट नहीं","दक्कन पठार हॉटस्पॉट नहीं","गंगा का मैदान हॉटस्पॉट नहीं"],topic:"Biodiversity",level:1,mode:"standard"},
+ {q:"The ozone layer protects the Earth from:",q_hi:"ओजोन परत पृथ्वी की रक्षा किससे करती है?",o:["Infrared rays","Ultraviolet rays","X-rays","Radio waves"],o_hi:["अवरक्त किरणें","पराबैंगनी किरणें","X-किरणें","रेडियो तरंगें"],a:1,exp:"The ozone layer absorbs harmful ultraviolet (UV) radiation.",exp_hi:"ओजोन परत हानिकारक पराबैंगनी (UV) विकिरण को अवशोषित करती है।",why:["अवरक्त गर्मी से संबंधित है","X-किरणें वायुमंडल में अवशोषित होती हैं","रेडियो तरंगें हानिकारक नहीं"],topic:"Ozone",level:1,mode:"standard"},
+ {q:"The Kyoto Protocol is related to:",q_hi:"क्योटो प्रोटोकॉल किससे संबंधित है?",o:["Ozone depletion","Greenhouse gas reduction","Biodiversity","Desertification"],o_hi:["ओजोन क्षरण","ग्रीनहाउस गैस कटौती","जैव विविधता","मरुस्थलीकरण"],a:1,exp:"The Kyoto Protocol set binding targets to reduce greenhouse gas emissions.",exp_hi:"क्योटो प्रोटोकॉल ने ग्रीनहाउस गैस उत्सर्जन घटाने के बाध्यकारी लक्ष्य तय किए।",why:["ओजोन मॉन्ट्रियल से है","जैव विविधता CBD से है","मरुस्थलीकरण UNCCD से है"],topic:"Climate agreements",level:2,mode:"standard"}]},
+
+{id:"sci",subject:"gk",day:10,level:1,title:"General Science & Current Affairs",hi:"सामान्य विज्ञान व समसामयिक",
+ concepts:[{title:"Everyday science essentials",title_hi:"दैनिक विज्ञान के मूल तत्व",
+  intro:"Science in daily life: vitamins, units, elements and atmosphere.",
+  points:["विटामिन C की कमी → स्कर्वी; विटामिन D की कमी → रिकेट्स","बल की SI इकाई: न्यूटन (N)","सोने का रासायनिक प्रतीक: Au (ऑरम)","वायु में सबसे अधिक गैस: नाइट्रोजन (लगभग 78%)","पौधों का भोजन-निर्माण: प्रकाश-संश्लेषण (photosynthesis)"],
+  example:"प्रकाश-संश्लेषण: CO2 + जल + सूर्य-प्रकाश → ग्लूकोज़ + ऑक्सीजन",
+  trick:"'Au' सोना = 'और' कीमती; 'Ag' चाँदी = 'अज' (silver की चमक) — ऐसे जोड़ बनाएँ।",
+  deep:{title:"Current affairs — how to prepare",title_hi:"समसामयिक — कैसे तैयार करें",body:"समसामयिकी (Current Affairs) समय-संवेदी होती है। पिछले 6–12 महीने की राष्ट्रीय-अंतर्राष्ट्रीय घटनाएँ, खेल पुरस्कार, नई नियुक्तियाँ, और प्रमुख सम्मेलन नियमित रूप से अपडेट करें।",extra:"परीक्षा की तिथि के अनुसार इस module को ताज़ा करते रहें — यह डेटा-चालित है और आसानी से अपडेट हो सकता है।"},
+  check:{q:"Which vitamin deficiency causes scurvy?",q_hi:"किस विटामिन की कमी से स्कर्वी होता है?",o:["Vitamin A","Vitamin B","Vitamin C","Vitamin D"],o_hi:["विटामिन A","विटामिन B","विटामिन C","विटामिन D"],a:2,exp:"Vitamin C deficiency causes scurvy (bleeding gums).",exp_hi:"विटामिन C की कमी से स्कर्वी (मसूड़ों से खून) होता है।"}}],
+ questions:[
+ {q:"The SI unit of force is:",q_hi:"बल की SI इकाई है:",o:["Joule","Newton","Watt","Pascal"],o_hi:["जूल","न्यूटन","वाट","पास्कल"],a:1,exp:"Force is measured in newtons (N).",exp_hi:"बल न्यूटन (N) में मापा जाता है।",why:["जूल ऊर्जा/कार्य की इकाई है","वाट शक्ति की इकाई है","पास्कल दाब की इकाई है"],topic:"Physics",level:1,mode:"standard"},
+ {q:"Which is the most abundant gas in the atmosphere?",q_hi:"वायुमंडल में सबसे अधिक मात्रा में कौन-सी गैस है?",o:["Oxygen","Carbon dioxide","Nitrogen","Hydrogen"],o_hi:["ऑक्सीजन","कार्बन डाइऑक्साइड","नाइट्रोजन","हाइड्रोजन"],a:2,exp:"Nitrogen makes up about 78% of the atmosphere.",exp_hi:"नाइट्रोजन वायुमंडल का लगभग 78% है।",why:["ऑक्सीजन लगभग 21% है","CO2 बहुत कम (~0.04%) है","हाइड्रोजन अत्यंत कम है"],topic:"Chemistry",level:1,mode:"standard"},
+ {q:"The chemical symbol for gold is:",q_hi:"सोने का रासायनिक प्रतीक है:",o:["Ag","Au","Fe","Gd"],o_hi:["Ag","Au","Fe","Gd"],a:1,exp:"Gold's symbol is Au (from Latin 'aurum').",exp_hi:"सोने का प्रतीक Au है (लैटिन 'ऑरम' से)।",why:["Ag चाँदी है","Fe लोहा है","Gd गैडोलिनियम है"],topic:"Chemistry",level:1,mode:"standard"},
+ {q:"Photosynthesis primarily occurs in which part of a plant?",q_hi:"प्रकाश-संश्लेषण मुख्यतः पौधे के किस भाग में होता है?",o:["Root","Leaf","Stem","Flower"],o_hi:["जड़","पत्ती","तना","फूल"],a:1,exp:"Leaves contain chlorophyll, which captures sunlight for photosynthesis.",exp_hi:"पत्तियों में क्लोरोफिल होता है, जो प्रकाश-संश्लेषण के लिए सूर्य-प्रकाश ग्रहण करता है।",why:["जड़ पानी-खनिज सोखती है","तना परिवहन करता है","फूल प्रजनन के लिए है"],topic:"Biology",level:1,mode:"standard"}]},
+{id:"ss-sources",subject:"ss",day:11,level:1,title:"Sources of History & Ancient Cultures",hi:"इतिहास के स्रोत व प्राचीन संस्कृतियाँ",
+ concepts:[{title:"Knowing history — sources & early cultures",title_hi:"इतिहास जानना — स्रोत व प्रारम्भिक संस्कृतियाँ",
+  intro:"Historians reconstruct the past from archaeological and literary sources, then study the Stone, Chalcolithic and Vedic cultures.",
+  points:["पुरातात्विक स्रोत: सिक्के, अभिलेख, स्मारक, मूर्तियाँ, मृदभांड","साहित्यिक स्रोत: वेद, पुराण, विदेशी यात्रियों के वृत्तांत","सिंधु घाटी सभ्यता: हड़प्पा व मोहनजोदड़ो प्रमुख स्थल","ताम्रपाषाण (Chalcolithic) काल: पत्थर के साथ ताँबे का प्रयोग","वैदिक संस्कृति: ऋग्वेद सबसे प्राचीन वेद"],
+  example:"मोहनजोदड़ो का अर्थ 'मृतकों का टीला'; यह अब पाकिस्तान (सिंध) में है।",
+  trick:"स्रोत याद रखें: 'सिक्के-अभिलेख-स्मारक' = पुरातात्विक; 'वेद-पुराण-वृत्तांत' = साहित्यिक।",
+  deep:{title:"Stone → Chalcolithic → Vedic sequence",title_hi:"पाषाण → ताम्रपाषाण → वैदिक क्रम",body:"पाषाण काल (पुरापाषाण, मध्यपाषाण, नवपाषाण) में पत्थर के औज़ार बनते थे। ताम्रपाषाण में ताँबा जुड़ा। फिर लोहा और वैदिक युग — जहाँ ऋग्वेद आदि की रचना हुई।",extra:"हड़प्पा सभ्यता काँस्य युगीन नगरीय सभ्यता थी; इसकी लिपि अब तक पढ़ी नहीं जा सकी।"},
+  check:{q:"Which is the oldest Veda?",q_hi:"सबसे प्राचीन वेद कौन-सा है?",o:["Samaveda","Yajurveda","Rigveda","Atharvaveda"],o_hi:["सामवेद","यजुर्वेद","ऋग्वेद","अथर्ववेद"],a:2,exp:"The Rigveda is the oldest Veda.",exp_hi:"ऋग्वेद सबसे प्राचीन वेद है।"}}],
+ questions:[
+ {q:"Which of these is an archaeological source of history?",q_hi:"इनमें से कौन-सा इतिहास का पुरातात्विक स्रोत है?",o:["Inscriptions","Puranas","Vedas","Foreign accounts"],o_hi:["अभिलेख","पुराण","वेद","विदेशी वृत्तांत"],a:0,exp:"Inscriptions (and coins/monuments) are archaeological sources; the others are literary.",exp_hi:"अभिलेख (व सिक्के/स्मारक) पुरातात्विक स्रोत हैं; शेष साहित्यिक हैं।",why:["पुराण साहित्यिक स्रोत है","वेद साहित्यिक स्रोत है","विदेशी वृत्तांत साहित्यिक स्रोत है"],topic:"Sources of history",level:1,mode:"standard"},
+ {q:"Mohenjo-daro, a major Indus Valley site, is located in which present-day country?",q_hi:"सिंधु घाटी का प्रमुख स्थल मोहनजोदड़ो किस वर्तमान देश में है?",o:["India","Pakistan","Bangladesh","Afghanistan"],o_hi:["भारत","पाकिस्तान","बांग्लादेश","अफ़गानिस्तान"],a:1,exp:"Mohenjo-daro is in the Sindh province of Pakistan.",exp_hi:"मोहनजोदड़ो पाकिस्तान के सिंध प्रांत में है।",why:["भारत में हड़प्पा-कालीन स्थल हैं पर मोहनजोदड़ो नहीं","बांग्लादेश में नहीं","अफ़गानिस्तान में नहीं"],topic:"Indus Valley",level:1,mode:"standard"},
+ {q:"The Chalcolithic age is characterised by the use of:",q_hi:"ताम्रपाषाण काल की विशेषता किसका प्रयोग है?",o:["Only stone","Copper and stone","Only iron","Bronze and iron"],o_hi:["केवल पत्थर","ताँबा और पत्थर","केवल लोहा","काँसा और लोहा"],a:1,exp:"'Chalcolithic' means copper (chalco) + stone (lithic).",exp_hi:"'ताम्रपाषाण' = ताँबा (chalco) + पत्थर (lithic)।",why:["केवल पत्थर पाषाण काल है","केवल लोहा लौह युग है","काँसा+लोहा अलग चरण है"],topic:"Early cultures",level:1,mode:"standard"},
+ {q:"The Vedic culture is named after the:",q_hi:"वैदिक संस्कृति का नाम किस पर पड़ा है?",o:["Vedas","Indus river","Vedic kings","Upanishads only"],o_hi:["वेदों","सिंधु नदी","वैदिक राजाओं","केवल उपनिषदों"],a:0,exp:"The Vedic culture is named after the four Vedas, the oldest texts.",exp_hi:"वैदिक संस्कृति का नाम चार वेदों (प्राचीनतम ग्रंथों) पर पड़ा है।",why:["सिंधु नदी से सिंधु सभ्यता का नाम पड़ा","राजाओं से नहीं","उपनिषद वेदों का बाद का भाग हैं"],topic:"Vedic culture",level:1,mode:"standard"}]},
+
+{id:"ss-early",subject:"ss",day:12,level:1,title:"Early States & Mauryan Empire",hi:"प्रारम्भिक राज्य व मौर्य साम्राज्य",
+ concepts:[{title:"6th century BCE & the Mauryas",title_hi:"छठी सदी ई.पू. व मौर्य",
+  intro:"The 6th century BCE saw the rise of Mahajanapadas; the Mauryas built India's first great empire.",
+  points:["छठी सदी ई.पू. में 16 महाजनपद थे","मगध सबसे शक्तिशाली महाजनपद (राजगृह प्रारम्भिक राजधानी)","मौर्य साम्राज्य के संस्थापक: चंद्रगुप्त मौर्य (चाणक्य की सहायता से)","अर्थशास्त्र के लेखक: कौटिल्य (चाणक्य)","अशोक का कलिंग युद्ध (261 ई.पू.) — फिर धम्म का प्रचार"],
+  example:"अशोक के अभिलेख ब्राह्मी लिपि में; सारनाथ का सिंह-स्तंभ भारत का राजचिह्न है।",
+  trick:"'चंद्रगुप्त → बिंदुसार → अशोक' — मौर्य क्रम याद रखें।",
+  deep:{title:"Ashoka's Dhamma",title_hi:"अशोक का धम्म",body:"कलिंग युद्ध के रक्तपात के बाद अशोक ने धम्म (नैतिक आचरण) अपनाया और शिलालेखों के माध्यम से अहिंसा, सहिष्णुता व कल्याण का प्रचार किया।",extra:"अशोक ने तीसरी बौद्ध संगीति पाटलिपुत्र में करवाई; उसके पुत्र महेंद्र व पुत्री संघमित्रा ने श्रीलंका में बौद्ध धर्म फैलाया।"},
+  check:{q:"Who founded the Mauryan Empire?",q_hi:"मौर्य साम्राज्य की स्थापना किसने की?",o:["Ashoka","Bindusara","Chandragupta Maurya","Bimbisara"],o_hi:["अशोक","बिंदुसार","चंद्रगुप्त मौर्य","बिम्बिसार"],a:2,exp:"Chandragupta Maurya founded the empire with Chanakya's help.",exp_hi:"चंद्रगुप्त मौर्य ने चाणक्य की सहायता से साम्राज्य स्थापित किया।"}}],
+ questions:[
+ {q:"How many Mahajanapadas existed in the 6th century BCE?",q_hi:"छठी सदी ई.पू. में कितने महाजनपद थे?",o:["12","14","16","18"],o_hi:["12","14","16","18"],a:2,exp:"There were 16 Mahajanapadas in the 6th century BCE.",exp_hi:"छठी सदी ई.पू. में 16 महाजनपद थे।",why:["12 कम है","14 कम है","18 अधिक है"],topic:"Mahajanapadas",level:1,mode:"standard"},
+ {q:"Which Mahajanapada became the most powerful?",q_hi:"कौन-सा महाजनपद सबसे शक्तिशाली बना?",o:["Kosala","Magadha","Vatsa","Avanti"],o_hi:["कोसल","मगध","वत्स","अवंति"],a:1,exp:"Magadha, with its fertile land and strategic location, became most powerful.",exp_hi:"उपजाऊ भूमि व रणनीतिक स्थिति के कारण मगध सबसे शक्तिशाली बना।",why:["कोसल भी शक्तिशाली था पर मगध से कम","वत्स छोटा राज्य था","अवंति प्रतिद्वंद्वी था पर अंततः मगध जीता"],topic:"Mahajanapadas",level:1,mode:"standard"},
+ {q:"Who wrote the Arthashastra?",q_hi:"अर्थशास्त्र किसने लिखा?",o:["Kalhana","Kautilya (Chanakya)","Megasthenes","Patanjali"],o_hi:["कल्हण","कौटिल्य (चाणक्य)","मेगस्थनीज़","पतंजलि"],a:1,exp:"Kautilya (Chanakya) wrote the Arthashastra, a treatise on statecraft.",exp_hi:"कौटिल्य (चाणक्य) ने राजनीति-शास्त्र पर अर्थशास्त्र लिखा।",why:["कल्हण ने राजतरंगिणी लिखी","मेगस्थनीज़ ने 'इंडिका' लिखी","पतंजलि ने योगसूत्र लिखे"],topic:"Mauryan",level:1,mode:"standard"},
+ {q:"The Kalinga War, after which Ashoka embraced Dhamma, was fought in:",q_hi:"कलिंग युद्ध, जिसके बाद अशोक ने धम्म अपनाया, किस वर्ष लड़ा गया?",o:["321 BCE","273 BCE","261 BCE","232 BCE"],o_hi:["321 ई.पू.","273 ई.पू.","261 ई.पू.","232 ई.पू."],a:2,exp:"The Kalinga War was fought in 261 BCE.",exp_hi:"कलिंग युद्ध 261 ई.पू. में लड़ा गया।",why:["321 ई.पू. मौर्य स्थापना से जुड़ा है","273 ई.पू. अशोक के राज्यारोहण से जुड़ा है","232 ई.पू. अशोक की मृत्यु से जुड़ा है"],topic:"Mauryan",level:2,mode:"standard"}]},
+
+{id:"ss-post",subject:"ss",day:13,level:2,title:"Post-Mauryan, Gupta & South India",hi:"मौर्योत्तर, गुप्त व दक्षिण भारत",
+ concepts:[{title:"Golden age & regional kingdoms",title_hi:"स्वर्ण युग व क्षेत्रीय राज्य",
+  intro:"After the Mauryas came the Gupta 'Golden Age', the Pushyabhuti dynasty, and powerful South Indian kingdoms.",
+  points:["गुप्त काल को भारत का 'स्वर्ण युग' कहते हैं","चंद्रगुप्त द्वितीय (विक्रमादित्य) गुप्त सम्राट","पुष्यभूति वंश: हर्षवर्धन (राजधानी कन्नौज); ह्वेनसांग उसके दरबार में आया","चोलों की राजधानी: तंजावुर (थंजावुर); राजराज प्रथम ने बृहदेश्वर मंदिर बनवाया","आर्यभट्ट गुप्त काल के महान खगोलशास्त्री-गणितज्ञ"],
+  example:"लौह स्तंभ (दिल्ली) गुप्त काल की धातु-कला का उत्कृष्ट नमूना है।",
+  trick:"'गुप्त = गोल्डन' और 'हर्ष = ह्वेनसांग' — दो जोड़ याद रखें।",
+  deep:{title:"Cholas, Pallavas & Chalukyas",title_hi:"चोल, पल्लव व चालुक्य",body:"दक्षिण में पल्लव (कांचीपुरम), चालुक्य (बादामी) और चोल (तंजावुर) प्रमुख राज्य थे। चोलों ने समुद्री व्यापार और भव्य मंदिर-निर्माण से ख्याति पाई।",extra:"चोल राजा राजेंद्र प्रथम ने उत्तर भारत व दक्षिण-पूर्व एशिया तक अभियान किए।"},
+  check:{q:"Which period is called the 'Golden Age' of India?",q_hi:"भारत का 'स्वर्ण युग' किस काल को कहा जाता है?",o:["Mauryan","Gupta","Mughal","Rajput"],o_hi:["मौर्य","गुप्त","मुगल","राजपूत"],a:1,exp:"The Gupta period is called the Golden Age for its art, science and literature.",exp_hi:"कला, विज्ञान व साहित्य के कारण गुप्त काल को स्वर्ण युग कहते हैं।"}}],
+ questions:[
+ {q:"Harshavardhana belonged to which dynasty?",q_hi:"हर्षवर्धन किस वंश से थे?",o:["Gupta","Pushyabhuti","Chalukya","Pala"],o_hi:["गुप्त","पुष्यभूति","चालुक्य","पाल"],a:1,exp:"Harshavardhana belonged to the Pushyabhuti dynasty.",exp_hi:"हर्षवर्धन पुष्यभूति वंश के थे।",why:["गुप्त अलग वंश है","चालुक्य दक्षिण का वंश है","पाल बंगाल का वंश है"],topic:"Pushyabhuti",level:1,mode:"standard"},
+ {q:"Which Chinese traveller visited Harsha's court?",q_hi:"कौन-सा चीनी यात्री हर्ष के दरबार में आया?",o:["Fa-Hien","Hiuen Tsang","Ibn Battuta","Megasthenes"],o_hi:["फ़ाहियान","ह्वेनसांग","इब्न बतूता","मेगस्थनीज़"],a:1,exp:"Hiuen Tsang visited Harsha's court in the 7th century CE.",exp_hi:"ह्वेनसांग सातवीं सदी में हर्ष के दरबार में आया।",why:["फ़ाहियान गुप्त काल में आया","इब्न बतूता तुगलक काल में आया","मेगस्थनीज़ मौर्य काल में आया"],topic:"Travellers",level:1,mode:"standard"},
+ {q:"The capital of the Chola kingdom was:",q_hi:"चोल राज्य की राजधानी थी:",o:["Madurai","Thanjavur","Kanchipuram","Badami"],o_hi:["मदुरै","तंजावुर","कांचीपुरम","बादामी"],a:1,exp:"Thanjavur (Tanjore) was the Chola capital.",exp_hi:"तंजावुर चोलों की राजधानी थी।",why:["मदुरै पांड्यों की राजधानी थी","कांचीपुरम पल्लवों की राजधानी थी","बादामी चालुक्यों की राजधानी थी"],topic:"South India",level:1,mode:"standard"},
+ {q:"The great mathematician-astronomer Aryabhata belonged to which period?",q_hi:"महान गणितज्ञ-खगोलशास्त्री आर्यभट्ट किस काल के थे?",o:["Mauryan","Gupta","Sultanate","Rajput"],o_hi:["मौर्य","गुप्त","सल्तनत","राजपूत"],a:1,exp:"Aryabhata lived during the Gupta period and wrote the Aryabhatiya.",exp_hi:"आर्यभट्ट गुप्त काल में हुए और उन्होंने आर्यभटीय लिखा।",why:["मौर्य काल उनसे बहुत पहले है","सल्तनत काल बहुत बाद का है","राजपूत काल बाद का है"],topic:"Gupta",level:1,mode:"standard"}]},
+
+{id:"ss-sultan",subject:"ss",day:14,level:2,title:"Islam Arrival & Delhi Sultanate",hi:"इस्लाम का आगमन व दिल्ली सल्तनत",
+ concepts:[{title:"Delhi Sultanate — rise, expansion, decline",title_hi:"दिल्ली सल्तनत — उत्थान, विस्तार, पतन",
+  intro:"Islam's arrival in India and the five dynasties of the Delhi Sultanate.",
+  points:["दिल्ली सल्तनत की स्थापना: कुतुबुद्दीन ऐबक (गुलाम वंश, 1206)","रज़िया सुल्तान: दिल्ली की पहली महिला शासक","तुगलक वंश: मुहम्मद बिन तुगलक (राजधानी परिवर्तन के लिए प्रसिद्ध)","इब्न बतूता (मोरक्को) तुगलक काल में भारत आया","1398 में तैमूर का आक्रमण → सल्तनत का पतन"],
+  example:"कुतुब मीनार कुतुबुद्दीन ऐबक द्वारा शुरू कराई गई।",
+  trick:"दिल्ली सल्तनत के 5 वंश: गुलाम, खिलजी, तुगलक, सैयद, लोदी — 'गु-ख-तु-सै-लो'।",
+  deep:{title:"Five dynasties in order",title_hi:"पाँच वंश क्रम से",body:"क्रम याद रखें: गुलाम/ममलूक (1206–1290), खिलजी (1290–1320), तुगलक (1320–1414), सैयद (1414–1451), लोदी (1451–1526)। लोदी के पतन के साथ ही बाबर ने 1526 में मुगल साम्राज्य की नींव रखी।",extra:"अलाउद्दीन खिलजी ने बाज़ार-नियंत्रण व मूल्य-नियंत्रण प्रणाली लागू की।"},
+  check:{q:"Who founded the Delhi Sultanate?",q_hi:"दिल्ली सल्तनत की स्थापना किसने की?",o:["Iltutmish","Qutb-ud-din Aibak","Balban","Alauddin Khilji"],o_hi:["इल्तुतमिश","कुतुबुद्दीन ऐबक","बलबन","अलाउद्दीन खिलजी"],a:1,exp:"Qutb-ud-din Aibak founded the Delhi Sultanate in 1206.",exp_hi:"कुतुबुद्दीन ऐबक ने 1206 में दिल्ली सल्तनत की स्थापना की।"}}],
+ questions:[
+ {q:"Who was the first woman ruler of the Delhi Sultanate?",q_hi:"दिल्ली सल्तनत की पहली महिला शासक कौन थी?",o:["Chand Bibi","Razia Sultan","Nur Jahan","Mumtaz Mahal"],o_hi:["चाँद बीबी","रज़िया सुल्तान","नूरजहाँ","मुमताज़ महल"],a:1,exp:"Razia Sultan (daughter of Iltutmish) was the first woman ruler of Delhi.",exp_hi:"रज़िया सुल्तान (इल्तुतमिश की पुत्री) दिल्ली की पहली महिला शासक थीं।",why:["चाँद बीबी अहमदनगर से जुड़ी हैं","नूरजहाँ मुगल साम्राज्ञी थीं","मुमताज़ महल शाहजहाँ की बेगम थीं"],topic:"Sultanate",level:1,mode:"standard"},
+ {q:"Which dynasty did Muhammad bin Tughlaq belong to?",q_hi:"मुहम्मद बिन तुगलक किस वंश से थे?",o:["Slave","Khilji","Tughlaq","Lodi"],o_hi:["गुलाम","खिलजी","तुगलक","लोदी"],a:2,exp:"Muhammad bin Tughlaq belonged to the Tughlaq dynasty.",exp_hi:"मुहम्मद बिन तुगलक तुगलक वंश के थे।",why:["गुलाम वंश 1206 से है","खिलजी वंश 1290 से है","लोदी वंश 1451 से है"],topic:"Sultanate",level:1,mode:"standard"},
+ {q:"Which traveller visited India during the reign of Muhammad bin Tughlaq?",q_hi:"मुहम्मद बिन तुगलक के शासनकाल में कौन-सा यात्री भारत आया?",o:["Hiuen Tsang","Fa-Hien","Ibn Battuta","Marco Polo"],o_hi:["ह्वेनसांग","फ़ाहियान","इब्न बतूता","मार्को पोलो"],a:2,exp:"Ibn Battuta, the Moroccan traveller, visited during Tughlaq's reign.",exp_hi:"मोरक्को का यात्री इब्न बतूता तुगलक काल में भारत आया।",why:["ह्वेनसांग हर्ष काल में आया","फ़ाहियान गुप्त काल में आया","मार्को पोलो भारत नहीं आया"],topic:"Travellers",level:1,mode:"standard"},
+ {q:"The invasion of Timur in 1398 led to the decline of which empire?",q_hi:"1398 में तैमूर का आक्रमण किस साम्राज्य के पतन का कारण बना?",o:["Mughal","Delhi Sultanate","Vijayanagara","Maratha"],o_hi:["मुगल","दिल्ली सल्तनत","विजयनगर","मराठा"],a:1,exp:"Timur's invasion (1398) weakened the Delhi Sultanate severely.",exp_hi:"तैमूर के आक्रमण (1398) ने दिल्ली सल्तनत को गंभीर रूप से कमज़ोर किया।",why:["मुगल साम्राज्य 1526 में बना","विजयनगर दक्षिण का साम्राज्य था","मराठा साम्राज्य बाद का है"],topic:"Sultanate decline",level:2,mode:"standard"}]},
+
+{id:"ss-mughal",subject:"ss",day:15,level:2,title:"Mughal Empire: Culture & Decline",hi:"मुगल साम्राज्य: संस्कृति व पतन",
+ concepts:[{title:"The Mughals — from Babur to decline",title_hi:"मुगल — बाबर से पतन तक",
+  intro:"The Mughal Empire's rise, its rich culture, administration and eventual decline.",
+  points:["संस्थापक: बाबर — पानीपत का प्रथम युद्ध (1526)","अकबर की राजस्व व्यवस्था: टोडरमल; दीन-ए-इलाही; फतेहपुर सीकरी","ताजमहल: शाहजहाँ द्वारा मुमताज़ महल की याद में","औरंगज़ेब के बाद साम्राज्य का पतन शुरू","मुगल प्रशासन: मनसबदारी व्यवस्था"],
+  example:"अकबर की राजधानी आगरा से फतेहपुर सीकरी, फिर लाहौर हुई।",
+  trick:"'बाबर-हुमायूँ-अकबर-जहाँगीर-शाहजहाँ-औरंगज़ेब' — बड़े मुगल सम्राटों का क्रम।",
+  deep:{title:"Mansabdari & land revenue",title_hi:"मनसबदारी व भू-राजस्व",body:"अकबर ने मनसबदारी प्रणाली (रैंक आधारित प्रशासन) और टोडरमल के नेतृत्व में ज़ब्ती/दहसाला भू-राजस्व व्यवस्था लागू की।",extra:"ताजमहल (आगरा), लाल किला और जामा मस्जिद शाहजहाँ काल की प्रमुख इमारतें हैं।"},
+  check:{q:"Who founded the Mughal Empire?",q_hi:"मुगल साम्राज्य की स्थापना किसने की?",o:["Humayun","Babur","Akbar","Aurangzeb"],o_hi:["हुमायूँ","बाबर","अकबर","औरंगज़ेब"],a:1,exp:"Babur founded the Mughal Empire after the First Battle of Panipat (1526).",exp_hi:"बाबर ने पानीपत के प्रथम युद्ध (1526) के बाद मुगल साम्राज्य की स्थापना की।"}}],
+ questions:[
+ {q:"The First Battle of Panipat (1526) was fought between Babur and:",q_hi:"पानीपत का प्रथम युद्ध (1526) बाबर और किसके बीच हुआ?",o:["Rana Sanga","Ibrahim Lodi","Hemu","Sher Shah"],o_hi:["राणा सांगा","इब्राहिम लोदी","हेमू","शेरशाह"],a:1,exp:"Babur defeated Ibrahim Lodi at the First Battle of Panipat in 1526.",exp_hi:"बाबर ने 1526 में पानीपत के प्रथम युद्ध में इब्राहिम लोदी को हराया।",why:["राणा सांगा से बाबर का युद्ध बाद में हुआ","हेमू से अकबर का युद्ध हुआ","शेरशाह ने हुमायूँ को हराया"],topic:"Mughal",level:1,mode:"standard"},
+ {q:"Who was Akbar's revenue minister, known for the land-revenue system?",q_hi:"अकबर का राजस्व मंत्री, जो भू-राजस्व व्यवस्था के लिए प्रसिद्ध है, कौन था?",o:["Birbal","Todar Mal","Tansen","Abul Fazl"],o_hi:["बीरबल","टोडरमल","तानसेन","अबुल फ़ज़ल"],a:1,exp:"Raja Todar Mal designed Akbar's land-revenue system (Zabti/Dahsala).",exp_hi:"राजा टोडरमल ने अकबर की भू-राजस्व व्यवस्था (ज़ब्ती/दहसाला) बनाई।",why:["बीरबल नवरत्नों में थे","तानसेन संगीतकार थे","अबुल फ़ज़ल ने अकबरनामा लिखा"],topic:"Mughal administration",level:1,mode:"standard"},
+ {q:"The Taj Mahal was built by Shah Jahan in memory of:",q_hi:"ताजमहल शाहजहाँ ने किसकी याद में बनवाया?",o:["Jahanara","Mumtaz Mahal","Nur Jahan","Roshanara"],o_hi:["जहाँआरा","मुमताज़ महल","नूरजहाँ","रोशनारा"],a:1,exp:"The Taj Mahal is the mausoleum of Mumtaz Mahal.",exp_hi:"ताजमहल मुमताज़ महल का मकबरा है।",why:["जहाँआरा शाहजहाँ की पुत्री थीं","नूरजहाँ जहाँगीर की बेगम थीं","रोशनारा औरंगज़ेब की बहन थीं"],topic:"Mughal culture",level:1,mode:"standard"},
+ {q:"After which Mughal emperor did the empire's decline begin?",q_hi:"किस मुगल सम्राट के बाद साम्राज्य का पतन शुरू हुआ?",o:["Akbar","Shah Jahan","Aurangzeb","Jahangir"],o_hi:["अकबर","शाहजहाँ","औरंगज़ेब","जहाँगीर"],a:2,exp:"Aurangzeb's long wars and policies led to the empire's decline after his death (1707).",exp_hi:"औरंगज़ेब के लंबे युद्धों व नीतियों के कारण उसकी मृत्यु (1707) के बाद साम्राज्य का पतन हुआ।",why:["अकबर के काल में साम्राज्य सुदृढ़ था","शाहजहाँ के बाद औरंगज़ेब आया","जहाँगीर प्रारम्भिक सम्राट थे"],topic:"Mughal decline",level:1,mode:"standard"}]},
+
+{id:"ss-british",subject:"ss",day:16,level:2,title:"European Powers & British Rule",hi:"यूरोपीय शक्तियाँ व अंग्रेज़ी राज्य",
+ concepts:[{title:"European arrival & company expansion",title_hi:"यूरोपीय आगमन व कम्पनी विस्तार",
+  intro:"How European powers arrived and the British East India Company established its rule.",
+  points:["वास्को-डि-गामा: 1498 में कालीकट पहुँचे (समुद्री मार्ग से पहला यूरोपीय)","प्लासी का युद्ध (1757): क्लाइव ने सिराजुद्दौला को हराया","बक्सर का युद्ध (1764): ईस्ट इंडिया कम्पनी की जीत","सहायक संधि (Subsidiary Alliance): लॉर्ड वेलेज़ली","भारत में आने का क्रम: पुर्तगाली → डच → अंग्रेज़ → फ़्रांसीसी"],
+  example:"प्लासी के युद्ध के बाद कम्पनी को बंगाल पर प्रभावी नियंत्रण मिला।",
+  trick:"'प्लासी 1757, बक्सर 1764' — दो तिथियाँ रट लें; दोनों क्लाइव से जुड़ी हैं।",
+  deep:{title:"Subsidiary Alliance & Doctrine of Lapse",title_hi:"सहायक संधि व व्यपगत सिद्धांत",body:"वेलेज़ली की सहायक संधि में राज्य को ब्रिटिश सेना रखनी पड़ती थी और बदले में संरक्षण मिलता था। बाद में डलहौज़ी का 'व्यपगत सिद्धांत' (Doctrine of Lapse) — गोद लिए उत्तराधिकारी को राज्य न देकर राज्य हड़पना।",extra:"इसी व्यपगत सिद्धांत के कारण झाँसी, सतारा जैसे राज्य हड़पे गए।"},
+  check:{q:"Who reached Calicut by sea in 1498?",q_hi:"1498 में समुद्री मार्ग से कालीकट कौन पहुँचा?",o:["Columbus","Vasco da Gama","Magellan","Captain Cook"],o_hi:["कोलंबस","वास्को-डि-गामा","मैगलन","कैप्टन कुक"],a:1,exp:"Vasco da Gama reached Calicut in 1498.",exp_hi:"वास्को-डि-गामा 1498 में कालीकट पहुँचे।"}}],
+ questions:[
+ {q:"The Battle of Plassey (1757) was fought between:",q_hi:"प्लासी का युद्ध (1757) किसके बीच हुआ?",o:["Clive and Siraj-ud-Daulah","Clive and Tipu Sultan","Wellesley and Marathas","Cornwallis and Mysore"],o_hi:["क्लाइव और सिराजुद्दौला","क्लाइव और टीपू सुल्तान","वेलेज़ली और मराठे","कॉर्नवालिस और मैसूर"],a:0,exp:"Robert Clive defeated Siraj-ud-Daulah at Plassey in 1757.",exp_hi:"रॉबर्ट क्लाइव ने 1757 में प्लासी में सिराजुद्दौला को हराया।",why:["टीपू सुल्तान मैसूर का शासक था","वेलेज़ली सहायक संधि से जुड़े हैं","कॉर्नवालिस स्थायी बंदोबस्त से जुड़े हैं"],topic:"British rule",level:1,mode:"standard"},
+ {q:"The Subsidiary Alliance was introduced by:",q_hi:"सहायक संधि किसने लागू की?",o:["Lord Dalhousie","Lord Wellesley","Lord Cornwallis","Warren Hastings"],o_hi:["लॉर्ड डलहौज़ी","लॉर्ड वेलेज़ली","लॉर्ड कॉर्नवालिस","वॉरेन हेस्टिंग्स"],a:1,exp:"Lord Wellesley introduced the Subsidiary Alliance system.",exp_hi:"लॉर्ड वेलेज़ली ने सहायक संधि प्रणाली लागू की।",why:["डलहौज़ी व्यपगत सिद्धांत से जुड़े हैं","कॉर्नवालिस स्थायी बंदोबस्त से जुड़े हैं","हेस्टिंग्स प्रथम गवर्नर-जनरल थे"],topic:"British policy",level:1,mode:"standard"},
+ {q:"The Battle of Buxar was fought in which year?",q_hi:"बक्सर का युद्ध किस वर्ष लड़ा गया?",o:["1757","1760","1764","1772"],o_hi:["1757","1760","1764","1772"],a:2,exp:"The Battle of Buxar was fought in 1764.",exp_hi:"बक्सर का युद्ध 1764 में लड़ा गया।",why:["1757 प्लासी का वर्ष है","1760 गलत है","1772 गलत है"],topic:"British rule",level:1,mode:"standard"},
+ {q:"Which European power was the FIRST to arrive in India?",q_hi:"भारत में सबसे पहले कौन-सी यूरोपीय शक्ति आई?",o:["British","French","Portuguese","Dutch"],o_hi:["अंग्रेज़","फ़्रांसीसी","पुर्तगाली","डच"],a:2,exp:"The Portuguese (Vasco da Gama, 1498) were the first to arrive.",exp_hi:"पुर्तगाली (वास्को-डि-गामा, 1498) सबसे पहले आए।",why:["अंग्रेज़ बाद में आए","फ़्रांसीसी बाद में आए","डच पुर्तगालियों के बाद आए"],topic:"European arrival",level:1,mode:"standard"}]},
+
+{id:"ss-freedom",subject:"ss",day:17,level:2,title:"Nationalism & Freedom Movement",hi:"राष्ट्रवाद व स्वाधीनता आन्दोलन",
+ concepts:[{title:"From renaissance to independence",title_hi:"नवजागरण से स्वतंत्रता तक",
+  intro:"India's renaissance, the rise of nationalism, the freedom struggle, independence and partition.",
+  points:["1857 का विद्रोह: प्रथम स्वतंत्रता संग्राम","INC की स्थापना: 1885","बंगाल विभाजन: 1905 (लॉर्ड कर्ज़न) → स्वदेशी आन्दोलन","जलियाँवाला बाग 1919, दांडी मार्च 1930, भारत छोड़ो 1942","माउंटबेटन योजना 1947 → स्वतंत्रता व विभाजन"],
+  example:"15 अगस्त 1947 को भारत स्वतंत्र हुआ और पाकिस्तान का निर्माण हुआ।",
+  trick:"1857 → 1885 → 1905 → 1919 → 1930 → 1942 → 1947 — कालक्रम याद रखें।",
+  deep:{title:"Partition & Mountbatten Plan",title_hi:"विभाजन व माउंटबेटन योजना",body:"3 जून 1947 की माउंटबेटन योजना के तहत भारत का विभाजन हुआ और 14-15 अगस्त 1947 को दो स्वतंत्र राष्ट्र (भारत व पाकिस्तान) बने।",extra:"भारत के प्रथम गवर्नर-जनरल लॉर्ड माउंटबेटन; अंतिम वायसराय भी वही थे।"},
+  check:{q:"The partition of Bengal took place in which year?",q_hi:"बंगाल का विभाजन किस वर्ष हुआ?",o:["1905","1911","1919","1947"],o_hi:["1905","1911","1919","1947"],a:0,exp:"Bengal was partitioned in 1905 by Lord Curzon.",exp_hi:"बंगाल का विभाजन 1905 में लॉर्ड कर्ज़न ने किया।"}}],
+ questions:[
+ {q:"The revolt of 1857 is also known as:",q_hi:"1857 का विद्रोह किस नाम से भी जाना जाता है?",o:["First War of Independence","Quit India","Civil Disobedience","Non-Cooperation"],o_hi:["प्रथम स्वतंत्रता संग्राम","भारत छोड़ो","सविनय अवज्ञा","असहयोग"],a:0,exp:"The 1857 revolt is called the First War of Independence.",exp_hi:"1857 के विद्रोह को प्रथम स्वतंत्रता संग्राम कहते हैं।",why:["भारत छोड़ो 1942 का है","सविनय अवज्ञा 1930 का है","असहयोग 1920 का है"],topic:"Freedom movement",level:1,mode:"standard"},
+ {q:"Who announced the partition of India (Mountbatten Plan)?",q_hi:"भारत के विभाजन (माउंटबेटन योजना) की घोषणा किसने की?",o:["Lord Curzon","Lord Mountbatten","Lord Dalhousie","Lord Wellesley"],o_hi:["लॉर्ड कर्ज़न","लॉर्ड माउंटबेटन","लॉर्ड डलहौज़ी","लॉर्ड वेलेज़ली"],a:1,exp:"Lord Mountbatten, the last Viceroy, announced the partition plan in 1947.",exp_hi:"अंतिम वायसराय लॉर्ड माउंटबेटन ने 1947 में विभाजन योजना की घोषणा की।",why:["कर्ज़न बंगाल विभाजन से जुड़े हैं","डलहौज़ी व्यपगत सिद्धांत से जुड़े हैं","वेलेज़ली सहायक संधि से जुड़े हैं"],topic:"Independence",level:1,mode:"standard"},
+ {q:"The Swadeshi Movement was a direct response to:",q_hi:"स्वदेशी आन्दोलन किसकी सीधी प्रतिक्रिया था?",o:["Jallianwala Bagh","Partition of Bengal (1905)","Simon Commission","Rowlatt Act"],o_hi:["जलियाँवाला बाग","बंगाल विभाजन (1905)","साइमन कमीशन","रॉलेट एक्ट"],a:1,exp:"The Swadeshi Movement began in response to the 1905 partition of Bengal.",exp_hi:"स्वदेशी आन्दोलन 1905 के बंगाल विभाजन की प्रतिक्रिया में शुरू हुआ।",why:["जलियाँवाला बाग 1919 का है","साइमन कमीशन 1928 का है","रॉलेट एक्ट 1919 का है"],topic:"Freedom movement",level:1,mode:"standard"},
+ {q:"India became independent on:",q_hi:"भारत स्वतंत्र कब हुआ?",o:["26 January 1950","15 August 1947","2 October 1947","26 November 1949"],o_hi:["26 जनवरी 1950","15 अगस्त 1947","2 अक्टूबर 1947","26 नवंबर 1949"],a:1,exp:"India became independent on 15 August 1947.",exp_hi:"भारत 15 अगस्त 1947 को स्वतंत्र हुआ।",why:["26 जनवरी 1950 गणतंत्र दिवस है","2 अक्टूबर गांधी जयंती है","26 नवंबर 1949 संविधान अंगीकरण दिवस है"],topic:"Independence",level:1,mode:"standard"}]},
+
+{id:"ss-india",subject:"ss",day:18,level:1,title:"Independent India & Society",hi:"स्वतंत्र भारत व समाज",
+ concepts:[{title:"Challenges, society & local governance",title_hi:"चुनौतियाँ, समाज व स्थानीय स्वशासन",
+  intro:"The challenges faced by independent India and the structure of Indian society and local self-government.",
+  points:["प्रथम प्रधानमंत्री: जवाहरलाल नेहरू; प्रथम राष्ट्रपति: डॉ. राजेंद्र प्रसाद","राज्य पुनर्गठन (1956): भाषा के आधार पर","स्थानीय स्वशासन: ग्रामीण (पंचायत) व नगरीय (नगर पालिका/निगम)","जिला प्रशासन का प्रमुख: जिलाधिकारी/कलेक्टर (DM)","73वाँ संशोधन (1992): त्रि-स्तरीय पंचायती राज"],
+  example:"पंचायती राज के तीन स्तर: ग्राम पंचायत, पंचायत समिति, ज़िला परिषद।",
+  trick:"'ग्राम → ब्लॉक → ज़िला' — पंचायती राज की सीढ़ी नीचे से ऊपर याद रखें।",
+  deep:{title:"Rural vs urban local bodies",title_hi:"ग्रामीण बनाम नगरीय निकाय",body:"ग्रामीण: ग्राम पंचायत → पंचायत समिति → ज़िला परिषद। नगरीय: नगर पंचायत → नगर पालिका → नगर निगम (महानगरों में)।",extra:"ज़िले का प्रशासनिक प्रमुख जिलाधिकारी (Collector/DM) होता है, जो राजस्व व कानून-व्यवस्था दोनों देखता है।"},
+  check:{q:"Who was the first Prime Minister of independent India?",q_hi:"स्वतंत्र भारत के प्रथम प्रधानमंत्री कौन थे?",o:["Sardar Patel","Jawaharlal Nehru","Rajendra Prasad","Lal Bahadur Shastri"],o_hi:["सरदार पटेल","जवाहरलाल नेहरू","राजेंद्र प्रसाद","लाल बहादुर शास्त्री"],a:1,exp:"Jawaharlal Nehru was India's first Prime Minister.",exp_hi:"जवाहरलाल नेहरू भारत के प्रथम प्रधानमंत्री थे।"}}],
+ questions:[
+ {q:"The States Reorganisation Act (1956) reorganized states mainly on the basis of:",q_hi:"राज्य पुनर्गठन अधिनियम (1956) ने राज्यों का पुनर्गठन मुख्यतः किस आधार पर किया?",o:["Religion","Language","Geography","Population"],o_hi:["धर्म","भाषा","भूगोल","जनसंख्या"],a:1,exp:"States were reorganized mainly on linguistic lines in 1956.",exp_hi:"1956 में राज्यों का पुनर्गठन मुख्यतः भाषा के आधार पर हुआ।",why:["धर्म आधार नहीं था","भूगोल मुख्य आधार नहीं था","जनसंख्या मुख्य आधार नहीं थी"],topic:"Reorganisation",level:1,mode:"standard"},
+ {q:"The head of district administration is the:",q_hi:"जिला प्रशासन का प्रमुख कौन होता है?",o:["District Magistrate/Collector","SP","Sarpanch","Tehsildar"],o_hi:["जिलाधिकारी/कलेक्टर","पुलिस अधीक्षक (SP)","सरपंच","तहसीलदार"],a:0,exp:"The District Magistrate/Collector heads district administration.",exp_hi:"जिलाधिकारी/कलेक्टर जिला प्रशासन का प्रमुख होता है।",why:["SP पुलिस का प्रमुख है","सरपंच ग्राम पंचायत का प्रमुख है","तहसीलदार तहसील स्तर का अधिकारी है"],topic:"Administration",level:1,mode:"standard"},
+ {q:"The three tiers of Panchayati Raj are:",q_hi:"पंचायती राज के तीन स्तर हैं:",o:["Gram Panchayat, Panchayat Samiti, Zila Parishad","Gram Sabha, Lok Sabha, Rajya Sabha","Village, Block, State","Panchayat, Municipality, Corporation"],o_hi:["ग्राम पंचायत, पंचायत समिति, ज़िला परिषद","ग्राम सभा, लोकसभा, राज्यसभा","गाँव, ब्लॉक, राज्य","पंचायत, नगर पालिका, निगम"],a:0,exp:"The three tiers are Gram Panchayat, Panchayat Samiti and Zila Parishad.",exp_hi:"तीन स्तर हैं ग्राम पंचायत, पंचायत समिति और ज़िला परिषद।",why:["ग्राम सभा/लोकसभा/राज्यसभा अलग निकाय हैं","गाँव/ब्लॉक/राज्य सही क्रम नहीं","पंचायत/पालिका/निगम ग्रामीण+नगरीय मिश्रण है"],topic:"Panchayati Raj",level:1,mode:"standard"},
+ {q:"Which amendment gave constitutional status to Panchayati Raj?",q_hi:"पंचायती राज को संवैधानिक दर्जा किस संशोधन ने दिया?",o:["42nd","73rd","74th","86th"],o_hi:["42वाँ","73वाँ","74वाँ","86वाँ"],a:1,exp:"The 73rd Amendment (1992) gave constitutional status to Panchayati Raj.",exp_hi:"73वें संशोधन (1992) ने पंचायती राज को संवैधानिक दर्जा दिया।",why:["42वाँ आपातकाल से जुड़ा है","74वाँ नगरपालिकाओं से जुड़ा है","86वाँ शिक्षा के अधिकार से जुड़ा है"],topic:"Panchayati Raj",level:1,mode:"standard"}]},
+{id:"ss-constitution",subject:"ss",day:19,level:1,title:"Constitution & Governance",hi:"संविधान व शासन व्यवस्था",
+ concepts:[{title:"Our Constitution & democracy",title_hi:"हमारा संविधान व लोकतंत्र",
+  intro:"The structure of India's Constitution, central and state governance, and democracy.",
+  points:["संविधान अंगीकरण: 26 नवंबर 1949; लागू: 26 जनवरी 1950","प्रस्तावना (Preamble) की शुरुआत: 'हम, भारत के लोग…'","संघ की विधायिका: संसद (लोकसभा + राज्यसभा)","राज्य का कार्यकारी प्रमुख: राज्यपाल (वास्तविक: मुख्यमंत्री)","गणतंत्र दिवस: 26 जनवरी"],
+  example:"भारत एक संप्रभु, समाजवादी, धर्मनिरपेक्ष, लोकतांत्रिक गणराज्य है।",
+  trick:"'26 नवंबर = बनाया, 26 जनवरी = लागू' — संविधान की दो तिथियाँ अलग-अलग याद रखें।",
+  deep:{title:"Fundamental structure of government",title_hi:"शासन की मूल संरचना",body:"भारत में संसदीय प्रणाली है: कार्यपालिका (राष्ट्रपति+मंत्रिपरिषद), विधायिका (संसद/विधानसभा), न्यायपालिका (सर्वोच्च न्यायालय)। केन्द्र-राज्य के बीच शक्ति का विभाजन तीन सूचियों (संघ, राज्य, समवर्ती) से होता है।",extra:"लोकसभा की अधिकतम सदस्य संख्या 552 (वर्तमान में 543 निर्वाचित); राज्यसभा की 250।"},
+  check:{q:"When did the Constitution of India come into force?",q_hi:"भारत का संविधान कब लागू हुआ?",o:["15 August 1947","26 November 1949","26 January 1950","2 October 1950"],o_hi:["15 अगस्त 1947","26 नवंबर 1949","26 जनवरी 1950","2 अक्टूबर 1950"],a:2,exp:"The Constitution came into force on 26 January 1950.",exp_hi:"संविधान 26 जनवरी 1950 को लागू हुआ।"}}],
+ questions:[
+ {q:"The Preamble of the Indian Constitution begins with:",q_hi:"भारतीय संविधान की प्रस्तावना किससे शुरू होती है?",o:["We, the people of India","In the name of God","By the order of the King","We, the citizens of Bharat"],o_hi:["हम, भारत के लोग","ईश्वर के नाम पर","राजा के आदेश से","हम, भारत के नागरिक"],a:0,exp:"The Preamble begins with 'We, the people of India…'.",exp_hi:"प्रस्तावना 'हम, भारत के लोग…' से शुरू होती है।",why:["ईश्वर के नाम से नहीं","राजा का कोई उल्लेख नहीं","'नागरिक' नहीं, 'लोग' शब्द है"],topic:"Constitution",level:1,mode:"standard"},
+ {q:"The Parliament of India consists of:",q_hi:"भारत की संसद में शामिल हैं:",o:["Lok Sabha and Rajya Sabha","Lok Sabha only","Rajya Sabha only","Lok Sabha, Rajya Sabha and President"],o_hi:["लोकसभा और राज्यसभा","केवल लोकसभा","केवल राज्यसभा","लोकसभा, राज्यसभा और राष्ट्रपति"],a:3,exp:"Parliament consists of the President, Lok Sabha and Rajya Sabha.",exp_hi:"संसद में राष्ट्रपति, लोकसभा और राज्यसभा शामिल हैं।",why:["केवल दो सदन अधूरा उत्तर है","केवल लोकसभा गलत है","केवल राज्यसभा गलत है"],topic:"Parliament",level:2,mode:"standard"},
+ {q:"Who is the constitutional head of a state?",q_hi:"राज्य का संवैधानिक प्रमुख कौन है?",o:["Chief Minister","Governor","President","Chief Justice"],o_hi:["मुख्यमंत्री","राज्यपाल","राष्ट्रपति","मुख्य न्यायाधीश"],a:1,exp:"The Governor is the constitutional head of a state.",exp_hi:"राज्यपाल राज्य का संवैधानिक प्रमुख होता है।",why:["मुख्यमंत्री कार्यकारी प्रमुख है","राष्ट्रपति संघ का प्रमुख है","मुख्य न्यायाधीश न्यायपालिका का है"],topic:"Governance",level:1,mode:"standard"},
+ {q:"India is a republic because:",q_hi:"भारत एक गणराज्य है क्योंकि:",o:["It has a monarch","The head of state is elected","It has a parliament","It is a democracy"],o_hi:["वहाँ राजा है","राज्य का प्रमुख निर्वाचित है","संसद है","लोकतंत्र है"],a:1,exp:"In a republic, the head of state (President) is elected, not hereditary.",exp_hi:"गणराज्य में राज्य का प्रमुख (राष्ट्रपति) निर्वाचित होता है, वंशानुगत नहीं।",why:["भारत में राजा नहीं है","संसद होना गणराज्य की परिभाषा नहीं","लोकतंत्र अलग अवधारणा है"],topic:"Democracy",level:2,mode:"standard"}]},
+
+{id:"ss-security",subject:"ss",day:20,level:1,title:"National Security & Civic Safety",hi:"राष्ट्रीय सुरक्षा व नागरिक सुरक्षा",
+ concepts:[{title:"Security, foreign policy & safety",title_hi:"सुरक्षा, विदेश नीति व सुरक्षा",
+  intro:"India's national security, foreign policy, global role, and civic safety measures.",
+  points:["सशस्त्र बलों के सर्वोच्च कमांडर: राष्ट्रपति","भारत की विदेश नीति का मूल: गुटनिरपेक्षता (Non-alignment) व पंचशील","संयुक्त राष्ट्र (UN) का मुख्यालय: न्यूयॉर्क","नागरिक सुरक्षा: आपदा के समय नागरिकों की सुरक्षा की व्यवस्था","यातायात सुरक्षा: हेलमेट, सीट-बेल्ट, गति-सीमा व ट्रैफ़िक नियम"],
+  example:"पंचशील के पाँच सिद्धांत (1954) भारत-चीन समझौते से जुड़े हैं।",
+  trick:"'राष्ट्रपति = सर्वोच्च कमांडर' — संवैधानिक प्रमुख ही सेना प्रमुख भी।",
+  deep:{title:"Civil defence & disability rights",title_hi:"नागरिक सुरक्षा व दिव्यांग अधिकार",body:"नागरिक सुरक्षा (Civil Defence) युद्ध/आपदा के समय जान-माल की रक्षा की स्वयंसेवी व्यवस्था है। दिव्यांगता (Disability) के संदर्भ में RPwD अधिनियम 2016 समान अधिकार व समावेशन सुनिश्चित करता है।",extra:"सड़क सुरक्षा हेतु 'सड़क सुरक्षा सप्ताह' प्रतिवर्ष जनवरी में मनाया जाता है।"},
+  check:{q:"Who is the Supreme Commander of the Indian armed forces?",q_hi:"भारतीय सशस्त्र बलों का सर्वोच्च कमांडर कौन है?",o:["Prime Minister","Defence Minister","President","Chief of Defence Staff"],o_hi:["प्रधानमंत्री","रक्षा मंत्री","राष्ट्रपति","चीफ ऑफ डिफेंस स्टाफ"],a:2,exp:"The President is the Supreme Commander of the armed forces.",exp_hi:"राष्ट्रपति सशस्त्र बलों का सर्वोच्च कमांडर है।"}}],
+ questions:[
+ {q:"The headquarters of the United Nations is located in:",q_hi:"संयुक्त राष्ट्र का मुख्यालय कहाँ स्थित है?",o:["Geneva","New York","Paris","London"],o_hi:["जिनेवा","न्यूयॉर्क","पेरिस","लंदन"],a:1,exp:"The UN headquarters is in New York, USA.",exp_hi:"संयुक्त राष्ट्र का मुख्यालय न्यूयॉर्क, अमेरिका में है।",why:["जिनेवा में UN का यूरोपीय कार्यालय है","पेरिस UNESCO का मुख्यालय है","लंदन में नहीं है"],topic:"Global community",level:1,mode:"standard"},
+ {q:"India's foreign policy is based on the principle of:",q_hi:"भारत की विदेश नीति किस सिद्धांत पर आधारित है?",o:["Military alliance","Non-alignment","Colonialism","Isolation"],o_hi:["सैन्य गठबंधन","गुटनिरपेक्षता","उपनिवेशवाद","अलगाव"],a:1,exp:"India follows the policy of non-alignment (Panchsheel).",exp_hi:"भारत गुटनिरपेक्षता (पंचशील) की नीति अपनाता है।",why:["भारत किसी सैन्य गुट में नहीं","उपनिवेशवाद तो विरोधी विचार है","अलगाव की नीति नहीं है"],topic:"Foreign policy",level:1,mode:"standard"},
+ {q:"Wearing a helmet while riding a two-wheeler is primarily a matter of:",q_hi:"दोपहिया वाहन चलाते समय हेलमेट पहनना मुख्यतः किससे संबंधित है?",o:["Fashion","Road safety","Speed","Fuel saving"],o_hi:["फ़ैशन","सड़क सुरक्षा","गति","ईंधन बचत"],a:1,exp:"Helmets protect riders from head injuries — a road-safety measure.",exp_hi:"हेलमेट सवार को सिर की चोट से बचाता है — यह सड़क-सुरक्षा उपाय है।",why:["फ़ैशन का उद्देश्य नहीं","गति से संबंध नहीं","ईंधन बचत से संबंध नहीं"],topic:"Road safety",level:1,mode:"standard"},
+ {q:"The RPwD Act, 2016 in India relates to:",q_hi:"भारत में RPwD अधिनियम, 2016 किससे संबंधित है?",o:["Road transport","Persons with disabilities","Civil defence","Foreign trade"],o_hi:["सड़क परिवहन","दिव्यांग व्यक्ति","नागरिक सुरक्षा","विदेश व्यापार"],a:1,exp:"The Rights of Persons with Disabilities (RPwD) Act, 2016 protects disability rights.",exp_hi:"दिव्यांग व्यक्तियों के अधिकार अधिनियम (RPwD), 2016 दिव्यांगता अधिकारों की रक्षा करता है।",why:["सड़क परिवहन अलग विषय है","नागरिक सुरक्षा अलग विषय है","विदेश व्यापार अलग विषय है"],topic:"Disability",level:1,mode:"standard"}]},
+
+{id:"ss-earth",subject:"ss",day:21,level:1,title:"Earth, Globe & Landforms",hi:"पृथ्वी, ग्लोब व स्थलरूप",
+ concepts:[{title:"Earth in the solar system",title_hi:"सौरमण्डल में पृथ्वी",
+  intro:"The Earth's place in the solar system, its motions, mapping and major landforms.",
+  points:["सबसे बड़ा ग्रह: बृहस्पति (Jupiter)","पृथ्वी की दैनिक गति: घूर्णन (rotation) — 24 घंटे","पृथ्वी की वार्षिक गति: परिक्रमण (revolution) — 365¼ दिन","भूमध्य रेखा (Equator): 0° अक्षांश; मुख्य मध्याह्न: 0° देशांतर (ग्रीनविच)","पृथ्वी की परतें: भूपर्पटी (crust), मेंटल, क्रोड (core)"],
+  example:"स्थलमण्डल (Lithosphere) = पृथ्वी का ठोस बाहरी भाग (भूपर्पटी व ऊपरी मेंटल)।",
+  trick:"'बृहस्पति बड़ा, शनि सुंदर (छल्ले)' — ग्रहों की पहचान याद रखें।",
+  deep:{title:"Motions & mapping basics",title_hi:"गतियाँ व मानचित्रण मूल बातें",body:"घूर्णन से दिन-रात बनते हैं; परिक्रमण व झुकाव (23.5°) से ऋतुएँ बनती हैं। अक्षांश (latitude) भूमध्य रेखा से उत्तर-दक्षिण, देशांतर (longitude) ग्रीनविच से पूर्व-पश्चिम मापता है।",extra:"स्थलरूप: पर्वत, पठार, मैदान — ये पृथ्वी की आंतरिक व बाह्य शक्तियों से बनते हैं।"},
+  check:{q:"Which is the largest planet in the solar system?",q_hi:"सौरमण्डल का सबसे बड़ा ग्रह कौन-सा है?",o:["Earth","Saturn","Jupiter","Mars"],o_hi:["पृथ्वी","शनि","बृहस्पति","मंगल"],a:2,exp:"Jupiter is the largest planet.",exp_hi:"बृहस्पति सबसे बड़ा ग्रह है।"}}],
+ questions:[
+ {q:"The rotation of the Earth causes:",q_hi:"पृथ्वी के घूर्णन से क्या बनता है?",o:["Seasons","Day and night","Months","Years"],o_hi:["ऋतुएँ","दिन और रात","महीने","वर्ष"],a:1,exp:"Earth's rotation on its axis causes day and night.",exp_hi:"पृथ्वी का अपने अक्ष पर घूर्णन दिन-रात बनाता है।",why:["ऋतुएँ परिक्रमण व झुकाव से बनती हैं","महीने चंद्रमा से जुड़े हैं","वर्ष परिक्रमण से बनता है"],topic:"Earth motions",level:1,mode:"standard"},
+ {q:"The 0° latitude is known as:",q_hi:"0° अक्षांश को क्या कहते हैं?",o:["Prime Meridian","Equator","Tropic of Cancer","North Pole"],o_hi:["मुख्य मध्याह्न","भूमध्य रेखा","कर्क रेखा","उत्तरी ध्रुव"],a:1,exp:"0° latitude is the Equator.",exp_hi:"0° अक्षांश भूमध्य रेखा है।",why:["मुख्य मध्याह्न 0° देशांतर है","कर्क रेखा 23.5° उत्तर है","उत्तरी ध्रुव 90° उत्तर है"],topic:"Globe",level:1,mode:"standard"},
+ {q:"The outermost solid layer of the Earth is called the:",q_hi:"पृथ्वी की सबसे बाहरी ठोस परत कहलाती है:",o:["Mantle","Core","Crust","Lithosphere"],o_hi:["मेंटल","क्रोड","भूपर्पटी","स्थलमण्डल"],a:2,exp:"The crust is the Earth's outermost solid layer.",exp_hi:"भूपर्पटी (crust) पृथ्वी की सबसे बाहरी ठोस परत है।",why:["मेंटल भूपर्पटी के नीचे है","क्रोड सबसे भीतर है","स्थलमण्डल भूपर्पटी+ऊपरी मेंटल का संयुक्त भाग है"],topic:"Earth structure",level:2,mode:"standard"},
+ {q:"How long does the Earth take to complete one revolution around the Sun?",q_hi:"पृथ्वी सूर्य का एक चक्कर कितने समय में पूरा करती है?",o:["24 hours","30 days","365¼ days","12 hours"],o_hi:["24 घंटे","30 दिन","365¼ दिन","12 घंटे"],a:2,exp:"Earth takes about 365¼ days to revolve around the Sun.",exp_hi:"पृथ्वी सूर्य का एक चक्कर लगभग 365¼ दिन में लगाती है।",why:["24 घंटे घूर्णन का समय है","30 दिन चंद्रमा की परिक्रमा है","12 घंटे गलत है"],topic:"Earth motions",level:1,mode:"standard"}]},
+
+{id:"ss-indiageo",subject:"ss",day:22,level:1,title:"India: Physical & Economic Geography",hi:"भारत: भौतिक व आर्थिक भूगोल",
+ concepts:[{title:"Physical features, soil, climate & resources",title_hi:"भौतिक स्वरूप, मृदा, जलवायु व संसाधन",
+  intro:"India's physical features, soil, climate, vegetation, and economic resources.",
+  points:["सबसे ऊँची पर्वत श्रृंखला: हिमालय","सबसे बड़ा नदी बेसिन: गंगा","दक्षिण-पश्चिम मानसून भारत में अधिकांश वर्षा लाता है","नकदी फ़सलें: कपास, गन्ना, चाय, कॉफ़ी","प्रायद्वीपीय पठार: दक्कन का पठार"],
+  example:"ख़रीफ़ फ़सलें (चावल, कपास) मानसून में; रबी (गेहूँ, सरसों) सर्दियों में।",
+  trick:"'हिमालय-गंगा-मानसून' — भारत के तीन भौगोलिक स्तंभ याद रखें।",
+  deep:{title:"Soil types & fertilizer",title_hi:"मृदा के प्रकार व उर्वरक",body:"जलोढ़ मृदा (गंगा मैदान), काली/रेगुर मृदा (दक्कन, कपास के लिए), लाल मृदा, लैटेराइट मृदा प्रमुख हैं। उर्वरकों का संतुलित प्रयोग उर्वरता बनाए रखने के लिए ज़रूरी है।",extra:"मृदा संरक्षण: वनीकरण, समोच्च जुताई, फसल चक्र।"},
+  check:{q:"Which is the highest mountain range of India?",q_hi:"भारत की सबसे ऊँची पर्वत श्रृंखला कौन-सी है?",o:["Aravalli","Western Ghats","Himalayas","Vindhya"],o_hi:["अरावली","पश्चिमी घाट","हिमालय","विंध्य"],a:2,exp:"The Himalayas are India's highest mountain range.",exp_hi:"हिमालय भारत की सबसे ऊँची पर्वत श्रृंखला है।"}}],
+ questions:[
+ {q:"Which monsoon brings most of India's rainfall?",q_hi:"भारत में अधिकांश वर्षा कौन-सा मानसून लाता है?",o:["Northeast monsoon","Southwest monsoon","Western disturbances","Retreating monsoon"],o_hi:["उत्तर-पूर्व मानसून","दक्षिण-पश्चिम मानसून","पश्चिमी विक्षोभ","लौटता मानसून"],a:1,exp:"The southwest monsoon (June–September) brings most of India's rainfall.",exp_hi:"दक्षिण-पश्चिम मानसून (जून–सितंबर) भारत में अधिकांश वर्षा लाता है।",why:["उत्तर-पूर्व मानसून तमिलनाडु में शीतकालीन वर्षा देता है","पश्चिमी विक्षोभ उत्तर-पश्चिम में शीतकालीन वर्षा देते हैं","लौटता मानसून अक्टूबर-नवंबर का है"],topic:"Climate",level:1,mode:"standard"},
+ {q:"Which soil is best suited for cotton cultivation?",q_hi:"कपास की खेती के लिए कौन-सी मृदा सबसे उपयुक्त है?",o:["Alluvial soil","Black soil (Regur)","Red soil","Laterite soil"],o_hi:["जलोढ़ मृदा","काली मृदा (रेगुर)","लाल मृदा","लैटेराइट मृदा"],a:1,exp:"Black (Regur) soil, rich in moisture-retaining capacity, is ideal for cotton.",exp_hi:"काली (रेगुर) मृदा नमी रोकने की क्षमता के कारण कपास के लिए आदर्श है।",why:["जलोढ़ मृदा चावल-गेहूँ के लिए है","लाल मृदा में लोहा अधिक है","लैटेराइट मृदा उच्च वर्षा क्षेत्रों की है"],topic:"Soil",level:2,mode:"standard"},
+ {q:"Which of these is a Kharif crop?",q_hi:"इनमें से कौन-सी ख़रीफ़ फ़सल है?",o:["Wheat","Mustard","Rice","Gram"],o_hi:["गेहूँ","सरसों","चावल","चना"],a:2,exp:"Rice is a Kharif (monsoon) crop.",exp_hi:"चावल ख़रीफ़ (मानसून) फ़सल है।",why:["गेहूँ रबी फ़सल है","सरसों रबी फ़सल है","चना रबी फ़सल है"],topic:"Agriculture",level:1,mode:"standard"},
+ {q:"The Deccan Plateau lies to the south of which range?",q_hi:"दक्कन का पठार किस श्रृंखला के दक्षिण में स्थित है?",o:["Himalayas","Vindhya-Satpura","Aravalli","Eastern Ghats"],o_hi:["हिमालय","विंध्य-सतपुड़ा","अरावली","पूर्वी घाट"],a:1,exp:"The Deccan Plateau lies south of the Vindhya and Satpura ranges.",exp_hi:"दक्कन का पठार विंध्य-सतपुड़ा श्रृंखला के दक्षिण में है।",why:["हिमालय सुदूर उत्तर में है","अरावली पश्चिम में है","पूर्वी घाट पठार की पूर्वी सीमा है"],topic:"Physical features",level:2,mode:"standard"}]},
+
+{id:"ss-up",subject:"ss",day:23,level:1,title:"Uttar Pradesh",hi:"उत्तर प्रदेश",
+ concepts:[{title:"Uttar Pradesh — an overview",title_hi:"उत्तर प्रदेश — एक परिचय",
+  intro:"Location, administrative divisions, climate, agriculture, minerals and industries of Uttar Pradesh.",
+  points:["राजधानी: लखनऊ","UP जनसंख्या में भारत का सबसे बड़ा राज्य","प्रमुख नदियाँ: गंगा, यमुना, घाघरा, गोमती","वर्तमान में UP के 18 मंडल (divisions) व 75 ज़िले","प्रमुख फ़सलें: गेहूँ, गन्ना, चावल, आलू"],
+  example:"गंगा नदी उत्तराखंड के गंगोत्री से निकलकर UP से होती हुई बंगाल की खाड़ी तक जाती है।",
+  trick:"'लखनऊ = राजधानी, 18 मंडल, 75 ज़िले' — UP के तीन आँकड़े याद रखें।",
+  deep:{title:"UP economy & urbanization",title_hi:"UP अर्थव्यवस्था व नगरीकरण",body:"UP कृषि-प्रधान है — गन्ना उत्पादन में अग्रणी। प्रमुख उद्योग: चीनी, कपड़ा, चमड़ा (कानपुर), हथकरघा (वाराणसी)। नोएडा-ग्रेटर नोएडा IT/औद्योगिक केंद्र हैं।",extra:"UP का सबसे बड़ा नगर (जनसंख्या) लखनऊ के बाद कानपुर; प्रमुख पर्यटन स्थल ताजमहल (आगरा), वाराणसी, प्रयागराज (कुंभ)।"},
+  check:{q:"What is the capital of Uttar Pradesh?",q_hi:"उत्तर प्रदेश की राजधानी क्या है?",o:["Agra","Kanpur","Lucknow","Prayagraj"],o_hi:["आगरा","कानपुर","लखनऊ","प्रयागराज"],a:2,exp:"Lucknow is the capital of Uttar Pradesh.",exp_hi:"लखनऊ उत्तर प्रदेश की राजधानी है।"}}],
+ questions:[
+ {q:"How many divisions (mandals) does Uttar Pradesh currently have?",q_hi:"उत्तर प्रदेश में वर्तमान में कितने मंडल हैं?",o:["15","18","21","25"],o_hi:["15","18","21","25"],a:1,exp:"Uttar Pradesh has 18 administrative divisions.",exp_hi:"उत्तर प्रदेश में 18 प्रशासनिक मंडल हैं।",why:["15 कम है","21 अधिक है","25 अधिक है"],topic:"UP administration",level:1,mode:"standard"},
+ {q:"Which river flows through Uttar Pradesh?",q_hi:"कौन-सी नदी उत्तर प्रदेश से होकर बहती है?",o:["Kaveri","Godavari","Ganga","Narmada"],o_hi:["कावेरी","गोदावरी","गंगा","नर्मदा"],a:2,exp:"The Ganga flows through Uttar Pradesh.",exp_hi:"गंगा उत्तर प्रदेश से होकर बहती है।",why:["कावेरी दक्षिण भारत की नदी है","गोदावरी दक्षिण भारत की नदी है","नर्मदा मध्य भारत की नदी है"],topic:"UP rivers",level:1,mode:"standard"},
+ {q:"Uttar Pradesh is the leading producer of which crop in India?",q_hi:"उत्तर प्रदेश भारत में किस फ़सल का अग्रणी उत्पादक है?",o:["Tea","Sugarcane","Coffee","Rubber"],o_hi:["चाय","गन्ना","कॉफ़ी","रबड़"],a:1,exp:"Uttar Pradesh is India's leading sugarcane producer.",exp_hi:"उत्तर प्रदेश भारत में गन्ने का अग्रणी उत्पादक है।",why:["चाय असम-पश्चिम बंगाल में","कॉफ़ी कर्नाटक में","रबड़ केरल में"],topic:"UP agriculture",level:1,mode:"standard"},
+ {q:"The Taj Mahal is located in which UP city?",q_hi:"ताजमहल UP के किस नगर में स्थित है?",o:["Lucknow","Varanasi","Agra","Mathura"],o_hi:["लखनऊ","वाराणसी","आगरा","मथुरा"],a:2,exp:"The Taj Mahal is in Agra, Uttar Pradesh.",exp_hi:"ताजमहल आगरा, उत्तर प्रदेश में है।",why:["लखनऊ राजधानी है","वाराणसी धार्मिक नगर है","मथुरा कृष्ण से जुड़ा नगर है"],topic:"UP tourism",level:1,mode:"standard"}]},
+
+{id:"ss-atmo",subject:"ss",day:24,level:2,title:"Atmosphere, Hydrosphere & Industry",hi:"वायुमण्डल, जलमण्डल व उद्योग",
+ concepts:[{title:"Realms, natural regions & resources",title_hi:"परिमण्डल, प्राकृतिक प्रदेश व संसाधन",
+  intro:"The atmosphere, hydrosphere, natural regions, and mineral-based industries.",
+  points:["वायुमंडल में सबसे अधिक गैस: नाइट्रोजन (78%)","सबसे बड़ा महासागर: प्रशांत (Pacific)","जल चक्र: वाष्पीकरण → संघनन → वर्षण","खनिज संसाधन: लोहा, कोयला, बॉक्साइट प्रमुख","प्राकृतिक प्रदेश: भूमध्यरेखीय, मरुस्थलीय, शीतोष्ण आदि"],
+  example:"जलमण्डल (Hydrosphere) = पृथ्वी पर उपस्थित समस्त जल (महासागर, नदियाँ, झीलें, बर्फ़)।",
+  trick:"'वायुमंडल=वायु, जलमंडल=जल, स्थलमंडल=भूमि, जैवमंडल=जीवन' — चार परिमण्डल याद रखें।",
+  deep:{title:"Natural regions & human life",title_hi:"प्राकृतिक प्रदेश व जनजीवन",body:"विश्व के प्रमुख प्राकृतिक प्रदेश: भूमध्यरेखीय वर्षा-वन, सवाना, मरुस्थल, भूमध्यसागरीय, शीतोष्ण घास-स्थल, टुंड्रा। हर प्रदेश की जलवायु वहाँ के जनजीवन व व्यवसाय को निर्धारित करती है।",extra:"खनिज-आधारित उद्योग: लोहा-इस्पात, एल्युमिनियम, सीमेंट। भारत में लौह अयस्क झारखंड-ओडिशा-छत्तीसगढ़ में प्रचुर।"},
+  check:{q:"Which is the largest ocean in the world?",q_hi:"विश्व का सबसे बड़ा महासागर कौन-सा है?",o:["Atlantic","Indian","Pacific","Arctic"],o_hi:["अटलांटिक","हिंद","प्रशांत","आर्कटिक"],a:2,exp:"The Pacific Ocean is the largest.",exp_hi:"प्रशांत महासागर सबसे बड़ा है।"}}],
+ questions:[
+ {q:"The water cycle involves which sequence?",q_hi:"जल चक्र किस क्रम में होता है?",o:["Evaporation → Condensation → Precipitation","Precipitation → Evaporation → Condensation","Condensation → Precipitation → Evaporation","Evaporation → Precipitation → Condensation"],o_hi:["वाष्पीकरण → संघनन → वर्षण","वर्षण → वाष्पीकरण → संघनन","संघनन → वर्षण → वाष्पीकरण","वाष्पीकरण → वर्षण → संघनन"],a:0,exp:"Water evaporates, condenses into clouds, then precipitates as rain.",exp_hi:"जल वाष्पित होता है, बादल बनते हैं (संघनन), फिर वर्षा (वर्षण) होती है।",why:["क्रम उल्टा है","संघनन पहले नहीं होता","वर्षण संघनन से पहले नहीं होता"],topic:"Hydrosphere",level:1,mode:"standard"},
+ {q:"Which gas is most abundant in the atmosphere?",q_hi:"वायुमंडल में कौन-सी गैस सबसे अधिक है?",o:["Oxygen","Nitrogen","Carbon dioxide","Argon"],o_hi:["ऑक्सीजन","नाइट्रोजन","कार्बन डाइऑक्साइड","आर्गन"],a:1,exp:"Nitrogen makes up about 78% of the atmosphere.",exp_hi:"नाइट्रोजन वायुमंडल का लगभग 78% है।",why:["ऑक्सीजन ~21% है","CO2 ~0.04% है","आर्गन ~0.93% है"],topic:"Atmosphere",level:1,mode:"standard"},
+ {q:"Iron and steel industry is primarily based on which mineral?",q_hi:"लोहा-इस्पात उद्योग मुख्यतः किस खनिज पर आधारित है?",o:["Bauxite","Iron ore","Mica","Limestone"],o_hi:["बॉक्साइट","लौह अयस्क","अभ्रक","चूना पत्थर"],a:1,exp:"The iron and steel industry depends on iron ore.",exp_hi:"लोहा-इस्पात उद्योग लौह अयस्क पर निर्भर है।",why:["बॉक्साइट एल्युमिनियम के लिए है","अभ्रक विद्युत उद्योग में है","चूना पत्थर सीमेंट में है"],topic:"Industries",level:1,mode:"standard"},
+ {q:"Which natural region is characterised by hot, dry conditions with cacti?",q_hi:"कौन-सा प्राकृतिक प्रदेश गर्म, शुष्क व कैक्टस युक्त है?",o:["Equatorial rainforest","Desert","Tundra","Savanna"],o_hi:["भूमध्यरेखीय वर्षा-वन","मरुस्थल","टुंड्रा","सवाना"],a:1,exp:"Deserts are hot, dry regions with vegetation like cacti.",exp_hi:"मरुस्थल गर्म, शुष्क प्रदेश हैं जहाँ कैक्टस जैसी वनस्पति मिलती है।",why:["वर्षा-वन घने व आर्द्र हैं","टुंड्रा अत्यधिक ठंडा है","सवाना घास-स्थल है"],topic:"Natural regions",level:1,mode:"standard"}]},
+
+{id:"ss-economy",subject:"ss",day:25,level:2,title:"Indian Economy & Challenges",hi:"भारतीय अर्थव्यवस्था व चुनौतियाँ",
+ concepts:[{title:"Sectors, planning & challenges",title_hi:"क्षेत्र, योजना व चुनौतियाँ",
+  intro:"The structure of the Indian economy, its planning history and current challenges.",
+  points:["प्राथमिक क्षेत्र: कृषि, पशुपालन, मत्स्य, वानिकी","द्वितीयक क्षेत्र: उद्योग/विनिर्माण","तृतीयक क्षेत्र: सेवाएँ","NITI आयोग ने 2015 में योजना आयोग का स्थान लिया","हरित क्रांति के जनक: नॉर्मन बोरलॉग"],
+  example:"हरित क्रांति (1960 के दशक) से गेहूँ-चावल उत्पादन में आत्मनिर्भरता आई।",
+  trick:"'प्राथमिक=कृषि, द्वितीयक=उद्योग, तृतीयक=सेवा' — तीन क्षेत्रों का क्रम याद रखें।",
+  deep:{title:"Current economic challenges",title_hi:"वर्तमान आर्थिक चुनौतियाँ",body:"प्रमुख चुनौतियाँ: बेरोज़गारी, गरीबी, असमानता, मुद्रास्फीति, कृषि संकट और जलवायु परिवर्तन का आर्थिक प्रभाव।",extra:"पंचवर्षीय योजनाएँ 1951 में शुरू हुईं; 2015 में NITI आयोग ने उनका स्थान लिया।"},
+  check:{q:"Which sector does agriculture belong to?",q_hi:"कृषि किस क्षेत्र में आती है?",o:["Primary","Secondary","Tertiary","Quaternary"],o_hi:["प्राथमिक","द्वितीयक","तृतीयक","चतुर्थक"],a:0,exp:"Agriculture is a primary-sector activity.",exp_hi:"कृषि प्राथमिक क्षेत्र की गतिविधि है।"}}],
+ questions:[
+ {q:"Who is known as the father of the Green Revolution?",q_hi:"हरित क्रांति के जनक कौन कहलाते हैं?",o:["M. S. Swaminathan","Norman Borlaug","Verghese Kurien","C. Subramaniam"],o_hi:["एम. एस. स्वामीनाथन","नॉर्मन बोरलॉग","वर्गीज़ कुरियन","सी. सुब्रमण्यम"],a:1,exp:"Norman Borlaug is called the father of the Green Revolution.",exp_hi:"नॉर्मन बोरलॉग हरित क्रांति के जनक कहलाते हैं।",why:["स्वामीनाथन भारत में हरित क्रांति के जनक कहलाते हैं","कुरियन श्वेत क्रांति (दुग्ध) से जुड़े हैं","सुब्रमण्यम नीति-निर्माता थे"],topic:"Agriculture",level:2,mode:"standard"},
+ {q:"The primary sector of the economy includes:",q_hi:"अर्थव्यवस्था के प्राथमिक क्षेत्र में शामिल है:",o:["Manufacturing","Banking","Agriculture","Software services"],o_hi:["विनिर्माण","बैंकिंग","कृषि","सॉफ़्टवेयर सेवाएँ"],a:2,exp:"Agriculture is a primary-sector activity (extraction from nature).",exp_hi:"कृषि प्राथमिक क्षेत्र की गतिविधि है (प्रकृति से प्राप्ति)।",why:["विनिर्माण द्वितीयक क्षेत्र है","बैंकिंग तृतीयक क्षेत्र है","सॉफ़्टवेयर तृतीयक/चतुर्थक क्षेत्र है"],topic:"Economy",level:1,mode:"standard"},
+ {q:"NITI Aayog was established in which year?",q_hi:"NITI आयोग की स्थापना किस वर्ष हुई?",o:["1950","1991","2015","2019"],o_hi:["1950","1991","2015","2019"],a:2,exp:"NITI Aayog was established in 2015, replacing the Planning Commission.",exp_hi:"NITI आयोग की स्थापना 2015 में योजना आयोग की जगह हुई।",why:["1950 योजना आयोग का वर्ष है","1991 आर्थिक उदारीकरण का वर्ष है","2019 गलत है"],topic:"Economy",level:1,mode:"standard"},
+ {q:"Which of these is a major challenge of the Indian economy?",q_hi:"इनमें से कौन-सी भारतीय अर्थव्यवस्था की प्रमुख चुनौती है?",o:["Unemployment","Excess population decline","Surplus of all resources","No inflation"],o_hi:["बेरोज़गारी","जनसंख्या में अत्यधिक गिरावट","सभी संसाधनों का अधिशेष","मुद्रास्फीति न होना"],a:0,exp:"Unemployment is a major economic challenge.",exp_hi:"बेरोज़गारी एक प्रमुख आर्थिक चुनौती है।",why:["जनसंख्या घट नहीं रही","संसाधनों का अधिशेष नहीं है","मुद्रास्फीति चुनौती बनी रहती है"],topic:"Challenges",level:1,mode:"standard"}]},
+
+{id:"ss-env",subject:"ss",day:26,level:2,title:"Environment & Resources",hi:"पर्यावरण व संसाधन",
+ concepts:[{title:"Ecology, pollution, waste & disasters",title_hi:"पारिस्थितिकी, प्रदूषण, अपशिष्ट व आपदाएँ",
+  intro:"Ecological balance, resource use, pollution, waste management and environmental awareness.",
+  points:["चिपको आन्दोलन के प्रमुख नेता: सुंदरलाल बहुगुणा","विश्व पर्यावरण दिवस: 5 जून","वनों की कटाई से मृदा अपरदन व जैव विविधता हानि","अपशिष्ट प्रबंधन: 3R — Reduce, Reuse, Recycle","स्वच्छ भारत अभियान: स्वच्छता के लिए"],
+  example:"पारिस्थितिक संतुलन: किसी पारिस्थितिक तंत्र में जीवों व पर्यावरण के बीच संतुलन।",
+  trick:"'5 जून = पर्यावरण दिवस; 22 अप्रैल = पृथ्वी दिवस' — तिथियाँ याद रखें।",
+  deep:{title:"Environmentalists & awards",title_hi:"पर्यावरणविद व पुरस्कार",body:"सुंदरलाल बहुगुणा (चिपको), मेधा पाटकर (नर्मदा बचाओ), राजेंद्र सिंह ('जल पुरुष') प्रमुख पर्यावरणविद हैं। इंदिरा गांधी पर्यावरण पुरस्कार व UNEP के 'चैंपियंस ऑफ द अर्थ' पुरस्कार प्रमुख हैं।",extra:"पर्यावरण कैलेंडर: 2 फ़रवरी विश्व आर्द्रभूमि दिवस, 21 मार्च वन दिवस, 22 मार्च जल दिवस, 22 अप्रैल पृथ्वी दिवस, 5 जून पर्यावरण दिवस।"},
+  check:{q:"World Environment Day is celebrated on:",q_hi:"विश्व पर्यावरण दिवस कब मनाया जाता है?",o:["22 April","5 June","21 March","2 February"],o_hi:["22 अप्रैल","5 जून","21 मार्च","2 फ़रवरी"],a:1,exp:"World Environment Day is on 5 June.",exp_hi:"विश्व पर्यावरण दिवस 5 जून को है।"}}],
+ questions:[
+ {q:"The Chipko movement is associated with:",q_hi:"चिपको आन्दोलन किससे जुड़ा है?",o:["Water conservation","Tree protection","Air pollution","Wildlife hunting"],o_hi:["जल संरक्षण","वृक्ष संरक्षण","वायु प्रदूषण","वन्यजीव शिकार"],a:1,exp:"The Chipko movement protected trees from felling by hugging them.",exp_hi:"चिपको आन्दोलन में पेड़ों से चिपककर उन्हें कटने से बचाया गया।",why:["जल संरक्षण अलग विषय है","वायु प्रदूषण अलग विषय है","वन्यजीव शिकार अलग विषय है"],topic:"Movements",level:1,mode:"standard"},
+ {q:"The 3R principle of waste management stands for:",q_hi:"अपशिष्ट प्रबंधन का 3R सिद्धांत क्या है?",o:["Reduce, Reuse, Recycle","Remove, Repair, Return","Read, Write, Revise","Reuse, Refuse, Reject"],o_hi:["Reduce, Reuse, Recycle","Remove, Repair, Return","Read, Write, Revise","Reuse, Refuse, Reject"],a:0,exp:"The 3Rs are Reduce, Reuse and Recycle.",exp_hi:"3R हैं Reduce (घटाना), Reuse (पुनः उपयोग), Recycle (पुनर्चक्रण)।",why:["Remove-Repair-Return गलत है","Read-Write-Revise शिक्षा से है","Reuse-Refuse-Reject अधूरा है"],topic:"Waste management",level:1,mode:"standard"},
+ {q:"Deforestation primarily leads to:",q_hi:"वनों की कटाई मुख्यतः किसे जन्म देती है?",o:["Soil erosion and biodiversity loss","More rainfall","Increased soil fertility","Cooler climate"],o_hi:["मृदा अपरदन व जैव विविधता हानि","अधिक वर्षा","मृदा उर्वरता में वृद्धि","ठंडी जलवायु"],a:0,exp:"Deforestation causes soil erosion and loss of biodiversity.",exp_hi:"वनों की कटाई से मृदा अपरदन व जैव विविधता की हानि होती है।",why:["वर्षा घटती है, बढ़ती नहीं","उर्वरता घटती है","जलवायु गर्म होती है"],topic:"Deforestation",level:1,mode:"standard"},
+ {q:"Who is popularly known as the 'Water Man of India'?",q_hi:"'भारत के जल पुरुष' के नाम से कौन प्रसिद्ध हैं?",o:["Sunderlal Bahuguna","Rajendra Singh","Medha Patkar","Anil Agarwal"],o_hi:["सुंदरलाल बहुगुणा","राजेंद्र सिंह","मेधा पाटकर","अनिल अग्रवाल"],a:1,exp:"Rajendra Singh is known as the 'Water Man of India'.",exp_hi:"राजेंद्र सिंह 'भारत के जल पुरुष' कहलाते हैं।",why:["बहुगुणा चिपको से जुड़े हैं","मेधा पाटकर नर्मदा बचाओ से जुड़ी हैं","अनिल अग्रवाल पर्यावरण पत्रकार थे"],topic:"Environmentalists",level:1,mode:"standard"}]}
+];
+/* merge LLM-generated modules (appended to content/generated/*.js) */
+(function(){const gen=window.GENERATED_MODULES||[];gen.forEach(g=>{if(g&&g.id&&!MODULES.some(m=>m.id===g.id))MODULES.push(g);});})();
+
+function modById(id){return MODULES.find(m=>m.id===id)}
+function dayModules(day){return ROADMAP.find(r=>r.day===day)}
+function qsOfSubject(sid){const qs=[];MODULES.filter(m=>m.subject===sid).forEach(m=>m.questions.forEach(q=>qs.push(Object.assign({mid:m.id,module:m.title},q))));return qs}
+
+/* ---------- HEADER ---------- */
+function header(active){
+  const links=[["#/","🏠","Home"],["#/roadmap","📅","Roadmap"],["#/subjects","📚","Subjects"],["#/mock","📝","Mock"],["#/progress","📊","Progress"],["first.html","🏫","English Learning"]];
+  return `<header>
+  <div class="hd">
+    <a class="logo" href="#/"><span class="lc">प</span><span><b>Pariksha Guru</b><small>UP अध्यापक 2026</small></span></a>
+    <nav class="main">${links.map(l=>`<a href="${l[0]}" class="${active===l[1]?"on":""}">${l[1]} ${l[2]}</a>`).join("")}</nav>
+    <button class="burger" aria-label="Menu" onclick="APP.toggleNav()"><span></span><span></span><span></span></button>
+    <div class="hd-r">
+      <div class="seg" role="group" aria-label="Language">
+        <button data-l="en" onclick="APP.setLang('en')">EN</button>
+        <button data-l="hi" class="on" onclick="APP.setLang('hi')">हिं</button>
+        <button data-l="both" onclick="APP.setLang('both')">दोनों</button>
+      </div>
+      <button class="icobtn" onclick="APP.fs()" title="Font size">अ+</button>
+      <button class="icobtn" onclick="APP.theme()" title="Dark mode">🌙</button>
+      <button class="icobtn" onclick="APP.motion()" title="Reduce animation">✨</button>
+    </div>
+  </div></header>`;
+}
+function bnav(active){
+  return `<nav id="bnav"><div class="row">
+    <a href="#/" class="${active==="Home"?"on":""}"><span class="em">🏠</span>Home</a>
+    <a href="#/roadmap" class="${active==="Roadmap"?"on":""}"><span class="em">📅</span>Plan</a>
+    <a href="#/subjects" class="${active==="Subjects"?"on":""}"><span class="em">📚</span>Learn</a>
+    <a href="#/mock" class="${active==="Mock"?"on":""}"><span class="em">📝</span>Mock</a>
+    <a href="#/progress" class="${active==="Progress"?"on":""}"><span class="em">📊</span>Me</a>
+  </div></nav>`;
+}
+function refreshHud(){const x=$("#hudXp");if(x)x.textContent=S.xp;const s=$("#hudStreak");if(s)s.textContent=S.streak;}
+function shell(active,inner){const app=$("#app");
+ app.innerHTML=header(active)+`<main>${inner}</main>`+bnav(active);refreshHud();}
+
+/* ---------- ROUTER ---------- */
+const APP={};
+APP.setLang=l=>{document.body.setAttribute("data-lang",l);$$(".seg button").forEach(b=>b.classList.toggle("on",b.dataset.l===l));};
+APP.fs=()=>{const f=parseInt(document.documentElement.getAttribute("data-fs"));const n=f>=3?1:f+1;document.documentElement.setAttribute("data-fs",n);toast("Font size: "+["S","M","L"][n-1]);};
+APP.theme=()=>{const d=document.documentElement;const t=d.getAttribute("data-theme")==="dark"?"light":"dark";d.setAttribute("data-theme",t);};
+APP.motion=()=>{const d=document.documentElement;const t=d.getAttribute("data-motion")==="off"?"on":"off";d.setAttribute("data-motion",t);toast("Motion "+(t==="off"?"OFF":"ON"));};
+APP.toggleNav=()=>{document.querySelector("header").classList.toggle("nav-open");};
+
+/* ================================================================
+   HOME
+================================================================ */
+function homeView(){
+  const done=S.done.length, total=MODULES.length;
+  const pct=Math.round(done/total*100);
+  const levelXp=S.xp%300;
+  shell("Home",`
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <span class="h-kick"><span class="dotp"></span> UP सहायक अध्यापक भर्ती परीक्षा 2026 · Interactive Prep</span>
+        <h1 class="title">${bi("Crack the exam,","UP अध्यापक बनने का")}<br>${bi("one topic at a time.","पूरा सफ़र, एक साथ।")}</h1>
+        <p class="sub">${bi("A 90-day adaptive plan for the UP Higher Primary Assistant Teacher (Class 6–8) exam. General Knowledge + Reasoning + Social Studies + Science-Math + Language, with exam-standard MCQs, full rationale and simulated DeepSeek & Qwen tutoring modes.",
+        "उच्च प्राथमिक विद्यालय सहायक अध्यापक (कक्षा 6–8) परीक्षा का 90-दिन का adaptive प्लान। सामान्य ज्ञान + तर्कशक्ति + सामाजिक अध्ययन + विज्ञान-गणित + भाषा — exam-standard MCQ, पूर्ण व्याख्या और simulated DeepSeek व Qwen tutoring modes के साथ।")}</p>
+        <div class="h-cta">
+          <a class="btn" href="#/roadmap">${bi("Start 90-Day Plan","90-दिन का प्लान शुरू करें")} 🚀</a>
+          <a class="btn gold" href="#/subjects">${bi("Browse Subjects","विषय देखें")} 📚</a>
+        </div>
+        <div class="statline">
+          <span class="chip">🔥 <b id="hudStreak">${S.streak}</b>-day streak</span>
+          <span class="chip">⭐ <b id="hudXp">${S.xp}</b> XP</span>
+          <span class="chip">📚 <b>${done}</b>/<b>${total}</b> modules done</span>
+          <span class="chip">🏆 Level <b>${level()}</b></span>
+        </div>
+      </div>
+      <div>
+        <div class="eboard">
+          <div class="bh">📌 ${bi("Exam at a glance","परीक्षा एक नज़र में")}</div>
+          <div class="big">${bi("120 Questions · 120 min","120 प्रश्न · 120 मिनट")}</div>
+          <div>${bi("+3 correct · −1 wrong (negative marking)","+3 सही · −1 गलत (negative marking)")}</div>
+          <div style="margin-top:8px">${bi("Section I: GK (30) · Section II: Subject (90)","खण्ड I: GK (30) · खण्ड II: विषय (90)")}</div>
+        </div>
+        <div class="examgrid">
+          <div class="c"><b>120</b><small>${bi("Questions","प्रश्न")}</small></div>
+          <div class="c"><b>120</b><small>${bi("Minutes","मिनट")}</small></div>
+          <div class="c"><b>+3</b><small>${bi("Per correct","प्रति सही")}</small></div>
+          <div class="c"><b>−1</b><small>${bi("Per wrong","प्रति गलत")}</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:44px">
+      <span class="kick">${bi("Three Doors","तीन दरवाज़े")}</span>
+      <h2 class="sec">${bi("Choose your subject","अपना विषय चुनें")}</h2>
+    </div>
+    <div class="doors">
+      ${SUBJECTS.map(s=>doorCard(s)).join("")}
+    </div>
+
+    <div style="margin-top:48px">
+      <span class="kick">${bi("Two Tutoring Engines","दो Tutoring Engines")}</span>
+      <h2 class="sec">${bi("Simulated multi-agent learning","Simulated multi-agent learning")}</h2>
+      <div class="doors" style="grid-template-columns:1fr 1fr">
+        <div class="door" style="border-color:var(--purp)">
+          <div class="em">🧠</div>
+          <span class="tag t-pur">DEEPSEEK MODE</span>
+          <h3>${bi("Deep Reasoning","Deep Reasoning")}</h3>
+          <p>${bi("Step-by-step chain-of-thought for Analogy, Assertion-Reason, Binary Logic, Coded Inequalities & Coding-Decoding.","Analogy, Assertion-Reason, Binary Logic, Coded Inequalities व Coding-Decoding के लिए step-by-step तर्क।")}</p>
+          <a class="btn sm purp" href="#/deepseek" style="margin-top:12px">${bi("Enter DeepSeek Mode","DeepSeek Mode खोलें")} →</a>
+        </div>
+        <div class="door" style="border-color:var(--teal)">
+          <div class="em">⚡</div>
+          <span class="tag t-teal">QWEN FLASH</span>
+          <h3>${bi("Rapid-Fire Drill","Rapid-Fire Drill")}</h3>
+          <p>${bi("High-speed timed quizzes with instant feedback — the Qwen engine. Sharpen recall under pressure.","हाई-स्पीड timed quizzes, तुरंत feedback — Qwen engine. दबाव में recall तेज़ करें।")}</p>
+          <a class="btn sm teal" href="#/flash" style="margin-top:12px">${bi("Start Flash Drill","Flash Drill शुरू करें")} ⚡</a>
+        </div>
+      </div>
+    </div>
+  </div>`);
+}
+function doorCard(s){
+  const done=MODULES.filter(m=>m.subject===s.id).length;
+  const all=MODULES.filter(m=>m.subject===s.id).length;
+  const isLocked=s.locked;
+  return `<div class="door ${isLocked?"locked":""}">
+    <div class="strip" style="background:linear-gradient(90deg,${s.c1||"var(--ind)"},${s.c2||"var(--purp)"})"></div>
+    <div class="em">${s.e}</div>
+    <span class="tag ${s.tagcls}">${s.tag}</span>
+    <h3>${bi(s.name,s.hi)}</h3>
+    <p>${bi(s.desc,s.desc_hi)}</p>
+    <div class="bar" style="margin:12px 0 8px"><i style="width:${all?Math.round(done/all*100):0}%"></i></div>
+    <small style="color:var(--ink2);font-weight:700">${isLocked?bi("Coming soon","जल्द आ रहा है"):`${done}/${all} modules`}</small>
+    ${isLocked?"":`<div style="margin-top:10px"><a class="btn sm" href="#/subject/${s.id}">${bi("Open","खोलें")} →</a></div>`}
+  </div>`;
+}
+
+/* ================================================================
+   SUBJECTS
+================================================================ */
+function subjectsView(){
+  shell("Subjects",`<div class="wrap">
+    <span class="kick">${bi("Syllabus","पाठ्यक्रम")}</span>
+    <h1 class="title">${bi("Subjects & Modules","विषय व Modules")}</h1>
+    <p class="sub">${bi("Section I (General Knowledge + Reasoning) is mandatory. For Section II choose one: Language (Hindi/English/Sanskrit), Social Studies, or Science-Math. Social Studies is fully built; Language and Science-Math modules are generated via scripts/generate.mjs.","खण्ड I (सामान्य ज्ञान + तर्कशक्ति) अनिवार्य है। खण्ड II में कोई एक चुनें: भाषा (हिन्दी/अंग्रेज़ी/संस्कृत), सामाजिक अध्ययन या विज्ञान-गणित। सामाजिक अध्ययन पूर्ण रूप से बना है; भाषा व विज्ञान-गणित के modules scripts/generate.mjs से बनते हैं।")}</p>
+    ${SUBJECTS.map(s=>subjectBlock(s)).join("")}
+  </div>`);
+}
+function subjectBlock(s){
+  const mods=MODULES.filter(m=>m.subject===s.id);
+  if(!mods.length){
+    return `<div style="margin-top:30px">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+        <span style="font-size:1.8rem">${s.e}</span>
+        <div style="flex:1"><h2 class="sec" style="font-size:1.5rem">${bi(s.name,s.hi)}</h2></div>
+      </div>
+      <div class="card" style="margin-top:12px"><p class="sub">${bi("No modules yet. Generate content with the command below, then reload.","अभी कोई module नहीं। नीचे दिया command चलाकर सामग्री बनाएँ, फिर reload करें।")}</p>
+      <div class="tips" style="margin-top:8px;font-family:monospace;font-size:.9rem">node scripts/generate.mjs --subject ${esc(s.id)}</div></div>
+    </div>`;
+  }
+  const done=mods.filter(m=>S.done.includes(m.id)).length;
+  return `<div style="margin-top:30px">
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+      <span style="font-size:1.8rem">${s.e}</span>
+      <div style="flex:1"><h2 class="sec" style="font-size:1.5rem">${bi(s.name,s.hi)}</h2>
+      <div class="bar" style="margin-top:8px"><i style="width:${Math.round(done/mods.length*100)}%"></i></div></div>
+    </div>
+    <div class="doors" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));margin-top:14px">
+      ${mods.map(m=>{
+        const isDone=S.done.includes(m.id);
+        return `<a class="door hov" href="#/module/${m.id}" style="padding:18px">
+          <div class="strip" style="height:6px;background:linear-gradient(90deg,${s.c1},${s.c2})"></div>
+          <span class="tag ${isDone?"t-grn":"t-blue"}">${isDone?bi("Done","पूर्ण"):`Day ${m.day}`}</span>
+          <h3 style="font-size:1.05rem">${bi(m.title,m.hi)}</h3>
+          <small style="color:var(--ink2)">${m.questions.length} Qs · L${m.level}</small>
+        </a>`;
+      }).join("")}
+    </div>
+  </div>`;
+}
+
+/* ================================================================
+   ROADMAP
+================================================================ */
+function roadmapView(){
+  const dc=Object.keys(S.perDay).length;
+  shell("Roadmap",`<div class="wrap">
+    <span class="kick">${bi("90-Day Study Plan","90-दिन का अध्ययन प्लान")}</span>
+    <h1 class="title">${bi("Your Roadmap","आपका Roadmap")}</h1>
+    <p class="sub">${bi("Sequenced for retention: Section I (GK + Reasoning) first, then Social Studies, Science-Math and Language, then revision and mocks. Complete each day's diagnostic to unlock the next.","Retention के लिए क्रमबद्ध: पहले खण्ड I (GK + Reasoning), फिर सामाजिक अध्ययन, विज्ञान-गणित व भाषा, फिर revision व mocks। अगला दिन खोलने के लिए दिन का diagnostic पूरा करें।")}</p>
+    <div class="mockbar">
+      <span class="chip">📅 <b>${dc}</b>/90 days done</span>
+      <div class="bar" style="flex:1;min-width:160px"><i style="width:${Math.round(dc/90*100)}%"></i></div>
+    </div>
+    <div class="legend">
+      <span>🟩 Done</span><span>🟨 Today</span><span>⬜ Locked</span><span>📝 Mock</span>
+    </div>
+    <div class="rdgrid">
+      ${ROADMAP.map(r=>dayCell(r)).join("")}
+    </div>
+  </div>`);
+}
+function dayCell(r){
+  const isDone=!!S.perDay[r.day];
+  const isToday=r.day===todayDayIndex();
+  const prevDone=r.day===1||!!S.perDay[r.day-1];
+  const locked=!prevDone && !isDone && r.type!=="mock";
+  return `<div class="rday ${isDone?"done":""} ${locked?"lock":""} ${isToday?"":""}" onclick="APP.openDay(${r.day})" style="${isToday?"outline:2px solid var(--gold);":""}">
+    <span class="dn">Day ${r.day}</span>
+    <span class="df">${r.focus_hi?bi(r.focus,r.focus_hi):r.focus}</span>
+    <span class="dt">${r.type==="learn"?bi("Learn","पढ़ें"):r.type==="revise"?bi("Revise","दोहराएँ"):bi("Mock Test","Mock Test")}</span>
+  </div>`;
+}
+function todayDayIndex(){
+  let first=0;for(let i=0;i<ROADMAP.length;i++){if(!S.perDay[ROADMAP[i].day]){first=ROADMAP[i].day;break}}
+  return first||ROADMAP.length;
+}
+APP.openDay=d=>{
+  const r=dayModules(d);if(!r)return;
+  const prevDone=d===1||!!S.perDay[d-1];
+  if(!prevDone && !S.perDay[d] && r.type!=="mock"){toast("⚠️ पिछला दिन पहले पूरा करें। Complete the previous day first.","r");return;}
+  const mods=[...r.modules.map(id=>modById(id)),...MODULES.filter(m=>m.day===d)].filter(Boolean).filter((m,i,a)=>a.findIndex(x=>x.id===m.id)===i);
+  shell("Roadmap",`<div class="wrap">
+    <span class="kick">${bi("Day "+d,"दिन "+d)}</span>
+    <h1 class="title">${r.focus_hi?bi(r.focus,r.focus_hi):r.focus}</h1>
+    <p class="sub">${r.goal_hi?bi(r.goal,r.goal_hi):""}</p>
+    ${r.type==="mock"?
+      `<div class="card" style="margin-top:20px"><h2 class="sec">📝 ${bi("Full Mock Test","पूर्ण Mock Test")}</h2>
+      <p class="sub">${bi("Attempt the full 120-question mock under exam conditions.","Exam जैसी परिस्थिति में पूरे 120 प्रश्नों का mock दें।")}</p>
+      <button class="btn" onclick="APP.startMock()">${bi("Start Mock","Mock शुरू करें")} →</button></div>`
+    :
+      (mods.length?
+        `<div class="doors" style="grid-template-columns:1fr;margin-top:20px">
+          ${mods.map(m=>`<div class="door hov" style="display:flex;align-items:center;gap:16px">
+            <span style="font-size:2rem">${(SUBJECTS.find(s=>s.id===m.subject)||{}).e||"📚"}</span>
+            <div style="flex:1"><h3 style="font-size:1.1rem">${bi(m.title,m.hi)}</h3>
+            <small style="color:var(--ink2)">${m.questions.length} questions · Level ${m.level}</small></div>
+            ${S.done.includes(m.id)?`<span class="tag t-grn">${bi("Done","पूर्ण")}</span>`:`<a class="btn sm" href="#/module/${m.id}">${bi("Start","शुरू")} →</a>`}
+          </div>`).join("")}
+        </div>`
+      :
+        `<div class="card" style="margin-top:20px"><h3 style="font-family:var(--disp)">📥 ${bi("Content not generated yet","सामग्री अभी generate नहीं हुई")}</h3>
+        <p class="sub">${bi("This day's module is LLM-generated. Run the generator (it assigns this day number automatically) and reload — the questions will appear here on their own. To fill every missing topic at once, run the batch command below.","इस दिन का module LLM generator से बनता है। generator चलाएँ (यह दिन-संख्या अपने आप जोड़ देता है) और reload करें — प्रश्न यहाँ अपने आप दिखेंगे। सभी बाकी topics एक साथ भरने के लिए नीचे दिया batch command चलाएँ।")}</p>
+        <div class="tips" style="margin-top:10px;font-family:monospace;font-size:.9rem">node scripts/generate.mjs --manifest</div>
+        </div>`)}
+    <div class="mp-nav"><a class="btn ghost" href="#/roadmap">← ${bi("Back","वापस")}</a></div>
+  </div>`);
+};
+
+/* ================================================================
+   MODULE PLAYER
+================================================================ */
+let MP=null;
+function moduleView(id){
+  const m=modById(id);
+  if(!m){location.hash="#/subjects";return;}
+  const steps=["concept","check","deep","quiz"];
+  MP={m,i:0,quizQ:0,quizAnswers:[]};
+  shell("Subjects",`<div class="wrap" id="mpWrap"></div>`);
+  mpRender();
+}
+function mpRender(){
+  const m=MP.m, step=MP.i;
+  const s=SUBJECTS.find(x=>x.id===m.subject);
+  const stLabels=[bi("1 · Core Concept","1 · मूल अवधारणा"),bi("2 · Concept Check","2 · Concept Check"),bi("3 · Deep Dive","3 · Deep Dive"),bi("4 · Diagnostic Quiz","4 · Diagnostic Quiz")];
+  const stepBar=`<div class="stepbar">${stLabels.map((l,i)=>`<span class="st ${i<step?"done":""} ${i===step?"act":""}">${l}</span>`).join("")}</div>`;
+  let body="";
+  if(step===0)body=mpConcept(m);
+  else if(step===1)body=mpCheck(m);
+  else if(step===2)body=mpDeep(m);
+  else body=mpQuiz(m);
+  $("#mpWrap").innerHTML=`<div class="mp-top">
+      <span style="font-size:1.8rem">${s.e}</span>
+      <div><h1>${bi(m.title,m.hi)}</h1><div class="steptag" style="color:var(--ink2);font-weight:700">Day ${m.day} · ${m.questions.length} Qs · Level ${m.level}</div></div>
+    </div>
+    ${stepBar}
+    <div class="mp-card">${body}</div>`;
+  if(step===3)mpQuizRender();
+  if(step===1)mpCheckBind();
+}
+function mpConcept(m){
+  const c=m.concepts[0];
+  const points=(c.points||[]).map((p,i)=>`<div class="point"><span class="ic">${i+1}</span><div class="tx">${p}</div></div>`).join("");
+  return `<span class="tag t-blue">${bi("Core Concept Module","मूल अवधारणा मॉड्यूल")}</span>
+    <h2 class="sec" style="margin:10px 0">${bi(c.title,c.title_hi)}</h2>
+    ${(c.simple||c.simple_hi)?`<div class="tips" style="margin:12px 0;border-left:4px solid var(--green)"><h4>👶 ${bi("Simple meaning","आसान मतलब")}</h4><p>${c.simple_hi?bi(c.simple,c.simple_hi):c.simple}</p></div>`:""}
+    ${c.intro?`<p class="sub">${c.intro}</p>`:""}
+    ${points}
+    ${c.example?`<div class="formula"><span class="fx">💡 ${bi("Example","उदाहरण")}</span><span>${c.example}</span></div>`:""}
+    ${c.trick?`<div class="tips" style="margin-top:12px"><h4>🧠 ${bi("Memory Trick","याद रखने की ट्रिक")}</h4><p>${c.trick}</p></div>`:""}
+    <div class="mp-nav">
+      <a class="btn ghost" href="#/subjects">${bi("Exit","बाहर")}</a>
+      <button class="btn" onclick="MP.i=1;mpRender()">${bi("Next: Concept Check","आगे: Concept Check")} →</button>
+    </div>`;
+}
+function mpCheck(m){
+  const c=m.concepts[0];
+  const q=c.check||m.questions[0];
+  return `<span class="tag t-pur">${bi("Concept Check","Concept Check")}</span>
+    <h2 class="sec" style="margin:10px 0">${bi("Low-stakes check","Low-stakes check")}</h2>
+    <p class="sub">${bi("Answer this to make sure the idea stuck. No XP lost for mistakes here.","समझ पक्की हुई या नहीं, यह देखने के लिए जवाब दें। यहाँ गलती पर XP नहीं कटता।")}</p>
+    <div class="qcard" style="margin-top:14px" id="checkBox"></div>
+    <div class="mp-nav">
+      <button class="btn ghost" onclick="MP.i=0;mpRender()">← ${bi("Back","वापस")}</button>
+      <button class="btn" onclick="MP.i=2;mpRender()">${bi("Skip to Deep Dive","Deep Dive पर जाएँ")} →</button>
+    </div>`;
+}
+function mpCheckBind(){
+  const c=MP.m.concepts[0];
+  const q=c.check||MP.m.questions[0];
+  const el=$("#checkBox");
+  el.innerHTML=`<div class="qtext">${q.q_hi?bi(q.q,q.q_hi):q.q}</div>
+    ${(q.o_hi||q.o).map((o,i)=>`<button class="opt" onclick="APP.checkAnswer(${i})">${label(o,i,q)}</button>`).join("")}
+    <div id="checkRationale"></div>`;
+}
+function label(o,i,q){return (q.o_hi?bi(o,q.o_hi[i]):o)}
+APP.checkAnswer=i=>{
+  const c=MP.m.concepts[0];const q=c.check||MP.m.questions[0];
+  const opts=$$("#checkBox .opt");
+  opts.forEach((b,j)=>{b.disabled=true;if(j===q.a)b.classList.add("ok");if(j===i&&i!==q.a)b.classList.add("no");});
+  const ok=i===q.a;
+  $("#checkRationale").innerHTML=`<div class="rationale">
+    <div class="rh">${ok?bi("✅ Correct!","✅ सही!") : bi("Not quite — here's why:","अभी नहीं — यहाँ देखें:")}</div>
+    <div>${q.exp_hi?bi(q.exp,q.exp_hi):q.exp}</div>
+  </div>`;
+  if(ok)give(5,`+5 XP · ${bi("Concept locked","Concept पक्का")} ✅`);else {S.stats.att++;save();}
+  toast(ok?bi("Nice! Move on.","बढ़िया! आगे बढ़ें।"):bi("Read the explanation, then continue.","व्याख्या पढ़ें, फिर आगे बढ़ें।"),ok?"g":"");
+};
+function mpDeep(m){
+  const c=m.concepts[0];
+  const dd=c.deep||{title:"Deep Dive",title_hi:"Deep Dive",body:"Advanced context and applications.",body_hi:"उन्नत संदर्भ और अनुप्रयोग।"};
+  return `<span class="tag t-pur">${bi("Deep Dive","Deep Dive")}</span>
+    <h2 class="sec" style="margin:10px 0">${bi(dd.title,dd.title_hi)}</h2>
+    <div class="ddbox"><div>${dd.body_hi?bi(dd.body,dd.body_hi):dd.body}</div></div>
+    ${dd.extra?`<div class="tips" style="margin-top:12px"><h4>📌 ${bi("Exam Pointer","Exam Pointer")}</h4><p>${dd.extra}</p></div>`:""}
+    <div class="mp-nav">
+      <button class="btn ghost" onclick="MP.i=1;mpRender()">← ${bi("Back","वापस")}</button>
+      <button class="btn gold" onclick="MP.i=3;mpRender()">${bi("Take Diagnostic Quiz","Diagnostic Quiz दें")} →</button>
+    </div>`;
+}
+
+/* ---------- Diagnostic Quiz (module step 4) ---------- */
+function mpQuiz(m){
+  const qs=m.questions;
+  return `<span class="tag t-grn">${bi("Diagnostic Quiz","Diagnostic Quiz")}</span>
+    <h2 class="sec" style="margin:10px 0">${bi("Readiness Check","Readiness Check")}</h2>
+    <p class="sub">${bi("Pass at 70% to mark this module complete and unlock the next day.","70% पर pass करें — module पूर्ण होगा और अगला दिन खुलेगा।")}</p>
+    <div class="qcard" style="margin-top:14px" id="dqBox"></div>
+    <div class="mp-nav" id="dqNav"></div>`;
+}
+function mpQuizRender(){
+  MP.quizQ=MP.quizQ||0;MP.quizAnswers=MP.quizAnswers||[];
+  const qs=MP.m.questions, i=MP.quizQ, q=qs[i];
+  const doneAll=i>=qs.length;
+  const el=$("#dqBox"), nav=$("#dqNav");
+  if(doneAll){mpQuizResult(el,nav);return;}
+  el.innerHTML=`<div class="qhead"><span class="qnum">${bi("Question","प्रश्न")} ${i+1} / ${qs.length}</span><span class="tag t-blue">${q.mode==="deepseek"?"🧠 Deep":"⚡ Quick"}</span></div>
+    <div class="qtext">${q.q_hi?bi(q.q,q.q_hi):q.q}</div>
+    ${(q.o_hi||q.o).map((o,j)=>`<button class="opt" onclick="APP.dqAnswer(${j})">${label(o,j,q)}</button>`).join("")}
+    <div id="dqRationale"></div>`;
+  nav.innerHTML=`<div></div><button class="btn" id="dqNext" style="display:none" onclick="APP.dqNext()">${bi("Next","आगे")} →</button>`;
+}
+APP.dqAnswer=j=>{
+  const qs=MP.m.questions, i=MP.quizQ, q=qs[i];
+  if(MP.quizAnswers[i]!=null)return;
+  MP.quizAnswers[i]=j;
+  const ok=j===q.a;
+  const opts=$$("#dqBox .opt");
+  opts.forEach((b,k)=>{b.disabled=true;if(k===q.a)b.classList.add("ok");if(k===j&&!ok)b.classList.add("no");});
+  $("#dqRationale").innerHTML=rationaleHTML(q,ok);
+  if(ok)give(10,"+10 XP ✅");
+  const nxt=$("#dqNext");if(nxt){nxt.style.display="";nxt.textContent=i+1>=qs.length?bi("See Result","परिणाम देखें"):bi("Next","आगे")+" →";}
+};
+APP.dqNext=()=>{
+  const qs=MP.m.questions;
+  if(MP.quizQ+1>=qs.length){mpQuizRender();return;}
+  MP.quizQ++;mpQuizRender();
+};
+function mpQuizResult(el,nav){
+  const qs=MP.m.questions, ans=MP.quizAnswers;
+  let cor=0;ans.forEach((a,i)=>{if(a===qs[i].a)cor++;});
+  const pct=Math.round(cor/qs.length*100);
+  const pass=pct>=70;
+  if(!S.done.includes(MP.m.id)&&pass){S.done.push(MP.m.id);S.perDay[MP.m.day]=1;award("start");checkBadges();}
+  // track weak topics
+  ans.forEach((a,i)=>{const q=qs[i];if(a!==q.a){S.weak[q.topic]=(S.weak[q.topic]||0)+1;S.mistakes.push({m:MP.m.id,q:i,topic:q.topic,ts:Date.now()});}});
+  save();
+  el.innerHTML=`<div style="text-align:center;padding:20px 0">
+    <div style="font-size:3rem">${pass?"🎉":"📚"}</div>
+    <h2 class="sec">${cor} / ${qs.length} (${pct}%)</h2>
+    <p class="sub">${pass?bi("Passed! This module is complete.","Pass! यह module पूर्ण हो गया।") : bi("Below 70% — review and retry to unlock the next day.","70% से कम — दोबारा देखें व retry करें।")}</p>
+    <div class="bar" style="max-width:280px;margin:14px auto"><i style="width:${pct}%;background:${pass?"var(--green)":"var(--gold)"}"></i></div>
+  </div>`;
+  nav.innerHTML=`<div><a class="btn ghost" href="#/subjects">${bi("Exit","बाहर")}</a></div>
+    ${pass?`<a class="btn" href="#/roadmap">${bi("Next Day","अगला दिन")} →</a>`:`<button class="btn gold" onclick="MP.quizQ=0;MP.quizAnswers=[];mpRender()">${bi("Retry Quiz","फिर से दें")} ↻</button>`}`;
+  if(pass){confetti(innerWidth/2,innerHeight/2.4);award("quiz");}
+}
+
+/* ---------- rationale renderer ---------- */
+function rationaleHTML(q,ok){
+  const wrongOpts=[];
+  for(let k=0;k<(q.o_hi||q.o).length;k++)if(k!==q.a)wrongOpts.push(k);
+  const whys=(q.why||[]).slice(0,3);
+  const correctText=label(q.a,q.a,q);
+  return `<div class="rationale">
+    <div class="rh">${ok?"✅ ":"❌ "}${bi("Correct answer:","सही उत्तर:")} ${correctText}</div>
+    <div>${q.exp_hi?bi(q.exp,q.exp_hi):q.exp}</div>
+    ${whys.length?`<ul class="why">${whys.map((w,i)=>`<li>${bi("Option","विकल्प")} ${String.fromCharCode(65+wrongOpts[i])}: ${w}</li>`).join("")}</ul>`:""}
+  </div>`;
+}
+
+/* ---------- 30s review timer (Flash / DeepSeek) ---------- */
+let REVIEW=null;
+function review30(onDone,hostSel){
+  clearInterval(REVIEW&&REVIEW.t);
+  const host=$(hostSel);
+  if(host)host.insertAdjacentHTML("beforeend",`<div class="reviewbar" id="reviewBar"><span class="rl">${bi("Review your answer","उत्तर की समीक्षा")}</span><b id="reviewCount">30s</b><button class="btn sm" onclick="APP.skipReview()">${bi("Next / Skip","आगे / छोड़ें")} →</button></div>`);
+  let left=30;
+  REVIEW={done:onDone,t:setInterval(()=>{left--;const c=$("#reviewCount");if(c)c.textContent=left+"s";if(left<=0)APP.skipReview();},1000)};
+}
+APP.skipReview=()=>{clearInterval(REVIEW&&REVIEW.t);const b=$("#reviewBar");if(b)b.remove();const d=REVIEW&&REVIEW.done;REVIEW=null;if(d)d();};
+
+/* ================================================================
+   DEEPSEEK MODE (CoT reveal)
+================================================================ */
+let DS=null;
+function deepseekView(){
+  const pool=MODULES.filter(m=>m.subject==="reason").flatMap(m=>m.questions.filter(q=>q.steps&&q.steps.length).map(q=>Object.assign({},q,{mid:m.id})));
+  const bank=pool.length?pool:qsOfSubject("reason");
+  shell("Home",`<div class="wrap" id="dsWrap"></div>`);
+  DS={bank:shuffle(bank),i:0,revealed:0,cor:0};
+  dsRender();
+}
+function dsRender(){
+  const q=DS.bank[DS.i];const el=$("#dsWrap");
+  if(!q){dsDone(el);return;}
+  el.innerHTML=`<span class="kick">🧠 DEEPSEEK MODE · ${bi("High-Reasoning Engine","High-Reasoning Engine")}</span>
+    <h1 class="title">${bi("Chain-of-Thought Reasoning","Chain-of-Thought Reasoning")}</h1>
+    <p class="sub">${bi("Reveal each reasoning step before you answer. This simulates a deep reasoning model walking through the logic.","उत्तर देने से पहले हर तर्क-step खोलें। यह deep reasoning model की तरह logic समझाता है।")}</p>
+    <div class="mockbar"><span class="chip">${bi("Question","प्रश्न")} ${DS.i+1}/${DS.bank.length}</span><span class="chip">⭐ ${DS.cor} ${bi("correct","सही")}</span></div>
+    <div class="qcard">
+      <div class="qtext" style="margin-bottom:12px">${q.q_hi?bi(q.q,q.q_hi):q.q}</div>
+      <div id="dsSteps"></div>
+      <div id="dsOptions"></div>
+      <div id="dsRationale"></div>
+    </div>
+    <div class="mp-nav">
+      <a class="btn ghost" href="#/">${bi("Exit","बाहर")}</a>
+      <button class="btn purp" id="dsReveal" onclick="APP.dsReveal()">${bi("Reveal Reasoning Step","तर्क Step खोलें")} 🧠</button>
+    </div>`;
+}
+APP.dsReveal=()=>{
+  const q=DS.bank[DS.i];
+  if(DS.revealed<q.steps.length){
+    const el=$("#dsSteps");
+    el.innerHTML+=(DS.revealed?`<div class="cotstep"><b>${bi("Step","चरण")} ${DS.revealed+1}:</b> ${q.steps[DS.revealed]}</div>`:`<div class="cotstep"><b>${bi("Step","चरण")} 1:</b> ${q.steps[0]}</div>`);
+    DS.revealed++;
+    if(DS.revealed>=q.steps.length){
+      $("#dsReveal").textContent=bi("Answer Now","अब उत्तर दें");
+      $("#dsOptions").innerHTML=(q.o_hi||q.o).map((o,j)=>`<button class="opt" onclick="APP.dsAnswer(${j})">${label(o,j,q)}</button>`).join("");
+    }
+  }
+};
+APP.dsAnswer=j=>{
+  const q=DS.bank[DS.i];
+  const ok=j===q.a;if(ok)DS.cor++;
+  const opts=$$("#dsOptions .opt");
+  opts.forEach((b,k)=>{b.disabled=true;if(k===q.a)b.classList.add("ok");if(k===j&&!ok)b.classList.add("no");});
+  $("#dsRationale").innerHTML=rationaleHTML(q,ok);
+  const rv=$("#dsReveal");if(rv)rv.outerHTML="";
+  give(ok?12:-0,ok?"+12 XP ✅":"");
+  review30(()=>APP.dsNext(),"#dsWrap");
+};
+APP.dsNext=()=>{DS.i++;DS.revealed=0;dsRender();};
+function dsDone(el){
+  el.innerHTML=`<div class="card" style="text-align:center;padding:40px">
+    <div style="font-size:3rem">🧠</div><h2 class="sec">${bi("Deep Reasoning Complete","Deep Reasoning पूर्ण")}</h2>
+    <p class="sub">${bi("You reasoned through","आपने तर्क किया")} ${DS.bank.length} ${bi("questions —","प्रश्नों में —")} ${DS.cor} ${bi("correct.","सही।")}</p>
+    <a class="btn" href="#/" style="margin-top:14px">${bi("Back Home","Home पर वापस")}</a>
+  </div>`;
+}
+
+/* ================================================================
+   QWEN FLASH MODE
+================================================================ */
+let FL=null;
+function flashView(){
+  const pool=qsOfSubject("gk").concat(qsOfSubject("reason")).concat(qsOfSubject("ss"));
+  shell("Home",`<div class="wrap" id="flWrap"></div>`);
+  FL={bank:shuffle(pool).slice(0,15),i:0,cor:0,timer:null,left:20};
+  flRender();
+}
+function flRender(){
+  const q=FL.bank[FL.i];const el=$("#flWrap");
+  if(!q){flDone(el);return;}
+  FL.left=20;clearInterval(FL.timer);
+  el.innerHTML=`<span class="kick">⚡ QWEN FLASH · ${bi("High-Speed Engine","High-Speed Engine")}</span>
+    <h1 class="title">${bi("Rapid-Fire Drill","Rapid-Fire Drill")}</h1>
+    <div class="mockbar">
+      <span class="chip">${bi("Question","प्रश्न")} ${FL.i+1}/${FL.bank.length}</span>
+      <span class="chip">⭐ ${FL.cor}</span>
+      <span class="timer" id="flTimer">20s</span>
+    </div>
+    <div class="qcard">
+      <div class="qtext" style="margin-bottom:12px">${q.q_hi?bi(q.q,q.q_hi):q.q}</div>
+      ${(q.o_hi||q.o).map((o,j)=>`<button class="opt" onclick="APP.flAnswer(${j})">${label(o,j,q)}</button>`).join("")}
+      <div id="flRationale"></div>
+    </div>
+    <div class="mp-nav"><a class="btn ghost" href="#/">${bi("Exit","बाहर")}</a><span></span></div>`;
+  FL.timer=setInterval(()=>{
+    FL.left--;const t=$("#flTimer");if(t)t.textContent=FL.left+"s";
+    if(FL.left<=0){APP.flAnswer(-1);}
+  },1000);
+}
+APP.flAnswer=j=>{
+  if(FL.answered)return;FL.answered=true;
+  clearInterval(FL.timer);
+  const q=FL.bank[FL.i];
+  const ok=j===q.a;if(ok)FL.cor++;
+  const opts=$$("#flWrap .opt");
+  opts.forEach((b,k)=>{b.disabled=true;if(k===q.a)b.classList.add("ok");if(k===j&&!ok)b.classList.add("no");});
+  if(j===-1)$("#flRationale").innerHTML=`<div class="rationale"><div class="rh">⏰ ${bi("Time up!","समय समाप्त!")}</div><div>${q.exp_hi?bi(q.exp,q.exp_hi):q.exp}</div></div>`;
+  else $("#flRationale").innerHTML=rationaleHTML(q,ok);
+  review30(()=>{FL.i++;FL.answered=false;flRender();},"#flWrap");
+};
+function flDone(el){
+  clearInterval(FL.timer);
+  el.innerHTML=`<div class="card" style="text-align:center;padding:40px">
+    <div style="font-size:3rem">⚡</div><h2 class="sec">${bi("Flash Drill Complete","Flash Drill पूर्ण")}</h2>
+    <p class="sub">${bi("Score:","स्कोर:")} ${FL.cor} / ${FL.bank.length}</p>
+    <a class="btn" href="#/" style="margin-top:14px">${bi("Back Home","Home पर वापस")}</a>
+  </div>`;
+}
+
+/* ================================================================
+   MOCK TEST
+================================================================ */
+let MK=null;
+APP.startMock=()=>{mockView(true)};
+function mockIntro(){
+  shell("Mock",`<div class="wrap">
+    <span class="kick">📝 ${bi("Full Mock Test","पूर्ण Mock Test")}</span>
+    <h1 class="title">${bi("Exam Simulation","Exam Simulation")}</h1>
+    <p class="sub">${bi("120 questions · 120 minutes · +3 correct, −1 wrong. Section I (GK/Reasoning) = 30, Section II (Social Studies) = 90.","120 प्रश्न · 120 मिनट · +3 सही, −1 गलत। खण्ड I (GK/Reasoning) = 30, खण्ड II (सामाजिक अध्ययन) = 90।")}</p>
+    <div class="examgrid">
+      <div class="c"><b>${Math.min(30,poolCount("A"))}</b><small>${bi("Section I available","खण्ड I उपलब्ध")}</small></div>
+      <div class="c"><b>${Math.min(90,poolCount("B"))}</b><small>${bi("Section II available","खण्ड II उपलब्ध")}</small></div>
+      <div class="c"><b>120</b><small>${bi("Minutes","मिनट")}</small></div>
+      <div class="c"><b>−1</b><small>${bi("Negative marking","Negative")}</small></div>
+    </div>
+    <button class="btn" style="margin-top:20px" onclick="APP.startMock()">${bi("Start Mock Test","Mock Test शुरू करें")} 🚀</button>
+  </div>`);
+}
+function poolCount(sec){return sec==="A"?qsOfSubject("gk").length+qsOfSubject("reason").length:qsOfSubject("ss").length}
+function mockView(start){
+  const a=shuffle(qsOfSubject("gk").concat(qsOfSubject("reason")));
+  const b=shuffle(qsOfSubject("ss"));
+  const sec1=a.slice(0,30), sec2=b.slice(0,90);
+  const qs=sec1.concat(sec2);
+  if(!qs.length){toast("No questions available yet.","r");return;}
+  MK={qs,i:0,answers:[],left:120*60,timer:null,sec1:sec1.length,sec2:sec2.length};
+  shell("Mock",`<div class="wrap" id="mkWrap"></div>`);
+  MK.timer=setInterval(()=>{
+    MK.left--;const t=$("#mkTimer");if(t){const m=Math.floor(MK.left/60),s=MK.left%60;t.textContent=(m<10?"0":"")+m+":"+(s<10?"0":"")+s;}
+    if(MK.left<=0)mockFinish();
+  },1000);
+  mkRender();
+}
+function mkRender(){
+  const i=MK.i,q=MK.qs[i];const el=$("#mkWrap");
+  if(i>=MK.qs.length){mockFinish();return;}
+  const inSec2=i>=MK.sec1;
+  el.innerHTML=`<span class="kick">📝 ${bi("Mock Test","Mock Test")} · ${inSec2?bi("Section II","खण्ड II"):bi("Section I","खण्ड I")}</span>
+    <div class="mockbar">
+      <span class="chip">${bi("Question","प्रश्न")} ${i+1}/${MK.qs.length}</span>
+      <span class="timer" id="mkTimer"></span>
+    </div>
+    <div class="qcard">
+      <div class="qtext" style="margin-bottom:12px">${q.q_hi?bi(q.q,q.q_hi):q.q}</div>
+      ${(q.o_hi||q.o).map((o,j)=>`<button class="opt" onclick="APP.mkAnswer(${j})">${label(o,j,q)}</button>`).join("")}
+    </div>
+    <div class="qnav">
+      <button class="btn ghost sm" ${i===0?"disabled":""} onclick="APP.mkPrev()">← ${bi("Prev","पिछला")}</button>
+      <button class="btn sm" onclick="APP.mkNext()">${bi("Next","आगे")} →</button>
+    </div>
+    <div class="mgrid">
+      ${MK.qs.map((_,k)=>`<button class="${k===i?"cur":""} ${MK.answers[k]!=null?(MK.answers[k]===MK.qs[k].a?"done-c":"done-w"):""}" onclick="APP.mkJump(${k})">${k+1}</button>`).join("")}
+    </div>
+    <button class="btn gold" style="margin-top:12px" onclick="APP.mkSubmit()">${bi("Submit Test","Test Submit करें")} ✅</button>`;
+}
+APP.mkAnswer=j=>{if(MK.answers[MK.i]!=null)return;MK.answers[MK.i]=j;mkRender();};
+APP.mkPrev=()=>{if(MK.i>0){MK.i--;mkRender();}};
+APP.mkNext=()=>{if(MK.i<MK.qs.length-1){MK.i++;mkRender();}else mockFinish();};
+APP.mkJump=k=>{MK.i=k;mkRender();};
+APP.mkSubmit=()=>{if(confirm("Submit the mock test? आप सबमिट करना चाहते हैं?"))mockFinish();};
+function mockFinish(){
+  clearInterval(MK.timer);
+  const qs=MK.qs,ans=MK.answers;
+  let cor=0,att=0;ans.forEach((a,i)=>{if(a!=null){att++;if(a===qs[i].a)cor++;}});
+  const wrong=att-cor;
+  const score=cor*3-wrong*1;
+  const byTopic={};
+  ans.forEach((a,i)=>{const q=qs[i];if(a!=null&&a!==q.a){byTopic[q.topic]=(byTopic[q.topic]||0)+1;S.weak[q.topic]=(S.weak[q.topic]||0)+1;S.mistakes.push({m:q.mid||"mock",q:i,topic:q.topic,ts:Date.now()});}});
+  S.stats.att+=att;S.stats.cor+=cor;save();award("mock");checkBadges();
+  const weakRows=Object.entries(byTopic).sort((a,b)=>b[1]-a[1]).slice(0,6);
+  shell("Mock",`<div class="wrap">
+    <span class="kick">📝 ${bi("Result","परिणाम")}</span>
+    <h1 class="title">${bi("Mock Test Analysis","Mock Test विश्लेषण")}</h1>
+    <div class="examgrid">
+      <div class="c"><b>${cor}</b><small>${bi("Correct","सही")}</small></div>
+      <div class="c"><b>${wrong}</b><small>${bi("Wrong","गलत")}</small></div>
+      <div class="c"><b>${att}</b><small>${bi("Attempted","प्रयास")}</small></div>
+      <div class="c"><b style="color:${score>=0?"var(--green)":"var(--red)"}">${score}</b><small>${bi("Score (×3 −1)","स्कोर")}</small></div>
+    </div>
+    <div class="card" style="margin-top:20px">
+      <h2 class="sec">${bi("Weak Topics","कमज़ोर Topics")}</h2>
+      ${weakRows.length?`<div class="weaklist">${weakRows.map(([t,n])=>`<div class="w"><span style="flex:1;font-weight:700">${t}</span><div class="bar"><i style="width:${Math.min(100,n*20)}%;background:var(--red)"></i></div><b>${n}</b></div>`).join("")}</div>`:`<p class="sub">${bi("No mistakes — excellent!","कोई गलती नहीं — शानदार!")}</p>`}
+    </div>
+    <div class="mp-nav"><a class="btn" href="#/">${bi("Home","Home")}</a><a class="btn gold" href="#/progress">${bi("See Progress","Progress देखें")} →</a></div>
+  </div>`);
+}
+
+/* ================================================================
+   PROGRESS
+================================================================ */
+function progressView(){
+  const done=S.done.length,total=MODULES.length;
+  const pct=total?Math.round(done/total*100):0;
+  const acc=S.stats.att?Math.round(S.stats.cor/S.stats.att*100):0;
+  const weak=Object.entries(S.weak).sort((a,b)=>b[1]-a[1]);
+  const recent=(S.mistakes||[]).slice(-8).reverse();
+  const perSubject=SUBJECTS.filter(s=>!s.locked).map(s=>{
+    const ms=MODULES.filter(m=>m.subject===s.id);const d=ms.filter(m=>S.done.includes(m.id)).length;
+    return {s,d,total:ms.length};
+  });
+  shell("Progress",`<div class="wrap">
+    <span class="kick">📊 ${bi("Your Progress","आपकी Progress")}</span>
+    <h1 class="title">${bi("Dashboard","Dashboard")}</h1>
+    <div class="pgrid">
+      <div>
+        <div class="card" style="display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+          <div class="ring" style="background:conic-gradient(var(--ind) ${pct*3.6}deg, var(--line) 0)"><div style="text-align:center"><b>${pct}%</b><small>${bi("Complete","पूर्ण")}</small></div></div>
+          <div style="flex:1;min-width:200px">
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:12px">
+              <span class="chip">⭐ <b>${S.xp}</b> XP</span>
+              <span class="chip">🏆 Level <b>${level()}</b></span>
+              <span class="chip">🔥 <b>${S.streak}</b>-day</span>
+              <span class="chip">🎯 <b>${acc}%</b> ${bi("accuracy","accuracy")}</span>
+            </div>
+            <div class="bar"><i style="width:${pct}%"></i></div>
+            <small style="color:var(--ink2)">${done}/${total} ${bi("modules","modules")} · ${bi("Next level:","अगला level:")} ${xpForNext()} XP</small>
+          </div>
+        </div>
+        <div style="margin-top:20px"><h2 class="sec">${bi("Subject Progress","विषय Progress")}</h2>
+          <div class="doors" style="grid-template-columns:1fr;margin-top:12px">
+            ${perSubject.map(({s,d,total})=>`<div class="door" style="display:flex;align-items:center;gap:14px;padding:16px">
+              <span style="font-size:1.6rem">${s.e}</span>
+              <div style="flex:1"><b>${bi(s.name,s.hi)}</b>
+              <div class="bar" style="margin-top:6px"><i style="width:${total?Math.round(d/total*100):0}%"></i></div></div>
+              <span class="chip">${d}/${total}</span>
+            </div>`).join("")}
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card"><h2 class="sec" style="font-size:1.2rem">🏅 ${bi("Badges","Badges")}</h2>
+          <div class="bgrid" style="margin-top:12px">
+            ${BADGES.map(b=>`<div class="bdg ${S.badges.includes(b.id)?"got":""}"><span class="em">${b.e}</span><b>${b.t}</b><small>${b.d}</small></div>`).join("")}
+          </div>
+        </div>
+        <div class="card" style="margin-top:16px"><h2 class="sec" style="font-size:1.2rem">🎯 ${bi("Weak Topics","कमज़ोर Topics")}</h2>
+          ${weak.length?`<div class="weaklist">${weak.slice(0,6).map(([t,n])=>`<div class="w"><span style="flex:1;font-weight:700;font-size:.9rem">${t}</span><b style="color:var(--red)">${n}</b></div>`).join("")}</div>`:`<p class="sub" style="font-size:.85rem">${bi("No weak topics recorded yet.","अभी कोई कमज़ोर topic दर्ज नहीं।")}</p>`}
+        </div>
+      </div>
+    </div>
+    ${recent.length?`<div class="card" style="margin-top:20px"><h2 class="sec" style="font-size:1.2rem">🧾 ${bi("Recent Mistakes","हाल की गलतियाँ")}</h2>
+      <div class="weaklist">${recent.map(r=>`<div class="w"><span style="flex:1;font-size:.9rem">${r.topic}</span><span class="tag t-red">${bi("Module","Module")} ${esc(r.m)}</span></div>`).join("")}</div>
+      <button class="btn sm gold" style="margin-top:12px" onclick="APP.resetAll()">${bi("Reset Progress","Progress रीसेट करें")} ↺</button>
+    </div>`:""}
+  </div>`);
+}
+APP.resetAll=()=>{if(confirm("Reset all progress? सारी progress मिट जाएगी।")){S=JSON.parse(JSON.stringify(DEF));S.last=new Date().toDateString();save();progressView();}};
+
+/* ================================================================
+   ROUTE
+================================================================ */
+function route(){
+  const h=location.hash||"#/";
+  const parts=h.replace(/^#\//,"").split("/");
+  const seg=parts[0];
+  document.querySelector("header")?.classList.remove("nav-open");
+  if(seg===""||seg==="home")homeView();
+  else if(seg==="subjects")subjectsView();
+  else if(seg==="subject")subjectsView();
+  else if(seg==="roadmap")roadmapView();
+  else if(seg==="module")moduleView(parts[1]);
+  else if(seg==="deepseek")deepseekView();
+  else if(seg==="flash")flashView();
+  else if(seg==="mock")mockIntro();
+  else if(seg==="progress")progressView();
+  else homeView();
+}
+window.addEventListener("hashchange",route);
+route();
+</script>
+</body>
+</html>

@@ -503,6 +503,16 @@ html[data-theme="dark"] .runtrack{background:linear-gradient(#20264a 78%,#3a3222
 <body data-lang="both">
 <div id="bgF" aria-hidden="true"></div>
 
+<!-- ================= EXAM-PREP BANNER ================= -->
+<div id="examBanner" style="position:relative;z-index:60;background:linear-gradient(90deg,var(--ind),var(--purp));color:#fff;padding:9px 14px;font-size:.9rem">
+  <div class="wrap" style="display:flex;align-items:center;gap:10px;justify-content:center;flex-wrap:wrap;text-align:center">
+    <span>🎓 <b>Exam Prep 2026</b> — UP सहायक अध्यापक भर्ती की पूरी तैयारी (GK · Reasoning · Science-Math · Language)</span>
+    <a href="exam-tutor.html" style="background:var(--gold);color:#231a00;font-weight:800;padding:5px 14px;border-radius:999px">Open Exam Prep →</a>
+    <button onclick="this.closest('#examBanner').remove();try{localStorage.setItem('chhaya_exam_banner','1')}catch(e){}" aria-label="Dismiss banner" style="background:rgba(255,255,255,.18);color:#fff;border:0;border-radius:50%;width:26px;height:26px;line-height:1">✕</button>
+  </div>
+</div>
+<script>try{if(localStorage.getItem('chhaya_exam_banner')){document.getElementById('examBanner')&&document.getElementById('examBanner').remove()}}catch(e){}</script>
+
 <!-- ================= HEADER ================= -->
 <header>
   <div class="hd">
@@ -529,6 +539,7 @@ html[data-theme="dark"] .runtrack{background:linear-gradient(#20264a 78%,#3a3222
       <a href="#/revision">Revision</a>
       <a href="#/progress">Progress</a>
       <a href="#/ask" style="color:var(--gold-deep)">Ask Chhaya Ji 💬</a>
+      <a href="exam-tutor.html" style="color:var(--purp)">🎓 Exam Prep 2026</a>
     </nav>
     <button class="burger" aria-label="Menu" aria-expanded="false" onclick="toggleNav()"><span></span><span></span><span></span></button>
     <div class="hd-r">
@@ -751,7 +762,7 @@ html[data-theme="dark"] .runtrack{background:linear-gradient(#20264a 78%,#3a3222
 <footer><div class="wrap cols">
   <div><a class="logo" href="#/"><span class="lc">च</span><span><b>Chhaya Paathshala</b><small>Every concept. याद रहे।</small></span></a></div>
   <div style="display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem">
-    <a href="#/grammar">Grammar</a><a href="#/tenses">Tenses</a><a href="#/lit">Literature</a><a href="#/passages">Passages</a><a href="#/revision">Revision</a><a href="#/ask">Ask Chhaya Ji</a>
+    <a href="#/grammar">Grammar</a><a href="#/tenses">Tenses</a><a href="#/lit">Literature</a><a href="#/passages">Passages</a><a href="#/revision">Revision</a><a href="#/ask">Ask Chhaya Ji</a><a href="exam-tutor.html">🎓 Exam Prep 2026</a>
   </div>
   <small>Made with ❤️ for Hindi-medium learners · 🇮🇳 + 🇬🇧</small>
 </div></footer>
