@@ -427,5 +427,58 @@
     "requested": 10,
     "added": 10,
     "skipped": 0
+  },
+  {
+    "ts": "2026-09-05T08:29:49.789Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-05",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-05-mto4gtwc",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-05T08:30:07.677Z",
+    "subject": "gk",
+    "topic": "Indian Polity & Governance",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-polity-governance-mto4h7p9",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-05T08:30:29.915Z",
+    "subject": "gk",
+    "topic": "Science & Technology — Space, Defence, IT",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-science-technology-space-defence-it-mto4houy",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-05T08:30:45.774Z",
+    "subject": "sms",
+    "topic": "Science: Cell to Organ Systems; Microorganisms; Health & Disease",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 41,
+    "moduleId": "gen-sms-science-cell-to-organ-systems-microorganisms-hea-mtjzubki",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
   }
 ]
