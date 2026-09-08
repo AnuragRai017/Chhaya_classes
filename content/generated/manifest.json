@@ -585,5 +585,58 @@
     "requested": 6,
     "added": 6,
     "skipped": 0
+  },
+  {
+    "ts": "2026-09-08T06:18:25.762Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-08",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-08-mtsa3ejl",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-08T06:18:37.392Z",
+    "subject": "sms",
+    "topic": "Science: Daily-life Science, Inventions & Technology",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 39,
+    "moduleId": "gen-sms-science-daily-life-science-inventions-technology-mtjztdfq",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-08T06:18:57.352Z",
+    "subject": "gk",
+    "topic": "World Geography & Continents",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-world-geography-continents-mtsa42x3",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-08T06:19:16.188Z",
+    "subject": "lang-sa",
+    "topic": "Sanskrit — Sectional Test",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 62,
+    "moduleId": "gen-lang-sa-sanskrit-sectional-test-mtsa4hgc",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
   }
 ]
