@@ -638,5 +638,57 @@
     "requested": 6,
     "added": 6,
     "skipped": 0
+  },
+  {
+    "ts": "2026-09-09T06:25:53.852Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-09",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-09-mttpsuyi",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-09T06:26:13.311Z",
+    "subject": "gk",
+    "topic": "General Science — Physics, Chemistry, Biology",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-general-science-physics-chemistry-biology-mttpt9z2",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-09T06:26:36.977Z",
+    "subject": "gk",
+    "topic": "Indian Economy — Budget, RBI & Banking",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-economy-budget-rbi-banking-mttpts8f",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-09T06:26:53.936Z",
+    "subject": "reason",
+    "topic": "Analogy",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-reason-analogy-mttpu5bj",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
   }
 ]
