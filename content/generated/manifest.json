@@ -742,5 +742,59 @@
     "requested": 6,
     "added": 6,
     "skipped": 0
+  },
+  {
+    "ts": "2026-09-11T06:27:20.832Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-11",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-11-mtwkqfem",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-11T06:27:36.299Z",
+    "subject": "gk",
+    "topic": "Science & Technology — Space, Defence, IT",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-science-technology-space-defence-it-mtwkqrc9",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-11T06:27:48.007Z",
+    "subject": "gk",
+    "topic": "Indian Polity & Governance",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-polity-governance-mto4h7p9",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-11T06:28:09.960Z",
+    "subject": "sms",
+    "topic": "Algebra — Variables, Expressions & Polynomials",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 29,
+    "moduleId": "gen-sms-algebra-variables-expressions-polynomials-mtjzpnlt",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
   }
 ]
