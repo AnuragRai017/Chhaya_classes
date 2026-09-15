@@ -960,5 +960,57 @@
     "added": 6,
     "skipped": 0,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-09-15T06:29:09.276Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-15",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-15-mu2ak5qx",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-15T06:29:24.086Z",
+    "subject": "gk",
+    "topic": "Indian Economy — Budget, RBI & Banking",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-economy-budget-rbi-banking-mu2akh6a",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-15T06:29:37.698Z",
+    "subject": "gk",
+    "topic": "General Science — Physics, Chemistry, Biology",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-general-science-physics-chemistry-biology-mu2akrog",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-15T06:29:54.710Z",
+    "subject": "reason",
+    "topic": "Clocks & Calendars",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-reason-clocks-calendars-mu2al4t1",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
   }
 ]
