@@ -1012,5 +1012,60 @@
     "requested": 6,
     "added": 6,
     "skipped": 0
+  },
+  {
+    "ts": "2026-09-16T06:28:02.700Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-16",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-16-mu3pyl1k",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-16T06:28:15.446Z",
+    "subject": "gk",
+    "topic": "Indian Constitution — Articles & Amendments",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-constitution-articles-amendments-mtv5772w",
+    "requested": 6,
+    "added": 5,
+    "skipped": 1,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-16T06:28:28.953Z",
+    "subject": "gk",
+    "topic": "Environment, Ecology & Climate",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-environment-ecology-climate-mtv56t9j",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-16T06:28:42.087Z",
+    "subject": "ss",
+    "topic": "Medieval India — Bhakti & Sufi Movements",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-ss-medieval-india-bhakti-sufi-movements-mtv57o65",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
   }
 ]
