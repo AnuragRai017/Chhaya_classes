@@ -1067,5 +1067,60 @@
     "added": 6,
     "skipped": 0,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-09-17T06:28:13.150Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-17",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-17-mu55enrv",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-17T06:28:24.603Z",
+    "subject": "gk",
+    "topic": "Indian Polity & Governance",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-polity-governance-mto4h7p9",
+    "requested": 6,
+    "added": 5,
+    "skipped": 1,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-17T06:28:38.712Z",
+    "subject": "gk",
+    "topic": "Science & Technology — Space, Defence, IT",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-science-technology-space-defence-it-mtwkqrc9",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-17T06:28:51.072Z",
+    "subject": "sms",
+    "topic": "Statistics — Mean, Median, Mode & Charts",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 35,
+    "moduleId": "gen-sms-statistics-mean-median-mode-charts-mtjzrtw6",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
   }
 ]
