@@ -1286,5 +1286,59 @@
     "added": 5,
     "skipped": 1,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-09-21T06:49:19.928Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-09-21",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-09-21-muavx7w4",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-09-21T06:49:28.553Z",
+    "subject": "gk",
+    "topic": "General Science — Physics, Chemistry, Biology",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-general-science-physics-chemistry-biology-mu2akrog",
+    "requested": 6,
+    "added": 5,
+    "skipped": 1,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-21T06:49:43.721Z",
+    "subject": "gk",
+    "topic": "Indian Economy — Budget, RBI & Banking",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-economy-budget-rbi-banking-mu2akh6a",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-09-21T06:51:35.199Z",
+    "subject": "reason",
+    "topic": "Binary Logic",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-reason-binary-logic-muaw049q",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
   }
 ]
