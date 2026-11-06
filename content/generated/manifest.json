@@ -3783,5 +3783,60 @@
     "added": 6,
     "skipped": 0,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-11-06T08:19:02.581Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-11-06",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-11-06-mw4pdru5",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0
+  },
+  {
+    "ts": "2026-11-06T08:19:19.276Z",
+    "subject": "gk",
+    "topic": "Indian History & National Movement",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-history-national-movement-mtqv1prb",
+    "requested": 6,
+    "added": 4,
+    "skipped": 2,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-06T08:19:33.196Z",
+    "subject": "gk",
+    "topic": "Books & Authors",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-books-authors-mugkugi4",
+    "requested": 6,
+    "added": 3,
+    "skipped": 3,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-06T08:19:47.863Z",
+    "subject": "lang-en",
+    "topic": "English — Revision + Practice",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 55,
+    "moduleId": "gen-lang-en-english-revision-practice-mtqv2qpg",
+    "requested": 6,
+    "added": 5,
+    "skipped": 1,
+    "mode": "topup"
   }
 ]
