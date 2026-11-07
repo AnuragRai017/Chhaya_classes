@@ -3838,5 +3838,47 @@
     "added": 5,
     "skipped": 1,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-11-07T07:37:21.331Z",
+    "subject": "sms",
+    "topic": "Science: Daily-life Science, Inventions & Technology",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 39,
+    "moduleId": "gen-sms-science-daily-life-science-inventions-technology-mtjztdfq",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-07T07:37:27.877Z",
+    "subject": "gk",
+    "topic": "World Geography & Continents",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-world-geography-continents-mtsa42x3",
+    "requested": 6,
+    "added": 1,
+    "skipped": 5,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-07T07:37:40.235Z",
+    "subject": "lang-sa",
+    "topic": "Sanskrit — Sectional Test",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 62,
+    "moduleId": "gen-lang-sa-sanskrit-sectional-test-mtsa4hgc",
+    "requested": 6,
+    "added": 6,
+    "skipped": 0,
+    "mode": "topup"
   }
 ]
