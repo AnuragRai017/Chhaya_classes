@@ -4375,5 +4375,60 @@
     "added": 5,
     "skipped": 1,
     "mode": "topup"
+  },
+  {
+    "ts": "2026-11-17T09:34:58.024Z",
+    "subject": "gk",
+    "topic": "Current Affairs — 2026-11-17",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-current-affairs-2026-11-17-mwkhxs5z",
+    "requested": 6,
+    "added": 2,
+    "skipped": 4
+  },
+  {
+    "ts": "2026-11-17T09:35:07.602Z",
+    "subject": "gk",
+    "topic": "Indian Geography",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-indian-geography-mtpfb5y6",
+    "requested": 6,
+    "added": 1,
+    "skipped": 5,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-17T09:35:19.917Z",
+    "subject": "gk",
+    "topic": "Sports, Awards & Honours",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": null,
+    "moduleId": "gen-gk-sports-awards-honours-mtpfbgya",
+    "requested": 6,
+    "added": 1,
+    "skipped": 5,
+    "mode": "topup"
+  },
+  {
+    "ts": "2026-11-17T09:35:29.987Z",
+    "subject": "lang-hi",
+    "topic": "Hindi — Prominent Authors, Poets & Works",
+    "branch": null,
+    "model": "deepseek-chat",
+    "provider": "deepseek",
+    "day": 48,
+    "moduleId": "gen-lang-hi-hindi-prominent-authors-poets-works-mtjzx2q1",
+    "requested": 6,
+    "added": 2,
+    "skipped": 4,
+    "mode": "topup"
   }
 ]
